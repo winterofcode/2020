@@ -1,0 +1,82 @@
+.review {
+    height: 250px;
+    box-shadow: 0 1rem 3rem rgba(0,0,0,0.15);
+    width: 500px;
+    margin-top: 7rem;
+    position: relative;
+}
+
+.image-container {
+    height: 23rem;
+    width: 23rem;
+    // top: -32px;
+    // left: 36px;
+    // position: absolute;
+    overflow: hidden;
+}
+
+.image {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.review-content {
+    margin-left: 28rem;
+    padding: 2rem 2rem 2rem 0;
+    text-align: left;
+    word-wrap: wrap;
+    // background-color: crimson;
+    // position: relative;
+}
+
+.username{
+    // position: absolute;
+    // bottom: 0;
+    // left: 3.6rem;
+    font-size: 1.3rem;
+    font-weight: 400;
+    letter-spacing: 1.5px;
+    text-align: center;
+    margin-top: 1.4rem;
+}
+
+.pos {
+    position: absolute;
+    top: -3rem;
+    left: 3rem;
+}
+
+.review {
+    &-title {
+        margin-bottom: 1rem;
+        font-size: 1.6rem;
+    }
+    &-text {
+        line-height: 1.7;
+        font-size: 1.2rem;
+        letter-spacing: 0.4px;
+    }
+
+    &-organisation {
+        position: absolute;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        bottom: 1.4rem;
+        right: 2rem;
+
+
+        &-img-container {
+            width: 2.5rem;
+            height: 2.5rem;
+            margin-right: 1rem;
+        }
+
+        &-name {
+            font-size: 1.4rem;
+        }
+    }
+
+    
+}

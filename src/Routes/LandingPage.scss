@@ -17,9 +17,9 @@
 }
 
 .header {
-   
+        height: 100vh;
+    
     &-left {
-        // height: 100vh;
         margin: 30% 0;
         height: 40%;
         position: relative;
@@ -47,6 +47,7 @@
         letter-spacing: 1.8px;
         margin: 1rem 0;
         font-size: 1.4rem;
+        
     }
 }
 
