@@ -4,6 +4,11 @@
     width: 500px;
     margin-top: 7rem;
     position: relative;
+
+    @media only screen and (max-width: 56.25em) {
+        height: 500px;
+        width: 300px;
+    }
 }
 
 .image-container {
@@ -28,6 +33,15 @@
     word-wrap: wrap;
     // background-color: crimson;
     // position: relative;
+
+    @media only screen and (max-width: 56.25em) {
+        margin-left: 3rem;
+        margin-top: 24rem;
+    }
+    @media only screen and (max-width: 37em) {
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
 }
 
 .username{
@@ -45,6 +59,12 @@
     position: absolute;
     top: -3rem;
     left: 3rem;
+    @media only screen and (max-width: 56.25em) {
+        left: 3.3rem;
+    }
+    @media only screen and (max-width: 37em) {
+        left: 9%;
+    }
 }
 
 .review {

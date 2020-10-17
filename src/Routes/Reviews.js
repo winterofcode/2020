@@ -8,9 +8,9 @@ export default () => {
       <div className="row">
         <h2 className="section-title">Reviews</h2>
         <div className="review-container">
-          {Reviews.map((review) => (
+          {Reviews.map((review, index) => (
             <Review 
-            key={review.id}
+            key={index}
             username={review.username} 
             title={review.title}
             description={review.description}
