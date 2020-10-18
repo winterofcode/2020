@@ -1,12 +1,11 @@
 import React from 'react';
-import LandingPage from "./Routes/LandingPage"
-import "./App.css"
-import Reviews from './Routes/Reviews';
+import "./App.scss"
+import AppRouter from './Components/Router';
+
 function App() {
   return (
     <div className="App">
-    <LandingPage />
-    <Reviews />
+    <AppRouter />
     </div>
   );
 }

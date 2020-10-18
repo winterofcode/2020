@@ -1,0 +1,46 @@
+nav {
+    background-color: #fff;
+    /* position: sticky; */
+    @media only screen and (max-width: 56.25em) {
+        display: none;
+       }
+}
+
+.main-nav-logo-container {
+    width: 4rem;
+    height: 4rem;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    padding: 3rem 4rem;
+}
+
+.nav-links > * {
+    margin-right: 3rem;
+}
+
+.nav-logo {
+    display: flex;
+    align-items: center;
+}
+
+.nav-logo-text {
+    margin-left: 1rem;
+    font-size: 1.7rem;
+}
+
+.nav-link-text {
+    font-size: 1.4rem;
+}
+
+.margin-right {
+    margin-right: auto;
+}
+
+.last-child {
+    margin-right: 0;
+}
+

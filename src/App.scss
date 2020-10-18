@@ -11,11 +11,11 @@
 .row {
   max-width: 114rem;
   margin: 0 auto; }
-  .row:not(:last-child) {
-    margin-bottom: 8rem; }
-    @media only screen and (max-width: 56.25em) {
-      .row:not(:last-child) {
-        margin-bottom: 6rem; } }
+  // .row:not(:last-child) {
+  //   margin-bottom: 8rem; }
+  //   @media only screen and (max-width: 56.25em) {
+  //     .row:not(:last-child) {
+  //       margin-bottom: 6rem; } }
   @media only screen and (max-width: 56.25em) {
     .row {
       max-width: 50rem;
@@ -50,6 +50,15 @@
 
 html {
   font-size: 62.5%;
+  @media only screen and (max-width: 75em) {
+    html {
+      font-size: 56.25%; } }
+  @media only screen and (max-width: 56.25em) {
+    html {
+      font-size: 50%; } }
+  @media only screen and (min-width: 112.5em) {
+    html {
+      font-size: 75%; } }
 }
 
 body {
@@ -60,4 +69,24 @@ body {
 .section-title {
   font-size: 4rem;
   margin: 2rem 0;
+  @media only screen and (max-width: 56.25em) {
+    font-size: 3rem;
+    text-align: center;
+    }
 }
+
+.linkFix:link, 
+.linkFix:visited {
+    text-decoration: none;
+    color: #000;
+}
+
+.linkFix:hover,
+.linkFix:active {
+    text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
