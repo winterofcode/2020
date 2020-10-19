@@ -2,8 +2,13 @@ $text-color : #000;
 
 
 .header {
-        height: 400px;
+        height: 80vh;
         margin: 8rem 0 8rem 0;
+        @media only screen and (max-width: 56.25em) {
+            margin-top:0rem;
+            padding: 0;
+            margin-bottom: 2rem;
+           }
     
     &-left {
         // margin: 30% 0;
@@ -14,15 +19,16 @@ $text-color : #000;
         // // background-color: crimson;
         // top: 50%;
         // transform: translateY(-50%);
+        
     }
     &-right {
         margin-top: 5rem;
         padding: 3rem;
         padding-left:0;
         @media only screen and (max-width: 56.25em) {
-             margin-top:3rem;
+             margin-top:1rem;
              padding: 0;
-             margin-bottom: 3rem;
+             margin-bottom: 5rem;
             }
     //     position: absolute;
     // top: 50%;

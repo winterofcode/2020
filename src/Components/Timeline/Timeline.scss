@@ -1,0 +1,51 @@
+.section-timeline {
+    padding: 3rem;
+}
+
+.vertical-timeline::before {
+    background: #eee;
+}
+
+.vertical-timeline-element-title {
+    font-size: 2rem;
+    font-weight: 300;
+    @media only screen and (max-width: 56.25em) {
+        font-size: 1.5rem;
+        }
+}
+
+.vertical-timeline-element-subtitle {
+    font-weight: 400;
+    font-size: 1rem;
+    margin-top: 0.5rem;
+}
+
+#vertical-timeline-element-description {
+    font-size: 1.4rem;
+    @media only screen and (max-width: 56.25em) {
+        font-size: 1.2rem;
+        font-weight: 400;
+        letter-spacing: 0.3px;
+        }
+}
+
+// span.vertical-timeline-element-date {
+//     // color: #777;
+//     font-size: 4rem;
+//     @media only screen and (max-width: 56.25em) {
+//         // color: #fff;
+//         }
+
+        
+// } 
+
+@media only screen and (min-width: 1170px){
+    .vertical-timeline--two-columns .vertical-timeline-element-content .vertical-timeline-element-date {
+        color: #777;
+        font-size: 1.2rem;
+    }
+}
+
+.vertical-timeline-element-content .vertical-timeline-element-date, .vertical-timeline-element-content p {
+    font-size: 1rem;
+}

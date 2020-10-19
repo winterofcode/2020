@@ -1,1 +1,18 @@
- 
+ .section-program-works {
+     padding: 3rem;
+ }
+
+.sub-section {
+    margin: 2rem 0;
+    font-size: 2rem;
+    @media only screen and (max-width: 56.25em) {
+       font-size: 1.5rem;
+       }
+
+    &-title  {
+        margin-bottom: 1rem;
+        // @media only screen and (max-width: 56.25em) {
+            
+        //     }
+    }
+}
