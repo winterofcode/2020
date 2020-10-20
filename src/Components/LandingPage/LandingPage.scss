@@ -1,9 +1,11 @@
-$text-color : #000;
+$text-color : #fff;
 
 
 .header {
         height: 80vh;
-        margin: 8rem 0 8rem 0;
+        margin: 0rem 0 8rem 0;
+        padding-top: 8rem;
+        background-color: #204987;
         @media only screen and (max-width: 56.25em) {
             margin-top:0rem;
             padding: 0;
@@ -64,7 +66,7 @@ $text-color : #000;
     font-size: 1.4rem;
     letter-spacing: 0.7px;
     border-radius: 20px;
-    background-color: $text-color;
+    background-color: #000;
     cursor: pointer;
     color: #fff;
     padding: 1.5rem 2rem;

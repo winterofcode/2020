@@ -2,7 +2,7 @@ import React from "react"
 import "./AboutProgram.scss"
 
 export default () => (
-    <section className="section-about-program">
+    <section className="section-about-program" id="js-about-program">
     <div className="row">
         <h1 className="section-title">About The Program</h1>
         <h2 className="about-text">

@@ -1,0 +1,50 @@
+.grid-organisation {
+    display:  grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    grid-gap: 3rem;
+    justify-items: center;
+    margin: 3rem 0;
+}
+
+.org {
+    box-shadow: 0 1rem 3rem rgba(0,0,0,0.15);
+    padding: 2rem;
+    position: relative;
+    width: 26rem;
+    @media only screen and (max-width: 56.25em) {
+            width: 70%;
+            margin: 0 15;
+        }
+}
+
+.org__image {
+    overflow: hidden;
+    border-radius: 4px;
+    width: 5rem;
+    height: 5rem;
+}
+
+.org__title {
+    font-size: 2rem;
+    font-weight: 300;
+    margin-top: 1rem;
+    margin-bottom: 5rem;
+}
+
+.btn-apply {
+    background-color: blue;
+    padding: 1.5rem 0rem;
+    font-size: 1.4rem;
+    width: 100%;
+    box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.15);
+}
+
+.dsc-logo {
+    width: 100%;
+    height: auto;
+}
+
+.btn-projects:link 
+.btn-projects:visited {
+    color: #fff
+}

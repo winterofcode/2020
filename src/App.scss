@@ -65,6 +65,8 @@ html {
 body {
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
+  // background-color: #204987;
+  // color: #fff;
 }
 
 .section-title {
@@ -79,7 +81,7 @@ body {
 .linkFix:link, 
 .linkFix:visited {
     text-decoration: none;
-    color: #000;
+    color: currentColor;
 }
 
 .linkFix:hover,
@@ -91,3 +93,19 @@ ul {
   list-style: none;
 }
 
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 600px;
+  grid-gap: 2rem;
+
+  @media only screen and (max-width: 56.25em) {
+      grid-template-columns: 1fr;
+      grid-template-rows: 1fr;
+      }
+}
+.image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}

@@ -8,10 +8,11 @@ nav {
 }
 
 .nav-links {
+    background-color: #204987;
     list-style: none;
     display: flex;
     align-items: center;
-    padding: 3rem 4rem;
+    padding: 3rem 0;
     @media only screen and (max-width: 56.25em) {
         flex-direction: column;
         align-items: stretch;
@@ -34,11 +35,14 @@ nav {
 
 .nav-logo-text {
     margin-left: 1rem;
+    color: #fff;
     font-size: 1.7rem;
 }
 
 .nav-link-text {
     font-size: 1.4rem;
+    color: #FFF;
+    cursor: pointer;
 }
 
 .margin-right {

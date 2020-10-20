@@ -1,0 +1,14 @@
+.section-projects{
+    padding: 5rem;
+    @media only screen and (max-width: 56.25em) {
+        padding: 3rem 0;
+        }
+}
+
+.grid-projects {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    grid-gap: 2rem;
+    justify-items: center;
+
+}

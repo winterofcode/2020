@@ -4,15 +4,27 @@ import HowProgramWorks from "../Components/HowProgramWorks/HowProgramWorks";
 import LandingPage from "../Components/LandingPage/LandingPage";
 import ReviewsInLanding from "../Components/ReviewsInLanding";
 import Timeline from "../Components/Timeline/Timeline";
+import styled from "styled-components";
+import Organisations from "../Components/Organisations/Organisations";
+import Apply from "../Components/Apply/Apply";
+
+const LandingPageHeight = styled.div`
+height: 90vh;
+background-color: #204987;
+`
 
 export default () => {
   return (
     <>
-      <LandingPage />
+    <LandingPageHeight>
+    <LandingPage />
+    </LandingPageHeight>
       <AboutProgram />
       <HowProgramWorks />
+      <Organisations />
       <Timeline />
       <ReviewsInLanding />
+      <Apply />
     </>
   );
 };

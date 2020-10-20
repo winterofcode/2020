@@ -4,7 +4,7 @@ import {Link} from "react-router-dom"
 
 export default () => {
   return (
-    <header>
+    <header id="js-header">
       <div className="row">
 
         <div className="header">
@@ -13,7 +13,7 @@ export default () => {
 
           <div className="header-left">
           <div className="illustration-container">
-          <img src={require("../../Assets/16.png")} className="image" alt="illustration" />
+          <img src={require("../../Assets/latter.png")} className="image" alt="illustration" />
           </div>
           </div>
 

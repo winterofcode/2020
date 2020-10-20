@@ -5,7 +5,7 @@ import "./Footer.scss";
 import {Instagram,Facebook,Twitter,Slack} from "../../Components/Icons"
 
 export default () => (
-  <footer className="footer">
+  <footer className="footer" id="js-footer">
     <div className="row">
       <div className="footer-links-container">
 
@@ -20,7 +20,7 @@ export default () => (
                     alt="winter of code logo"
                   />
                 </div>
-                <p className="nav-logo-text">Winter of Code</p>
+                <p className="nav-logo-text nav-logo-text-footer">Winter of Code</p>
               </div>
             </Link>
           </li>  
@@ -88,7 +88,7 @@ const Projects = [
     url: "/", //github link
   },
   {
-    title: "Aigy",
+    title: "Aify",
     url: "/", //github link
   },
   {
@@ -122,7 +122,7 @@ const Organisations = [
 
 const DSC_NSEC_Links = [
   {
-    title: "INstagram",
+    title: "Instagram",
     url: "/"
   },
   {
