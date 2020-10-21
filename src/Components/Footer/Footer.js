@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 // import NavLogoLink from "../NavLogoLink";
 import "./Footer.scss";
 import {Instagram,Facebook,Twitter,Slack} from "../../Components/Icons"
+import {ExternalLink}  from "react-external-link"
 
 export default () => (
   <footer className="footer" id="js-footer">
@@ -27,18 +28,18 @@ export default () => (
 
           <li>
           <div className="social-links">
-            <Link to="/">
+            <ExternalLink href="https://www.instagram.com/winterofcode/">
             <Instagram fill={"#DA003D"} width={30} height={30} />
-            </Link>
-            <Link to="/">
+            </ExternalLink>
+            <ExternalLink href="https://www.facebook.com/winterofcode/">
             <Facebook fill="#4267B2" width={30} height={30} />
-            </Link>
-            <Link to="/">
+            </ExternalLink>
+            <ExternalLink href="https://twitter.com/winterofcode/">
             <Twitter fill="#00acee" width={30} height={30} />
-            </Link>
-            <Link to="/">
+            </ExternalLink>
+            <ExternalLink href="/">
             <Slack fill="#ECB22E" width={40} height={40} />
-            </Link>
+            </ExternalLink>
         
             </div>
           </li>
@@ -52,20 +53,20 @@ export default () => (
 
         <ul className="projects">
         <li className="footer-title">Projects</li>
-        {Projects.map((link,index) => <li className="list-link" key={index}><Link className="footer-link" to={link.url}>{link.title}</Link></li>)}
+        {Projects.map((link,index) => <li className="list-link" key={index}><ExternalLink className="footer-link" href={link.url}>{link.title}</ExternalLink></li>)}
         </ul>
 
         <ul className="organisations">
         <li className="footer-title">Organisations</li>
         <div className="organisation-links">
-        {Organisations.map((link, index) => <li key={index} className="list-link"><Link className="footer-link" to={link.url}>{link.title}</Link></li>)}
+        {Organisations.map((link, index) => <li key={index} className="list-link"><ExternalLink className="footer-link" href={link.url}>{link.title}</ExternalLink></li>)}
         </div>
         </ul>
 
         <ul className="dscnsec handles">
         <li className="footer-title">DSC NSEC Handles</li>
         <div className="dsc-social-links">
-        {DSC_NSEC_Links.map((link, index) => <li key={index} className="list-link"><Link className="footer-link" to={link.url}>{link.title}</Link></li>)}
+        {DSC_NSEC_Links.map((link, index) => <li key={index} className="list-link"><ExternalLink className="footer-link" href={link.url}>{link.title}</ExternalLink></li>)}
         </div>
         </ul>
 
@@ -100,45 +101,45 @@ const Projects = [
 const Organisations = [
   {
     title: "DSC NSEC",
-    url: "/"
+    url: "https://dscnsec.com/"
   },
   {
     title: "DSC IEM",
-    url: "/"
+    url: "https://dsc-iem.github.io/"
   },
   {
     title: "The Code Foundation (TCF)",
-    url: "/"
+    url: "https://thecodefoundation.dev/"
   },
   {
     title: "Kol70",
-    url: "/"
+    url: "http://www.rajwrita.com/kol70/"
   },
   {
     title: "Vishwajeet.js",
-    url: "/"
+    url: "https://www.instagram.com/vishwajeet.js/"
   }
 ]
 
 const DSC_NSEC_Links = [
   {
     title: "Instagram",
-    url: "/"
+    url: "https://www.instagram.com/dscnsec/"
   },
   {
     title: "Twitter",
-    url: "/"
+    url: "https://twitter.com/dscnsec"
   },
   {
     title: "Telegram",
-    url: "/"
+    url: "https://t.me/dscnsec"
   },
   {
     title: "Youtube",
-    url: "/"
+    url: "https://www.youtube.com/channel/UCKKrqXvTWZm0tULPxqv1NPg"
   },
   {
-    title: "Slack",
-    url: "/"
+    title: "Facebook",
+    url: "https://www.facebook.com/dscnsec/"
   },
 ]

@@ -7,14 +7,17 @@
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
     "anchorate": "^1.2.3",
+    "gsap": "^3.5.1",
     "node-sass": "^4.14.1",
     "react": "^16.14.0",
     "react-dom": "^16.14.0",
+    "react-external-link": "^1.1.1",
     "react-router-dom": "^5.2.0",
     "react-scripts": "3.4.3",
     "react-scroll": "^1.8.1",
     "react-vertical-timeline-component": "^3.3.0",
-    "styled-components": "^5.2.0"
+    "styled-components": "^5.2.0",
+    "styled-loaders-react": "^1.1.0"
   },
   "scripts": {
     "start": "react-scripts start",
