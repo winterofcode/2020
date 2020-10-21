@@ -2,7 +2,9 @@ import React , {useRef,useEffect} from "react";
 import "./LandingPage.scss";
 import {Link} from "react-router-dom";
 import CSSRulePlugin from "gsap/CSSRulePlugin";
-import {TimelineLite, Power2} from "gsap";
+import gsap, {TimelineLite, Power2} from "gsap";
+
+gsap.registerPlugin(CSSRulePlugin)
 
 export default () => {
 
