@@ -1,27 +1,32 @@
-import React, {useState} from "react";
+import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
 import "./Navigation.scss";
-import {withRouter} from "react-router-dom";
-import useMediaQuery from "../../Hooks/useMediaQuery"
-import * as Scroll from 'react-scroll'
-import { ExternalLink } from 'react-external-link';
-
+import { withRouter } from "react-router-dom";
+import useMediaQuery from "../../Hooks/useMediaQuery";
+import * as Scroll from "react-scroll";
+// import {Link} from "react-router-dom"
+import { ExternalLink } from "react-external-link";
+// const scroller = Scroll.scroller;
+import AnchorLink from "react-anchor-link-smooth-scroll";
 const ScrollLink = Scroll.Link;
-
-
 
 export default withRouter((props) => {
   const [IsChecked, setIsChecked] = useState(false);
-  const mobile = useMediaQuery('(max-width: 900px)');
-  
+  const mobile = useMediaQuery("(max-width: 900px)");
+
   const handleClick = () => {
     setIsChecked(false);
-  }
+  };
   // const handleReroute = () => {
   //   window.location.replace('https://dscnsec.com/')
   // }
   let pathName;
-  if(props && props.history && props.history.location && props.history.location.pathname){
+  if (
+    props &&
+    props.history &&
+    props.history.location &&
+    props.history.location.pathname
+  ) {
     pathName = props.history.location.pathname;
   }
   // const routed = (props) => {
@@ -35,70 +40,134 @@ export default withRouter((props) => {
 
   return (
     <>
-  <nav className="row">
-
-    <ul className="nav-links">
-
-    <div className="margin-right mobile-nav">
-    <NavLink to="/" className="linkFix">
-        <li>
-          <div className="nav-logo">
-            <div className="main-nav-logo-container">
-              <img
-                src={require("../../Assets/org-logo.png")}
-                className="image"
-                alt="winter of code logo"
-              />
-            </div>
-            <p className="nav-logo-text">Winter of Code</p>
+      <nav className="row">
+        <ul className="nav-links">
+          <div className="margin-right mobile-nav">
+            <NavLink to="/" className="linkFix">
+              <li>
+                <div className="nav-logo">
+                  <div className="main-nav-logo-container">
+                    <img
+                      src={require("../../Assets/org-logo.png")}
+                      className="image"
+                      alt="winter of code logo"
+                    />
+                  </div>
+                  <p className="nav-logo-text">Winter of Code</p>
+                </div>
+              </li>
+            </NavLink>
+            <input
+              id="hamburger"
+              className="checkbox"
+              checked={IsChecked}
+              onChange={() => setIsChecked(IsChecked ? false : true)}
+              type="checkbox"
+            />
+            <label className="checkbox-label" htmlFor="hamburger"></label>
           </div>
-        </li>
-      </NavLink>
-      <input id="hamburger" className="checkbox" checked={IsChecked} onChange={() => setIsChecked(IsChecked ? false : true )} type="checkbox" />
-      <label className="checkbox-label" htmlFor="hamburger">
-      </label>
-      </div>
 
-      <NavLink style={{display: `${ mobile ? IsChecked ? "block" : "none" : "block"}`, color: "#fff" }} to="/" onClick={handleClick} className="linkFix nav-link-text">
-        <li>Home</li>
-      </NavLink>
+          <NavLink
+            style={{
+              display: `${mobile ? (IsChecked ? "block" : "none") : "block"}`,
+            }}
+            to="/"
+            onClick={handleClick}
+            className="linkFix nav-link-text"
+          >
+            <li>Home</li>
+          </NavLink>
 
-      <ExternalLink style={{display: `${ mobile ? IsChecked ? "block" : "none" : "block"}`, color: "#fff" }}  href="https://dscnsec.com/" onClick={handleClick} className="linkFix nav-link-text">
-        <li>DSC NSEC</li>
-      </ExternalLink>
+          <ExternalLink
+            style={{
+              display: `${mobile ? (IsChecked ? "block" : "none") : "block"}`,
+            }}
+            href="https://dscnsec.com/"
+            onClick={handleClick}
+            className="linkFix nav-link-text"
+          >
+            DSC NSEC
+          </ExternalLink>
 
-      {pathName === "/" ? (ScrollLinks.map((scrollLink, index) => (
-        <ScrollLink key={index} style={{display: `${ mobile ? IsChecked ? "block" : "none" : "block"}` }} to={scrollLink.to} onClick={handleClick} spy={true} smooth={true} duration={500} className={`linkFix nav-link-text ${scrollLink.lastChild ? "last-child" : null}`} >{scrollLink.text}</ScrollLink>
-      ))) : Links.map((link, index) => <NavLink key={index} style={{display: `${ mobile ? IsChecked ? "block" : "none" : "block"}`, color: "#fff"  }} to={link.to} onClick={handleClick} className={`linkFix nav-link-text`} >{link.text}</NavLink>) }
+          {pathName === "/"
+            ? ScrollLinks.map((scrollLink, index) => (
+                <a
+                  // isDynamic={true}
+                  href={`#${scrollLink.to}`}
+                  key={index}
+                  // offset={0}
+                  style={{
+                    display: `${
+                      mobile ? (IsChecked ? "block" : "none") : "block"
+                    }`,
+                  }}
+                  // to={scrollLink.to}
+                  onClick={handleClick}
+                  // spy={true}
+                  // smooth={true}
+                  // duration={500}
+                  className={`linkFix nav-link-text ${
+                    scrollLink.lastChild ? "last-child" : null
+                  }`}
+                >
+                  {scrollLink.text}
+                </a>
+              ))
+            : Links.map((link, index) => (
+                <NavLink
+                  key={index}
+                  style={{
+                    display: `${
+                      mobile ? (IsChecked ? "block" : "none") : "block"
+                    }`,
+                    color: "#fff",
+                  }}
+                  to={link.to}
+                  onClick={handleClick}
+                  className={`linkFix nav-link-text`}
+                >
+                  {link.text}
+                </NavLink>
+              ))}
 
-      <ScrollLink style={{display: `${ mobile ? IsChecked ? "block" : "none" : "block"}` }} to="js-footer" onClick={handleClick} spy={true} smooth={true} duration={500} className="linkFix nav-link-text last-child" >Contact Us</ScrollLink>
-    </ul>
-
-  </nav>
-  </>
-  )
+          <a
+            style={{
+              display: `${mobile ? (IsChecked ? "block" : "none") : "block"}`,
+            }}
+            href={"#js-footer"}
+            onClick={handleClick}
+            // spy={true}
+            // smooth={true}
+            // duration={500}
+            className="linkFix nav-link-text last-child"
+            // activeClass="nav-link-text"
+            // isDynamic={true}
+          >
+            Contact Us
+          </a>
+        </ul>
+      </nav>
+    </>
+  );
 });
 
 const ScrollLinks = [
   {
     to: "js-about-program",
-    text: "About"
+    text: "About",
   },
   {
     to: "js-section-program-works",
-    text: "How it Works"
+    text: "How it Works",
   },
   {
     to: "js-organisations",
-    text: "Organisations"
+    text: "Organisations",
   },
   {
     to: "js-apply",
-    text: "Apply"
+    text: "Apply",
   },
-]
+];
 
-
-const Links = [
-
-]
+const Links = [];

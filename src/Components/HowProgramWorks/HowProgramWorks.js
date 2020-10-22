@@ -5,17 +5,14 @@ import "./HowProgramWorks.scss";
 export default () => (
   <section className="section-program-works" id="js-section-program-works">
     <div className="row">
-      <h1 className="section-title">How does the program works ?</h1>
+      <h1 className="section-title">Let's Build Something Awesome Together</h1>
       <div className="grid">
         <div className="left">
         <p className="howItWorks-text">
-        Winter of Code by Developer Students Club NSEC,<br></br> brings in
-        students, organizations, and mentors together for <br></br>
-        <span>
-          {" "}
-          a month-long extravaganza of Open Source contribution<br></br>
-        </span>{" "}
-        and learning through that journey.<br></br>Here is what the program
+        Winter of Code by Developer Students Club NSEC, brings in
+        students, organizations, and mentors together for
+          a month-long extravaganza of Open Source contribution
+        and learning through that journey. Here is what the program
         offers for students, organizations, and mentors.
       </p>
         </div>

@@ -1,3 +1,5 @@
+$hamburger-color: #fff;
+
 nav {
     background-color: #fff;
 }
@@ -21,7 +23,7 @@ nav {
 }
 
 .nav-links > * {
-    margin-right: 3rem;
+    margin-right: 1rem;
     @media only screen and (max-width: 56.25em) {
       padding: 2rem 0;
       width: 100%;
@@ -43,6 +45,19 @@ nav {
     font-size: 1.4rem;
     color: #FFF;
     cursor: pointer;
+}
+
+.nav-link-text:link,
+.nav-link-text:visited {
+    color: #fff;
+    transition: all 0.2s;
+    padding: 2rem;
+}
+.nav-link-text:active,
+.nav-link-text:hover {
+    color: #223234;
+    background-color: #fff;
+    
 }
 
 .margin-right {
@@ -71,7 +86,7 @@ nav {
 
 .checkbox-label {
     width: 4rem;
-    background-color: #999;
+    background-color: $hamburger-color;
     height: 0.45rem;
     border-radius: 10px;
     display: none;
@@ -80,7 +95,7 @@ nav {
     &::before, &::after{
         content: "";
         width: 4rem;
-        background-color: #999;
+        background-color: $hamburger-color;
         height: 0.45rem;
         border-radius: 10px;
         display: inline-block;
