@@ -1,12 +1,15 @@
 import React , {useRef,useEffect} from "react";
 import "./LandingPage.scss";
-import {Link} from "react-router-dom";
 import CSSRulePlugin from "gsap/CSSRulePlugin";
 import gsap, {TimelineLite, Power2} from "gsap";
+import {fadeInHeaderText} from "../animation"
 
 gsap.registerPlugin(CSSRulePlugin)
+gsap.registerPlugin(Power2, TimelineLite);
+
 
 export default () => {
+  let HeaderText = useRef(null)
 
   let IllustrationContainer = useRef(null)
   let Illustration = useRef(null)
@@ -15,13 +18,16 @@ export default () => {
   let T1 = new TimelineLite();
 
   useEffect(() => {
+
+    fadeInHeaderText(HeaderText.current.childNodes)
+
     T1.to(IllustrationContainer, 1,{ css: {visibility: "visible"}}).to(
       IllustrationReveal,
       1,
       {
         width: "0%", ease: Power2.easeInOut 
       }
-    ).from(Illustration, 2, {scale: 4, ease: Power2.easeInOut, delay: -1.6})
+    ).from(Illustration, 2, {scale: 2, ease: Power2.easeInOut, delay: -1.6})
   })
 
   return (
@@ -43,13 +49,17 @@ export default () => {
           </div>
 
           <div className="col-1-of-2">
-          <div className="header-right">
+          <div ref={HeaderText} className="header-right">
           <h1 className="title-text">
-            Welcome <span>Winter Of Code</span>
-          </h1>
+            Welcome To
+            </h1>
+          <h1 className="title-text">
+            <span className="title-text-span">Winter Of Code</span>
+            </h1>
           <p className="title-text-description">Extremely intellectual & challenging projects</p>
-          <Link to="/" className="btn" id="btn-white">Get Started</Link>
+          <a href="#js-organisations" className="btn" id="btn-white">Get Started</a>
         </div>
+
           </div>
         </div>
 

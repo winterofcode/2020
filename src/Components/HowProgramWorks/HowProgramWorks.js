@@ -1,14 +1,33 @@
-import React from "react";
+import React, {useRef} from "react";
 import "./HowProgramWorks.scss";
-// import {Link} from "react-router-dom"
+import {useIntersection} from "react-use"
+import {SinglefadeIn,SinglefadeOut} from "../animation"
 
-export default () => (
-  <section className="section-program-works" id="js-section-program-works">
+
+export default () =>  {
+
+  let sectionRef = useRef(null)
+  let titleref = useRef(null)
+  let pref = useRef(null)
+  let imgref = useRef(null)
+
+  const intersection = useIntersection(sectionRef, {
+    root: null,
+    rootMargin: "0px",
+    threshold: 0.4
+  })
+
+  intersection && intersection.intersectionRatio < 0.4 ? SinglefadeOut(titleref.current): SinglefadeIn(titleref.current)
+  intersection && intersection.intersectionRatio < 0.4 ? SinglefadeOut(pref.current,0.2): SinglefadeIn(pref.current,0.2)
+  intersection && intersection.intersectionRatio < 0.4 ? SinglefadeOut(imgref.current,0.3): SinglefadeIn(imgref.current,0.3)
+
+  return (
+  <section ref={sectionRef} className="section-program-works" id="js-section-program-works">
     <div className="row">
-      <h1 className="section-title">Let's Build Something Awesome Together</h1>
+      <h1 ref={titleref} className=" section-title">Let's Build Something Awesome Together</h1>
       <div className="grid">
         <div className="left">
-        <p className="howItWorks-text">
+        <p ref={pref} className=" howItWorks-text">
         Winter of Code by Developer Students Club NSEC, brings in
         students, organizations, and mentors together for
           a month-long extravaganza of Open Source contribution
@@ -17,7 +36,7 @@ export default () => (
       </p>
         </div>
         <div className="right">
-        <div className="illustration-container--1">
+        <div ref={imgref} className=" illustration-container--1">
         <img
           src={require("../../Assets/how.png")}
           className="image"
@@ -27,40 +46,5 @@ export default () => (
         </div>
       </div>
     </div>
-    <div className="row">
-      <div className="sub-section">
-        <h2 className="sub-section-title">Students</h2>
-        <p className="sub-section-description">
-          {" "}
-          Interested students can register for the Winter of Code. Selected
-          students work with mentors of their organization they are accepted
-          for. If accepted, students integrate with their organizations prior to
-          the start of coding, learning more about their organization’s
-          community. Students then have the month to code, meeting the deadlines
-          agreed upon with their mentors.
-        </p>
-      </div>
-      <div className="sub-section">
-        <h2 className="sub-section-title">Organisations</h2>
-        <p className="sub-section-description">
-          {" "}
-          Interested students can register for the Winter of Code. Selected
-          students work with mentors of their organization they are accepted
-          for. If accepted, students integrate with their organizations prior to
-          the start of coding, learning more about their organization’s
-          community. Students then have the month to code, meeting the deadlines
-          agreed upon with their mentors.
-        </p>
-      </div>
-      <div className="sub-section">
-        <h2 className="sub-section-title">Mentors</h2>
-        <p className="sub-section-description">
-          Mentors review student code samples multiple times to give feedback
-          and determine if the students have successfully completed their Winter
-          of Code 2019 project. Students are then notified of the pass/fail
-          status and schwags are delivered to successful students.
-        </p>
-      </div>
-    </div>
   </section>
-);
+)};

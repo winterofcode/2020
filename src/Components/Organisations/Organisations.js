@@ -14,22 +14,34 @@ export const Box = ({org}) => (
 
 export default () => {
     return (
+        <>
         <section className="section-organisation" id="js-organisations">
         <div className="row">
-        <h1 className="section-title">Organisations</h1>
+        <h1 className="section-title">Organisations 2019</h1>
         <div className="grid-organisation">
 
-        {Organisations.map((org,index) => (
+        {Organisations2019.length !== 0 ? Organisations2019.map((org,index) => (
        <Box key={index} org={org} />
-        ))}
+        )): <h4>Coming Soon</h4> }
+
+        </div>
+        </div>
+        <div className="row">
+        <h1 className="section-title">Organisations 2020</h1>
+        <div className="grid-organisation">
+
+        {Organisations2020.length !== 0 ? Organisations2019.map((org,index) => (
+            <Box key={index} org={org} />
+             )): <h4 className="coming-soon-text">Coming Soon</h4> }
 
         </div>
         </div>
         </section>
+        </>
     )
 }
 
-const Organisations = [
+const Organisations2019 = [
     {
         name : "DSC NSEC",
         logo : require("../../Assets/dscnsec.png"),
@@ -41,10 +53,7 @@ const Organisations = [
         logo : require("../../Assets/tcf.jpg"),
         link: "/projects/tcf"
     },
-    {
-        name : "DSC IEM",
-        logo : require("../../Assets/dsciem.png"),
-        class: "dsc-logo",
-        link: "projects/dsciem"
-    },
+]
+const Organisations2020 = [
+
 ]

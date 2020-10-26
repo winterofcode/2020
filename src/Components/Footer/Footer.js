@@ -104,21 +104,9 @@ const Organisations = [
     url: "https://dscnsec.com/"
   },
   {
-    title: "DSC IEM",
-    url: "https://dsc-iem.github.io/"
-  },
-  {
     title: "The Code Foundation (TCF)",
     url: "https://thecodefoundation.dev/"
   },
-  {
-    title: "Kol70",
-    url: "http://www.rajwrita.com/kol70/"
-  },
-  {
-    title: "Vishwajeet.js",
-    url: "https://www.instagram.com/vishwajeet.js/"
-  }
 ]
 
 const DSC_NSEC_Links = [

@@ -2,7 +2,14 @@
      padding: 3rem;
      background-color: #204987;
      color: #fff;
-
+     @media only screen and (max-width: 56.25em) {
+        padding: 3rem 0;
+        }
+ }
+ .section-program-works--1 {
+     padding: 3rem;
+     background-color: #204987;
+     color: #fff;
      @media only screen and (max-width: 56.25em) {
         padding: 3rem 0;
         }
@@ -72,3 +79,4 @@
         width: 100%;
         }
 }
+

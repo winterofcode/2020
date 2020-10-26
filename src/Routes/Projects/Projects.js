@@ -34,11 +34,7 @@ export default (props) =>{
         <div className="row">
         <h1 className="section-title">Projects</h1>
         <div className="grid-projects">
-        {/* {Render.map( (project, index) => {
-               console.log("kjkj")
-               console.log("kjkj")
-           return <Box key={index} org={project} />
-        })} */}
+
         {
             props.match.params.organisation === "tcf" ? TCFProjects.map((project, index) => <Box key={index} org={project} />) : null
         }

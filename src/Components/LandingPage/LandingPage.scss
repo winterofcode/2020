@@ -1,10 +1,11 @@
 $text-color: #fff;
-
+// $illustration_color: #fff;
+$illustration_color: #204987;
 .header {
   height: 80vh;
   margin: 0rem 0 8rem 0;
   padding-top: 8rem;
-  background-color: #204987;
+  background-color:$illustration_color;
   @media only screen and (max-width: 56.25em) {
     margin-top: 0rem;
     padding: 0;
@@ -13,14 +14,10 @@ $text-color: #fff;
 
   &-left {
       visibility: hidden;
-    // margin: 30% 0;
-    // height: 40%;
-    // position: relative;
-    // // top: 50%;
-    // transform: translateY(40%);
-    // // background-color: crimson;
-    // top: 50%;
-    // transform: translateY(-50%);
+      min-height: 46vh;
+      @media only screen and (max-width: 37em) {
+        min-height: 30vh;
+      }
   }
   &-right {
     margin-top: 5rem;
@@ -34,6 +31,9 @@ $text-color: #fff;
     //     position: absolute;
     // top: 50%;
     // transform: translateY(-50%);
+    & > * {
+      opacity: 0;
+    }
   }
 }
 
@@ -101,11 +101,8 @@ $text-color: #fff;
     height: 100%;
     top: 0;
     right: 0;
-    background-color: #204987;
+    background-color: $illustration_color;
     position: absolute;
   }
 }
 
-.img {
-
-}

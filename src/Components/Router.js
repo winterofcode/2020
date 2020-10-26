@@ -30,11 +30,7 @@ const AppRouter = () => (
     <Switch>
       <Route exact={true} path="/" component={HomePage} />
       <Route path="/reviews" component={ReviewPage} />
-      <Route path="/projects/:organisation" component={Projects} />
-      <Route path={['/http:', '/https:']} component={props => {
-        window.location.replace(props.location.pathname.substr(1)) // substr(1) removes the preceding '/'
-        return null
-      }}/>
+      <Route path="/projects/:organisation" component={Projects} />      
       <Redirect from="*" to="/" />
     </Switch>
     <Footer />

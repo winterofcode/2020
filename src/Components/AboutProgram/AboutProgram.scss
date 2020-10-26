@@ -1,7 +1,9 @@
 .section-about-program {
     padding: 5rem;
     padding-bottom: 8rem;
-    height: 100vh;
+    background-color: #204987;
+    color: #fff;
+    min-height: 100vh;
     @media only screen and (max-width: 56.25em) {
         padding: 2rem 0;
        }
@@ -9,8 +11,10 @@
 
 .description {
     font-size: 2rem;
+    margin-bottom: 2rem;
     @media only screen and (max-width: 56.25em) {
         font-size: 1.5rem;
+        padding-bottom: 4rem;
         }
 }
 
@@ -22,7 +26,7 @@
         // text-shadow: 0 1rem 1rem rgba(0,0,0,0.15);
         background-image: url("../../Assets/abstract.png");
         background-clip: text;
-        color: transparent;
+        color: #fff;
         font-weight:1000;
         background-blend-mode: unset;
         background-position: center;

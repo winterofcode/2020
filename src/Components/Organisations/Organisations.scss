@@ -40,7 +40,7 @@
 }
 
 .btn-apply {
-    background-color: blue;
+    background-color: #204987;
     padding: 1.5rem 0rem;
     font-size: 1.4rem;
     width: 100%;
@@ -55,4 +55,11 @@
 .btn-projects:link 
 .btn-projects:visited {
     color: #fff
+}
+
+.coming-soon-text {
+    font-size: 2.5rem;
+    @media only screen and (max-width: 56.25em) {
+        font-size: 1.5rem;
+        }
 }

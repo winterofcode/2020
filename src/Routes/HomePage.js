@@ -7,6 +7,7 @@ import Timeline from "../Components/Timeline/Timeline";
 import styled from "styled-components";
 import Organisations from "../Components/Organisations/Organisations";
 import Apply from "../Components/Apply/Apply";
+import HowProgramWorksAppend from "../Components/HowProgramWorksAppend/HowProgramWorksAppend";
 
 const LandingPageHeight = styled.div`
 height: 90vh;
@@ -21,6 +22,7 @@ export default () => {
     </LandingPageHeight>
       <AboutProgram />
       <HowProgramWorks />
+      <HowProgramWorksAppend />
       <Organisations />
       <Timeline />
       <ReviewsInLanding />

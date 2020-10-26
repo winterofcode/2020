@@ -91,7 +91,7 @@ const Timeline = () => {
                     key={index}
                     className="vertical-timeline-element--work"
                     date={item.title}
-                    iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+                    iconStyle={{ background: "#204987", color: "#fff" }}
                     icon={<StarEmpty fill="#fff" />}
                   >
                     <h3 className="vertical-timeline-element-title">
@@ -133,16 +133,16 @@ const Timeline = () => {
                  return (
                     <VerticalTimelineElement
                     contentStyle={{
-                      background: "rgb(33, 150, 243)",
+                      background: "#204987",
                       color: "#fff",
                     }}
                     contentArrowStyle={{
-                      borderRight: "7px solid  rgb(33, 150, 243)",
+                      borderRight: "7px solid #204987",
                     }}
                     key={index}
                     className="vertical-timeline-element--work"
                     date={item.title}
-                    iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+                    iconStyle={{ background: "#204987", color: "#fff" }}
                     icon={<StarFull fill="#fff" />}
                   >
                     <h3 className="vertical-timeline-element-title">
@@ -168,49 +168,3 @@ const Timeline = () => {
 };
 
 export default Timeline;
-
-/*
-
-!item.active ? (
-              <VerticalTimelineElement
-                key={index}
-                className="vertical-timeline-element--work"
-                date={item.title}
-                iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
-                icon={<StarEmpty fill="#fff" />}
-              >
-                <h3 className="vertical-timeline-element-title">
-                  {item.contentTitle}
-                </h3>
-                <h4 className="vertical-timeline-element-subtitle">{place}</h4>
-                <p id="vertical-timeline-element-description">
-                  {item.contentText}
-                </p>
-              </VerticalTimelineElement>
-            ) : (
-              <VerticalTimelineElement
-                contentStyle={{
-                  background: "#2ecc71",
-                  color: "#fff",
-                }}
-                contentArrowStyle={{
-                  borderRight: "7px solid #2ecc71",
-                }}
-                key={index}
-                className="vertical-timeline-element--work"
-                date={item.title}
-                iconStyle={{ background: "#2ecc71", color: "#fff" }}
-                icon={<StarFull fill="#fff" />}
-              >
-                <h3 className="vertical-timeline-element-title">
-                  {item.contentTitle}
-                </h3>
-                <h4 className="vertical-timeline-element-subtitle">{place}</h4>
-                <p id="vertical-timeline-element-description">
-                  {item.contentText}
-                </p>
-              </VerticalTimelineElement>
-            )
-          )
-
-*/

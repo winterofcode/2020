@@ -1,25 +1,16 @@
-import React, { useState } from "react";
+import React, { useState, useRef,useEffect } from "react";
 import { NavLink } from "react-router-dom";
 import "./Navigation.scss";
 import { withRouter } from "react-router-dom";
 import useMediaQuery from "../../Hooks/useMediaQuery";
-import * as Scroll from "react-scroll";
-// import {Link} from "react-router-dom"
 import { ExternalLink } from "react-external-link";
-// const scroller = Scroll.scroller;
-import AnchorLink from "react-anchor-link-smooth-scroll";
-const ScrollLink = Scroll.Link;
+import {fadeIn} from "../animation"
+
 
 export default withRouter((props) => {
   const [IsChecked, setIsChecked] = useState(false);
   const mobile = useMediaQuery("(max-width: 900px)");
 
-  const handleClick = () => {
-    setIsChecked(false);
-  };
-  // const handleReroute = () => {
-  //   window.location.replace('https://dscnsec.com/')
-  // }
   let pathName;
   if (
     props &&
@@ -29,19 +20,24 @@ export default withRouter((props) => {
   ) {
     pathName = props.history.location.pathname;
   }
-  // const routed = (props) => {
-  //   console.log(props.history.location.pathname)
-  //   if(!props.history.location.pathname === "/") {
-  //     ScrollLink = Links;
-  //   }
-  // }
 
-  // routed(props);
+  //Animations
+  const navLinks = useRef(null)
+
+  useEffect(() => {
+    fadeIn(navLinks.current.childNodes)
+  },[pathName])
+  
+
+  const handleClick = () => {
+    setIsChecked(false);
+  };
+
 
   return (
     <>
       <nav className="row">
-        <ul className="nav-links">
+        <ul ref={navLinks} className="nav-links">
           <div className="margin-right mobile-nav">
             <NavLink to="/" className="linkFix">
               <li>
