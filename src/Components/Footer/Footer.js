@@ -46,14 +46,17 @@ export default () => (
 
           <li>
           <p className="footer-text">The Winter of Code is a program aimed to increase participation for the Google Summer of Code program among students in colleges and universities.</p>
+
           <p className="footer-text copyright">&copy;Winter of Code 2020</p>
+          <p className="footer-text copyright">Developed By <a className="footer-link" target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/vishwajeetraj11/">Vishwajeet Raj</a></p>
+
           </li>
 
         </ul>
 
         <ul className="projects">
-        <li className="footer-title">Projects</li>
-        {Projects.map((link,index) => <li className="list-link" key={index}><ExternalLink className="footer-link" href={link.url}>{link.title}</ExternalLink></li>)}
+        <li className="footer-title">Resources</li>
+        {Resources.map((link,index) => <li className="list-link" key={index}><ExternalLink className="footer-link" href={link.url}>{link.title}</ExternalLink></li>)}
         </ul>
 
         <ul className="organisations">
@@ -75,26 +78,26 @@ export default () => (
   </footer>
 );
 
-const Projects = [
+const Resources = [
   {
-    title: "DSC NSEC Application",
-    url: "/", //github link
+    title: "Intro to ML",
+    url: "https://intro2ml.dscnsec.com/", 
   },
   {
-    title: "Forum App",
-    url: "/", //github link
+    title: "Logo Generator",
+    url: "https://logo-generator.dscnsec.com/", 
   },
   {
-    title: "Search Engine",
-    url: "/", //github link
+    title: "DSC NSEC Go",
+    url: "https://go.dscnsec.com/", 
   },
   {
-    title: "Aify",
-    url: "/", //github link
+    title: "Full Stack Projects",
+    url: "https://www.youtube.com/playlist?list=PLLGfrNGZ7g4MzarnbBN-DC_AGErhYMC2s", 
   },
   {
-    title: "DSC NSEC Projects Showcase",
-    url: "/", //github link
+    title: "30 Days of Google Cloud",
+    url: "https://30daysofgc.dscnsec.com/", 
   }
 ]
 

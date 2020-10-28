@@ -95,7 +95,7 @@ nav {
     height: 0.45rem;
     border-radius: 10px;
     display: none;
-    transition: all 0.7s;
+    transition: all 0.2s;
 
     &::before, &::after{
         content: "";
@@ -112,7 +112,7 @@ nav {
         top: -1.5rem;
     }
     &::after {
-        top: -1.1rem;
+        top: -1.2rem;
     }
 
     @media only screen and (max-width: 56.25em) {
