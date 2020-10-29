@@ -21,12 +21,14 @@ export default () => {
           <h2 className="animate sub-section-title">Students</h2>
           <p className="animate sub-section-description">
             {" "}
-            Interested students can register for the Winter of Code. Selected
-            students work with mentors of their organization they are accepted
-            for. If accepted, students integrate with their organizations prior
-            to the start of coding, learning more about their organization’s
-            community. Students then have the month to code, meeting the
-            deadlines agreed upon with their mentors.
+            Students who are interested can register for the Winter
+    of Code by filling a form. Students who are selected will work
+    with mentors of the organization that they are accepted for. 
+    If accepted, students amalgamate with their organizations prior
+    to the start of coding and learn more about their organization’s 
+    community. Students then have one month to code and meet the 
+    deadlines agreed upon with their mentors. On successful completion 
+    of the program students will be rewarded with some cool schwags.
           </p>
         </div>
         <div className="sub-section">
