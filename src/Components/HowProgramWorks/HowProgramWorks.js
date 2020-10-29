@@ -3,7 +3,6 @@ import "./HowProgramWorks.scss";
 import {useIntersection} from "react-use"
 import {SinglefadeIn,SinglefadeOut} from "../animation"
 
-
 export default () =>  {
 
   let sectionRef = useRef(null)

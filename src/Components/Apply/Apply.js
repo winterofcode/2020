@@ -16,6 +16,9 @@ export default () => {
         <Link to="/">Apply as Student</Link>
         </button>
         </div>
+
+
+
         </div>
         </section>
     )

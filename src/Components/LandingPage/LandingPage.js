@@ -13,7 +13,7 @@ export default () => {
 
   let IllustrationContainer = useRef(null)
   let Illustration = useRef(null)
-  let IllustrationReveal = CSSRulePlugin.getRule(".illustration-container:after");
+  let IllustrationReveal = CSSRulePlugin.getRule(".illustration-container:after")
 
   let T1 = new TimelineLite();
 
@@ -51,7 +51,7 @@ export default () => {
           <div className="col-1-of-2">
           <div ref={HeaderText} className="header-right">
           <h1 className="title-text">
-            Welcome To
+            Welcome to
             </h1>
           <h1 className="title-text">
             <span className="title-text-span">Winter Of Code</span>
