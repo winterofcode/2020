@@ -27,11 +27,11 @@ export default () =>  {
       <div className="grid">
         <div className="left">
         <p ref={pref} className=" howItWorks-text">
-        Winter of Code by Developer Students Club NSEC, brings in
-        students, organizations, and mentors together for
-          a month-long extravaganza of Open Source contribution
-        and learning through that journey. Here is what the program
-        offers for students, organizations, and mentors.
+       Developer Students Club of NSEC brings to you Winter of Code
+    which is a month-long extravaganza of Open Source contribution, 
+    bringing together students, organisations and mentors learning and
+    growing through that journey. Here is what the program has to offer
+    for students, organizations, and mentors.
       </p>
         </div>
         <div className="right">
