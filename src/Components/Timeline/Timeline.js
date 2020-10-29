@@ -12,7 +12,7 @@ const place = "Kolkata, India";
 const Timeline = () => {
   const Items = [
     {
-      title: "14th November",
+      title: "5th November",
       active: true,
       contentTitle: "Project Application Starts",
       contentText: "Within this period various organizations submit their project proposal.",
