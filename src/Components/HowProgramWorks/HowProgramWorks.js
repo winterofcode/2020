@@ -29,8 +29,7 @@ export default () =>  {
         <p ref={pref} className=" howItWorks-text">
        Developer Students Club of NSEC brings to you Winter of Code
     which is a month-long extravaganza of Open Source contribution, 
-    bringing together students, organisations and mentors learning and
-    growing through that journey. Here is what the program has to offer
+    bringing together students, organisations and mentors to build amazing projects together. Here is what the program has to offer
     for students, organizations, and mentors.
       </p>
         </div>
