@@ -16,7 +16,7 @@ export const fadeIn = (Element) => {
         },
         
     })
-  }
+  } 
 
   export const SinglefadeIn = (Element, delay, stagger=0.3, each) => {
     gsap.to(Element, 1, {
@@ -56,3 +56,4 @@ export const fadeIn = (Element) => {
         delay: 2
     })
   }
+

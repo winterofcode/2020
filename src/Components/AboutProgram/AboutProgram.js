@@ -18,8 +18,8 @@ export default () => {
       <div className="row">
         <h1 className="animate section-title">About The Program</h1>
         <h2 className="animate about-text">
-          The Program is{" "}
-          <span>statistically proven to increase opensource contributions</span>{" "}
+          The program is{" "}
+          <span>statistically proven to increase Open Source contributions</span>{" "}
           and{" "}
           <span>
             getting more chances of getting accepted in Google Summer of

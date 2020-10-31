@@ -1,0 +1,59 @@
+.section-faqs {
+    padding: 3rem;
+    // background-color: #204987;
+    // color: #fff;
+    margin-bottom: 3rem;
+    @media only screen and (max-width: 56.25em) {
+       padding: 3rem 0;
+       }
+}
+
+.accordion-section {
+    display: flex;
+    flex-direction: column;
+
+    &:not(:last-child) {
+        margin-bottom: 1rem;
+    }
+  }
+  
+  .accordion-title {
+    background-color: #eee;
+    color: #444;
+    padding: 2rem;
+    cursor: pointer;
+    display: flex;
+    border: none;
+    align-items: center;
+    text-align: left;
+    outline: none;
+    transition: background-color 0.6s ease;
+  }
+  
+  .accordion-title:hover,
+  .active_accordion {
+    background-color: #ccc;
+  }
+  
+  .accordion-icon {
+    margin-left: auto;
+    transition: transform 0.6s ease;
+  }
+  
+  .rotate {
+    transform: rotate(90deg);
+  }
+  
+  .accordion-content {
+    background-color: white;
+    overflow: hidden;
+    transition: max-height 0.6s ease;
+    padding: 1rem 1rem 0 1rem;
+  }
+  
+  .accordion-text {
+    font-weight: 400;
+    font-size: 14px;
+    // padding: 18px;
+  }
+  
