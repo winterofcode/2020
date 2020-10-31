@@ -18,12 +18,11 @@ export default () => {
       <div className="row">
         <h1 className="animate section-title">About The Program</h1>
         <h2 className="animate about-text">
-          The program is{" "}
-          <span>statistically proven to increase Open Source contributions</span>{" "}
-          and{" "}
+          Winter of Code is{" "}
+          <span>a program aimed to increase participation </span>{" "}
+          for{" "}
           <span>
-            getting more chances of getting accepted in Google Summer of
-            Code(GSOC).
+            the Google Summer of Code program among students in colleges and universities.
           </span>
         </h2>
         <p className="animate description">
