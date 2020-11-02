@@ -8,8 +8,10 @@
  }
  .section-program-works--1 {
      padding: 3rem;
-     background-color: #204987;
      color: #fff;
+     background-color: #204987;
+     //  background: linear-gradient(top, 0% #204987, 90% #204987, 90% #fff, 100% #fff);
+    //   background: linear-gradient(to bottom, #204987 97%, #204987 92%, #fff 100%);
      @media only screen and (max-width: 56.25em) {
         padding: 3rem 0;
         }
