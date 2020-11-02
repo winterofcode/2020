@@ -77,8 +77,14 @@
 
 .illustration-container--1 {
     width: 50rem;
+    height: 50rem;
+ 
     @media only screen and (max-width: 56.25em) {
-        width: 100%;
+        width: 40rem;
+        height: 40rem;     
+        }
+    @media only screen and (max-width: 37em) {
+        width: 30rem;
+        height: 30rem;     
         }
 }
-

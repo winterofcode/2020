@@ -4,13 +4,13 @@ import "./Navigation.scss";
 import { withRouter } from "react-router-dom";
 import useMediaQuery from "../../Hooks/useMediaQuery";
 import { ExternalLink } from "react-external-link";
-import {fadeIn} from "../animation"
+import {fadeIn, NavLinksMobile} from "../animation"
 
 
 export default withRouter((props) => {
   const [IsChecked, setIsChecked] = useState(false);
   const mobile = useMediaQuery("(max-width: 900px)");
-
+ 
   let pathName;
   if (
     props &&
@@ -26,11 +26,15 @@ export default withRouter((props) => {
 
   useEffect(() => {
     fadeIn(navLinks.current.childNodes)
-  },[pathName])
+    if(mobile) {
+      
+    }
+  },[pathName, mobile])
   
 
   const handleClick = () => {
-    setIsChecked(false);
+    setIsChecked(IsChecked ? false : true)
+    NavLinksMobile(".animated-link")
   };
 
 
@@ -57,7 +61,7 @@ export default withRouter((props) => {
               id="hamburger"
               className="checkbox"
               checked={IsChecked}
-              onChange={() => setIsChecked(IsChecked ? false : true)}
+              onChange={() => handleClick()}
               type="checkbox"
             />
             <label className="checkbox-label" htmlFor="hamburger"></label>
@@ -69,7 +73,7 @@ export default withRouter((props) => {
             }}
             to="/"
             onClick={handleClick}
-            className="linkFix nav-link-text"
+            className="linkFix nav-link-text animated-link"
           >
             <li>Home</li>
           </NavLink>
@@ -80,7 +84,7 @@ export default withRouter((props) => {
             }}
             href="https://dscnsec.com/"
             onClick={handleClick}
-            className="linkFix nav-link-text"
+            className="linkFix nav-link-text animated-link"
           >
             DSC NSEC
           </ExternalLink>
@@ -102,7 +106,7 @@ export default withRouter((props) => {
                   // spy={true}
                   // smooth={true}
                   // duration={500}
-                  className={`linkFix nav-link-text ${
+                  className={`linkFix nav-link-text animated-link ${
                     scrollLink.lastChild ? "last-child" : null
                   }`}
                 >
@@ -120,7 +124,7 @@ export default withRouter((props) => {
                   }}
                   to={link.to}
                   onClick={handleClick}
-                  className={`linkFix nav-link-text`}
+                  className={`linkFix animated-link nav-link-text`}
                 >
                   {link.text}
                 </NavLink>
@@ -135,7 +139,7 @@ export default withRouter((props) => {
             // spy={true}
             // smooth={true}
             // duration={500}
-            className="linkFix nav-link-text last-child"
+            className="linkFix nav-link-text last-child animated-link"
             // activeClass="nav-link-text"
             // isDynamic={true}
           >
