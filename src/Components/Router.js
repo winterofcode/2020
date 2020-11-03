@@ -30,8 +30,8 @@ const AppRouter = () => (
     <ScrollToTop />
     <Switch>
       <Route exact={true} path="/" component={HomePage} />
-      <Route path="/organisation/dscnsec" component={DSCNSEC} />      
-      <Route path="/organisation/tcf" component={TCF} />      
+      {/* <Route path="/organisation/dscnsec" component={DSCNSEC} />       */}
+      {/* <Route path="/organisation/tcf" component={TCF} />       */}
       <Redirect from="*" to="/" />
     </Switch>
     <Footer />
