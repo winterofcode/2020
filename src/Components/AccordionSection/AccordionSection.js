@@ -33,12 +33,9 @@ const AccordionsData = [
     title: "Do I get paid for participating in Winter of Code?",
     answer: "No, but you get amazing schwags from Winter of Code and lots of fun memories in our open source journey."
   },
+ 
   {
-    title: "I want to learn more about participating as a mentor in GSoC. Where can I find more information?",
-    answer: "The GSoC 2021 program is 10 weeks long and students are expected to spend on average 18 hours a week on the program. Depending on your skills and the difficulty of your project it may take you more or less than 18 hours a week to meet the goals of your project."
-  },
-  {
-    title: "I want to learn more about participating as a mentor in GSoC. Where can I find more information?",
+    title: "I want to learn more about participating as a mentor in Winter of Code. Where can I find more information?",
     answer: "Read the Mentor Guide <How it Works> for more information on becoming a Winter of Code mentor. You must already be an active community member of the organization that you wish to mentor for. Fill up the form above in the Apply section and join us!"
   },
   {
