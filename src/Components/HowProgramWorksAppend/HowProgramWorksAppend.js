@@ -41,17 +41,17 @@ export default () => {
             They provide feedback to help guide each student through the
             program. Mentors and students work together to determine appropriate
             milestones and requirements for the summer. Mentor interaction is a
-            vital part of the program. Applications for Mentor Organizations is
-            now open.
+            vital part of the program.
           </p>
         </div>
         <div className="sub-section">
           <h2 className="animate sub-section-title">Mentors</h2>
           <p className="animate sub-section-description">
-            Mentors review student code samples multiple times to give feedback
-            and determine if the students have successfully completed their
-            Winter of Code 2019 project. Students are then notified of the
-            pass/fail status and schwags are delivered to successful students.
+          Mentors guide the students throughout their projects and 
+          review their code samples multiple times. They provide valuable feedback
+          and suggest possible improvements to the code. They also determine if a
+          student has successfully completed the Winter of code 2020 project. Students 
+          are then notified of the pass/fail status and schwags are delivered accordingly.
           </p>
         </div>
       </div>

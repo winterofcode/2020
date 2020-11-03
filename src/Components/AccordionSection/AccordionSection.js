@@ -34,7 +34,7 @@ const AccordionsData = [
     answer: "No, but you get amazing schwags from Winter of Code and lots of fun memories in our open source journey."
   },
   {
-    title: "No, but you get amazing schwags from Winter of Code and lots of fun memories in our open source journey.",
+    title: "I want to learn more about participating as a mentor in GSoC. Where can I find more information?",
     answer: "The GSoC 2021 program is 10 weeks long and students are expected to spend on average 18 hours a week on the program. Depending on your skills and the difficulty of your project it may take you more or less than 18 hours a week to meet the goals of your project."
   },
   {
