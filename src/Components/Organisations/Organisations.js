@@ -7,11 +7,12 @@ export const Box = ({ org }) => (
       <img src={org.logo} alt={org.name} className="image" />
     </div>
     <h3 className="org__title">{org.name}</h3>
-    <button className="btn btn-apply">
+    
       <a href={org.link} className="linkFix btn-projects">
-        {org.btnText ? org.btnText : "View Projects"}
+      <button className="btn btn-apply">{org.btnText ? org.btnText : "View Projects"}
+      </button>
       </a>
-    </button>
+    
   </div>
 );
 
