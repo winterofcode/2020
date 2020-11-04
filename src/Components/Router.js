@@ -7,8 +7,8 @@ import Footer from "./Footer/Footer";
 import styled from "styled-components";
 
 import ScrollToTop from "./ScrollToTop";
-import DSCNSEC from "../Routes/DSCNSEC"
-import TCF from "../Routes/TCF"
+// import DSCNSEC from "../Routes/DSCNSEC"
+// import TCF from "../Routes/TCF"
 
 const NavigationColor = styled.div`
   background-color: #204987;

@@ -53,12 +53,12 @@ const Organisations2019 = [
     name: "DSC NSEC",
     logo: require("../../Assets/dscnsec.png"),
     class: "dsc-logo",
-    link: "https://winterofcode.com/dsc-nsec.html",
+    link: "https://2019.winterofcode.com/dsc-nsec.html",
   },
   {
     name: "The Code Foundation",
     logo: require("../../Assets/tcf.jpg"),
-    link: "https://winterofcode.com/the-code-foundation.html",
+    link: "https://2019.winterofcode.com/the-code-foundation.html",
   },
 ];
 const Organisations2020 = [];

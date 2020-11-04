@@ -2,11 +2,11 @@ import React, {useRef, useEffect} from "react";
 import "./HowProgramWorks.scss";
 import {useIntersection} from "react-use"
 import {SinglefadeIn,SinglefadeOut} from "../animation"
-import DisplacementImage from "../DisplacementImage";
+// import DisplacementImage from "../DisplacementImage";
 
 
 export default () =>  {
-
+  let imgref = useRef(null)
   let sectionRef = useRef(null)
   let titleref = useRef(null)
   let pref = useRef(null)
@@ -24,7 +24,7 @@ export default () =>  {
 
   intersection && intersection.intersectionRatio < 0.4 ? SinglefadeOut(titleref.current): SinglefadeIn(titleref.current)
   intersection && intersection.intersectionRatio < 0.4 ? SinglefadeOut(pref.current,0.2): SinglefadeIn(pref.current,0.2)
-  // intersection && intersection.intersectionRatio < 0.4 ? SinglefadeOut(imgref.current,0.3): SinglefadeIn(imgref.current,0.3)
+  intersection && intersection.intersectionRatio < 0.4 ? SinglefadeOut(imgref.current,0.3): SinglefadeIn(imgref.current,0.3)
 
   return (
   <section ref={sectionRef} className="section-program-works" id="js-section-program-works">
@@ -40,7 +40,10 @@ export default () =>  {
       </p>
         </div>
         <div className="right">
-       <DisplacementImage />
+       {/* <DisplacementImage /> */}
+       <div ref={imgref} className="illustration-container--1">
+       <img className="image" alt="How does the program works illustrations" src={require("../../Assets/how.png")}></img>
+       </div>
         </div>
       </div>
     </div>

@@ -37,7 +37,7 @@ export default () => (
             <ExternalLink href="https://twitter.com/winterofcode/">
             <Twitter fill="#00acee" width={30} height={30} />
             </ExternalLink>
-            <ExternalLink href="/">
+            <ExternalLink href="https://dscnsec-winterofcode.slack.com">
             <Slack fill="#ECB22E" width={40} height={40} />
             </ExternalLink>
         
