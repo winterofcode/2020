@@ -37,10 +37,10 @@ export default () => {
             {" "}
             Open source organizations can apply to be mentor organizations. Once
             accepted, organizations discuss possible ideas with students and
-            then decide on the proposals they wish to mentor for the summer.
+            then decide on the proposals they wish to mentor for the winter.
             They provide feedback to help guide each student through the
             program. Mentors and students work together to determine appropriate
-            milestones and requirements for the summer. Mentor interaction is a
+            milestones and requirements for the winter. Mentor interaction is a
             vital part of the program.
           </p>
         </div>
