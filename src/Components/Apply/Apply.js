@@ -12,6 +12,8 @@ export default () => {
         <a href="https://docs.google.com/forms/d/e/1FAIpQLSf1FzEgyHxsb6xwiRLkZdRCysNLQ15KJ-rniCLiJsODqcv8Zw/viewform?usp=sf_link" className="linkFix"><button className="btn btn-apply1">Apply as Organisation</button></a>
         
         
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLScmRwo6pa0HN8WNR3H1jyYk7ou5CitOq26y0eES0Gj7q2KRVg/viewform?usp=sf_link" className="linkFix"><button className="btn btn-apply1">Apply as Mentor</button></a>
+
         <a href="https://docs.google.com/forms/d/e/1FAIpQLSdDXgvlFMAZFZ3K6rsseVPoa5pgVk-kYpaU7h6OkA4AE2SGEA/viewform?usp=sf_link" className="linkFix"><button className="btn btn-apply1">Apply as Student</button></a>
         
         </div>
