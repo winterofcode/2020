@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 // import NavLogoLink from "../NavLogoLink";
 import "./Footer.scss";
-import {Instagram,Facebook,Twitter,Slack} from "../../Components/Icons"
+import {Instagram,Facebook,Twitter} from "../../Components/Icons"
 import {ExternalLink}  from "react-external-link"
 
 export default () => (
@@ -36,9 +36,6 @@ export default () => (
             </ExternalLink>
             <ExternalLink href="https://twitter.com/winterofcode/">
             <Twitter fill="#00acee" width={30} height={30} />
-            </ExternalLink>
-            <ExternalLink href="https://dscnsec-winterofcode.slack.com">
-            <Slack fill="#ECB22E" width={40} height={40} />
             </ExternalLink>
         
             </div>
