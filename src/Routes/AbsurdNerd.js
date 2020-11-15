@@ -26,9 +26,10 @@ const Projects = [
       openInNew: true
     },
     {
-      name: "SimplifyReport_Backend",
+      name: "SimplifyReport Backend",
       logo: require("../Assets/absurdNerd.png"),
       tag: "Absurd Nerd",
+      class: "text-big-fix",
       link: "https://github.com/AbsurdNerd/SimplifyReport_Backend",
       btnText: "View Project",
       openInNew: true
