@@ -11,7 +11,6 @@ export default () => (
            {Projects.map((project, index) => (
                 <Box key={index} org={project} />
               ))}
-            
         </div>
       </div>
     </section>
@@ -19,21 +18,21 @@ export default () => (
 
 const Projects = [
     {
-      name: "Logo Generator",
-      logo: require("../Assets/dscnsec.png"),
-      tag: "dscnsec",
+      name: "project-avocado-web",
+      logo: require("../Assets/dscnitrourkela.png"),
+      tag: "dsc-nit-rourkela",
       class: "dsc-logo",
-      link: "https://www.github.com",
+      link: "https://github.com/dscnitrourkela/project-avocado-web",
       btnText: "View Project",
       openInNew: true
     },
     {
-      name: "Url Shortener",
-      logo: require("../Assets/dscnsec.png"),
-      tag: "dscnsec",
+      name: "project-guava",
+      logo: require("../Assets/dscnitrourkela.png"),
+      tag: "dsc-nit-rourkela",
       class: "dsc-logo",
-      link: "https://www.github.com",
+      link: "https://github.com/dscnitrourkela/project-guava",
       btnText: "View Project",
       openInNew: true
-    },
+    }
   ];

@@ -7,8 +7,14 @@ import Footer from "./Footer/Footer";
 import styled from "styled-components";
 
 import ScrollToTop from "./ScrollToTop";
-// import DSCNSEC from "../Routes/DSCNSEC"
+import DSCNSEC from "../Routes/DSCNSEC";
 // import TCF from "../Routes/TCF"
+import DSCIEM from "../Routes/DSCIEM";
+import DeepFusionAI from "../Routes/DeepFusionAI";
+import DSCNITRourkela from "../Routes/NITRourkela";
+import EduAlgo from "../Routes/EduAlgo";
+import AbsurdNerd from "../Routes/AbsurdNerd";
+import CanvasBird from "../Routes/CanvasBird";
 
 const NavigationColor = styled.div`
   background-color: #204987;
@@ -30,8 +36,13 @@ const AppRouter = () => (
     <ScrollToTop />
     <Switch>
       <Route exact={true} path="/" component={HomePage} />
-      {/* <Route path="/organisation/dscnsec" component={DSCNSEC} />       */}
-      {/* <Route path="/organisation/tcf" component={TCF} />       */}
+      <Route path="/organisation/deep-fusion-ai" component={DeepFusionAI} />
+      <Route path="/organisation/absurd-nerd" component={AbsurdNerd} />
+      <Route path="/organisation/edualgo" component={EduAlgo} />
+      <Route path="/organisation/canvasbird" component={CanvasBird} />
+      <Route path="/organisation/dsc-nit-rourkela" component={DSCNITRourkela} />
+      <Route path="/organisation/dsc-nsec" component={DSCNSEC} />
+      <Route path="/organisation/dsc-iem" component={DSCIEM} />
       <Redirect from="*" to="/" />
     </Switch>
     <Footer />

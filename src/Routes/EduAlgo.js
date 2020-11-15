@@ -11,7 +11,6 @@ export default () => (
            {Projects.map((project, index) => (
                 <Box key={index} org={project} />
               ))}
-            
         </div>
       </div>
     </section>
@@ -19,20 +18,26 @@ export default () => (
 
 const Projects = [
     {
-      name: "Logo Generator",
-      logo: require("../Assets/dscnsec.png"),
-      tag: "dscnsec",
-      class: "dsc-logo",
-      link: "https://www.github.com",
+      name: "eduAlgo Python Package",
+      logo: require("../Assets/eduAlgo.png"),
+      tag: "eduAlgo",
+      link: "https://github.com/Canvasbird/canvasboard",
       btnText: "View Project",
       openInNew: true
     },
     {
-      name: "Url Shortener",
-      logo: require("../Assets/dscnsec.png"),
-      tag: "dscnsec",
-      class: "dsc-logo",
-      link: "https://www.github.com",
+      name: "eduAlgo Documentation Page",
+      logo: require("../Assets/eduAlgo.png"),
+      tag: "eduAlgo",
+      link: "https://github.com/eduAlgo/documentation",
+      btnText: "View Project",
+      openInNew: true
+    },
+    {
+      name: "eduAlgo App",
+      logo: require("../Assets/eduAlgo.png"),
+      tag: "eduAlgo",
+      link: "https://github.com/eduAlgo/edualgo-app-demo",
       btnText: "View Project",
       openInNew: true
     },

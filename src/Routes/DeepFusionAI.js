@@ -11,7 +11,6 @@ export default () => (
            {Projects.map((project, index) => (
                 <Box key={index} org={project} />
               ))}
-            
         </div>
       </div>
     </section>
@@ -19,21 +18,11 @@ export default () => (
 
 const Projects = [
     {
-      name: "Logo Generator",
-      logo: require("../Assets/dscnsec.png"),
-      tag: "dscnsec",
-      class: "dsc-logo",
-      link: "https://www.github.com",
+      name: "Real-time Social Distancing Detector",
+      logo: require("../Assets/deepfusionai.png"),
+      tag: "deep-fusion-ai",
+      link: "https://github.com/DeepFusionAI/social-distance-detector",
       btnText: "View Project",
       openInNew: true
-    },
-    {
-      name: "Url Shortener",
-      logo: require("../Assets/dscnsec.png"),
-      tag: "dscnsec",
-      class: "dsc-logo",
-      link: "https://www.github.com",
-      btnText: "View Project",
-      openInNew: true
-    },
+    }
   ];
