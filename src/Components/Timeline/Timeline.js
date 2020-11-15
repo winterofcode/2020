@@ -18,7 +18,7 @@ const Timeline = () => {
       contentText: "Within this period various organizations submit their project proposal.",
     },
     {
-      title: "14th November",
+      title: "15th November",
       active: undefined,
       contentTitle: "Organisations Announced",
       contentText: "The Organisations selected for the event will be announced.",
