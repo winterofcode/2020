@@ -21,7 +21,7 @@ const Projects = [
       name: "eduAlgo Python Package",
       logo: require("../Assets/eduAlgo.png"),
       tag: "eduAlgo",
-      link: "https://github.com/Canvasbird/canvasboard",
+      link: "https://github.com/eduAlgo/eduAlgo",
       btnText: "View Project",
       openInNew: true
     },
