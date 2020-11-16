@@ -73,33 +73,40 @@ const Organisations2020 = [
   {
     name: "Deep Fusion AI",
     logo: require("../../Assets/deepfusionai.png"),
-    // class: "dsc-logo",
     link: "/organisation/deep-fusion-ai",
   },
  
   {
     name: "Absurd Nerd",
     logo: require("../../Assets/absurdNerd.png"),
-    // class: "dsc-logo",
     link: "/organisation/absurd-nerd",
   },
  
   {
     name: "Canvasbird",
     logo: require("../../Assets/canvasbird.png"),
-    // class: "dsc-logo",
     link: "/organisation/canvasbird",
   },
   {
     name: "eduAlgo",
     logo: require("../../Assets/eduAlgo.png"),
-    // class: "dsc-logo",
     link: "/organisation/eduAlgo",
   },
-  // {
-  //   name: "DSC NIT Rourkela",
-  //   logo: require("../../Assets/dscnitrourkela.png"),
-  //   class: "dsc-logo",
-  //   link: "/organisation/dsc-nit-rourkela",
-  // },
+  {
+    name: "DSC NIT Rourkela",
+    logo: require("../../Assets/dscnitrourkela.png"),
+    class: "dsc-logo",
+    link: "/organisation/dsc-nit-rourkela",
+  },
+  {
+    name: "DSC IEM",
+    logo: require("../../Assets/dsciem.png"),
+    class: "dsc-logo",
+    link: "/organisation/dsc-iem",
+  },
+  {
+    name: "FireShort",
+    logo: require("../../Assets/fireshort.png"),
+    link: "/organisation/fireshort",
+  },
 ];
