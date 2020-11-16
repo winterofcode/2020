@@ -13,13 +13,13 @@ const Timeline = () => {
   const Items = [
     {
       title: "5th November",
-      active: true,
+      active: false,
       contentTitle: "Project Application Starts",
       contentText: "Within this period various organizations submit their project proposal.",
     },
     {
-      title: "15th November",
-      active: undefined,
+      title: "15th November - 18th November",
+      active: true,
       contentTitle: "Organisations Announced",
       contentText: "The Organisations selected for the event will be announced.",
     },
