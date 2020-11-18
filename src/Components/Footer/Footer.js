@@ -107,6 +107,34 @@ const Organisations = [
     title: "The Code Foundation (TCF)",
     url: "https://thecodefoundation.dev/"
   },
+  {
+    title: "Deep Fusion AI",
+    url: "https://deepfusionai.github.io/"
+  },
+  {
+    title: "Absurd Nerd",
+    url: "https://github.com/AbsurdNerd"
+  },
+  {
+    title: "Canvasbird",
+    url: "https://github.com/Canvasbird"
+  },
+  {
+    title: "eduAlgo",
+    url: "https://github.com/eduAlgo"
+  },
+  {
+    title: "DSC NIT Rourkela",
+    url: "https://dscnitrourkela.org/"
+  },
+  {
+    title: "DSC IEM",
+    url: "https://dsc-iem.github.io/"
+  },
+  {
+    title: "FireShort",
+    url: "https://github.com/xprilion/fireshort"
+  },
 ]
 
 const DSC_NSEC_Links = [
