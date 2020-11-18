@@ -18,6 +18,15 @@ export default () => (
 
 const Projects = [
     {
+      name: "project-avocado",
+      logo: require("../Assets/dscnitrourkela.png"),
+      tag: "dsc-nit-rourkela",
+      class: "dsc-logo",
+      link: "https://www.notion.so/project-avocado-4d9173a5a1ee45d7b37910bd3b1abffc",
+      btnText: "View Project",
+      openInNew: true
+    },
+    {
       name: "project-avocado-web",
       logo: require("../Assets/dscnitrourkela.png"),
       tag: "dsc-nit-rourkela",

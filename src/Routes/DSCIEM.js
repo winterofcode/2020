@@ -18,6 +18,15 @@ export default () => (
 
 const Projects = [
     {
+      name: "Ideas List",
+      logo: require("../Assets/dsciem.png"),
+      tag: "dsciem",
+      class: "dsc-logo",
+      link: "https://github.com/dsc-iem/WoC-Project-Ideas/blob/main/README.md",
+      btnText: "View Ideas",
+      openInNew: true
+    },
+    {
       name: "Fake-Stream",
       logo: require("../Assets/dsciem.png"),
       tag: "dsciem",
@@ -50,6 +59,15 @@ const Projects = [
       tag: "dsciem",
       class: "dsc-logo",
       link: "https://github.com/BALaka-18/rake_new2",
+      btnText: "View Project",
+      openInNew: true
+    },
+    {
+      name: "TextSentiment Analysis",
+      logo: require("../Assets/dsciem.png"),
+      tag: "dsciem",
+      class: "dsc-logo",
+      link: "https://github.com/khanfarhan10/TextSentimentAnalysis",
       btnText: "View Project",
       openInNew: true
     },
