@@ -119,3 +119,16 @@ ul {
 .animate {
   opacity: 0;
 }
+
+.mentors-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(50rem, 1fr));
+  @media only screen and (max-width: 500px) {
+  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    }
+  @media only screen and (max-width: 500px) {
+  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    }
+  margin-bottom: 5rem;
+  justify-items: center;
+}

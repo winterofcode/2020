@@ -23,16 +23,43 @@ const Projects = [
       logo: require("../Assets/dscnsec.png"),
       tag: "dscnsec",
       class: "dsc-logo",
-      link: "https://www.github.com",
+      link: "https://github.com/dscnsec/logo-generator",
       btnText: "View Project",
       openInNew: true
     },
     {
-      name: "Url Shortener",
+      name: "Doc Scanner",
       logo: require("../Assets/dscnsec.png"),
       tag: "dscnsec",
       class: "dsc-logo",
-      link: "https://www.github.com",
+      link: "https://github.com/dscnsec/DocScanner",
+      btnText: "View Project",
+      openInNew: true
+    },
+    {
+      name: "Noted App",
+      logo: require("../Assets/dscnsec.png"),
+      tag: "dscnsec",
+      class: "dsc-logo",
+      link: "https://github.com/dscnsec/noted-App",
+      btnText: "View Project",
+      openInNew: true
+    },
+    {
+      name: "DSC NSEC APP",
+      logo: require("../Assets/dscnsec.png"),
+      tag: "dscnsec",
+      class: "dsc-logo",
+      link: "https://github.com/dscnsec/DSC-NSEC-App",
+      btnText: "View Project",
+      openInNew: true
+    },
+    {
+      name: "DSC NSEC Algorithms",
+      logo: require("../Assets/dscnsec.png"),
+      tag: "dscnsec",
+      class: "dsc-logo",
+      link: "https://github.com/dscnsec/DSC-NSEC-Algorithms",
       btnText: "View Project",
       openInNew: true
     },

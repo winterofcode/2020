@@ -8,7 +8,6 @@ import styled from "styled-components";
 
 import ScrollToTop from "./ScrollToTop";
 import DSCNSEC from "../Routes/DSCNSEC";
-// import TCF from "../Routes/TCF"
 import DSCIEM from "../Routes/DSCIEM";
 import DeepFusionAI from "../Routes/DeepFusionAI";
 import DSCNITRourkela from "../Routes/NITRourkela";
@@ -16,6 +15,10 @@ import EduAlgo from "../Routes/EduAlgo";
 import AbsurdNerd from "../Routes/AbsurdNerd";
 import CanvasBird from "../Routes/CanvasBird";
 import FireShort from "../Routes/FireShot";
+// import MentorsPage from "../Routes/MentorsPage";
+import TesseractCoding from "../Routes/TesseractCoding";
+import DscX from "../Routes/DscX";
+import Dynopii from "../Routes/Dynopii";
 
 const NavigationColor = styled.div`
   background-color: #204987;
@@ -37,6 +40,7 @@ const AppRouter = () => (
     <ScrollToTop />
     <Switch>
       <Route exact={true} path="/" component={HomePage} />
+      {/* <Route path="/mentors" component={MentorsPage} /> */}
       <Route path="/organisation/deep-fusion-ai" component={DeepFusionAI} />
       <Route path="/organisation/absurd-nerd" component={AbsurdNerd} />
       <Route path="/organisation/edualgo" component={EduAlgo} />
@@ -44,7 +48,10 @@ const AppRouter = () => (
       <Route path="/organisation/dsc-nit-rourkela" component={DSCNITRourkela} />
       <Route path="/organisation/dsc-iem" component={DSCIEM} />
       <Route path="/organisation/fireshort" component={FireShort} />
-      {/* <Route path="/organisation/dsc-nsec" component={DSCNSEC} /> */}
+      <Route path="/organisation/dynopii" component={Dynopii} />
+      <Route path="/organisation/dsc-x" component={DscX} />
+      <Route path="/organisation/dsc-nsec" component={DSCNSEC} />
+      <Route path="/organisation/tesseract-coding" component={TesseractCoding} />
       <Redirect from="*" to="/" />
     </Switch>
     <Footer />

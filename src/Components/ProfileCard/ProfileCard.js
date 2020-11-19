@@ -1,5 +1,5 @@
 import React from "react"
-import "./Review.scss"
+import "./ProfileCard.scss"
 
 export default ({src, username, userphoto, title, description, organisationLogo, organisationName }) => {
     return (

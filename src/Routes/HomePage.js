@@ -17,14 +17,13 @@ export default () => {
   return (
     <>
       <LandingPageHeight>
-        <LandingPage />
+      <LandingPage />
       </LandingPageHeight>
       <AboutProgram />
       <HowProgramWorks />
       <HowProgramWorksAppend />
       <Organisations />
       <Timeline />
-
       <Apply />
       <AccordionSection />
     </>

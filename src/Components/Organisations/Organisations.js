@@ -109,4 +109,26 @@ const Organisations2020 = [
     logo: require("../../Assets/fireshort.png"),
     link: "/organisation/fireshort",
   },
+  {
+    name: "Dynopii",
+    logo: require("../../Assets/dynopii.png"),
+    link: "/organisation/dynopii",
+  },
+  {
+    name: "DSC-X",
+    logo: require("../../Assets/dscx.png"),
+    link: "/organisation/dsc-x",
+  },
+  {
+    name: "Tesseract Coding",
+    class: 'tesseract-logo',
+    logo: require("../../Assets/tesseract.png"),
+    link: "/organisation/tesseract-coding",
+  },
+  {
+    name: "DSC NSEC",
+    logo: require("../../Assets/dscnsec.png"),
+    link: "/organisation/dsc-nsec",
+    class: "dsc-logo",
+  },
 ];
