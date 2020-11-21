@@ -19,14 +19,14 @@ const Timeline = () => {
     },
     {
       title: "15th November - 20th November",
-      active: true,
+      active: false,
       contentTitle: "Organisations Announced",
       contentText: "The Organisations selected for the event will be announced.",
     },
     {
       title: "20th November - 5th December",
       contentTitle: "Student Application Starts",
-      active: undefined,
+      active: true,
       contentText: "Students select their organizations and apply to them during this period.",
     },
     {
