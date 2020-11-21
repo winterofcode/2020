@@ -19,7 +19,8 @@ const Mentor = [
     {
       username: "Vishwajeet Raj",
       userphoto: require("../Assets/me.jpg"),
-      title: "Awesome",
+      title: "EduAlgo",
+      tag: ['eduAlgo', 'AI | ML'],
       description: "It was an amazing Experienc as usual. I liked it to the best of day and all. thanks for reading.",
       organisationLogo: require("../Assets/org-logo.png"),
       organisationName: "Winter of Code",

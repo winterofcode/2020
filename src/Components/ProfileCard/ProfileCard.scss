@@ -1,4 +1,4 @@
-.review {
+.profile {
     height: 250px;
     box-shadow: 0 1rem 3rem rgba(0,0,0,0.15);
     width: 500px;
@@ -29,7 +29,7 @@
     object-fit: cover;
 }
 
-.review-content {
+.profile-content {
     margin-left: 28rem;
     padding: 2rem 2rem 2rem 0;
     text-align: left;
@@ -73,7 +73,7 @@
     // }
 }
 
-.review {
+.profile {
     &-title {
         margin-bottom: 1rem;
         font-size: 1.6rem;
