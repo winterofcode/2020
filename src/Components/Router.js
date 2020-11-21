@@ -15,7 +15,7 @@ import EduAlgo from "../Routes/EduAlgo";
 import AbsurdNerd from "../Routes/AbsurdNerd";
 import CanvasBird from "../Routes/CanvasBird";
 import FireShort from "../Routes/FireShot";
-import MentorsPage from "../Routes/MentorsPage";
+// import MentorsPage from "../Routes/MentorsPage";
 import TesseractCoding from "../Routes/TesseractCoding";
 import DscX from "../Routes/DscX";
 import Dynopii from "../Routes/Dynopii";
@@ -40,7 +40,7 @@ const AppRouter = () => (
     <ScrollToTop />
     <Switch>
       <Route exact={true} path="/" component={HomePage} />
-       <Route path="/mentors" component={MentorsPage} /> 
+       {/* <Route path="/mentors" component={MentorsPage} />  */}
       <Route path="/organisation/deep-fusion-ai" component={DeepFusionAI} />
       <Route path="/organisation/absurd-nerd" component={AbsurdNerd} />
       <Route path="/organisation/edualgo" component={EduAlgo} />

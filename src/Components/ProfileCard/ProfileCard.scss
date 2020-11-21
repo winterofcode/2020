@@ -1,13 +1,13 @@
 .profile {
     height: 250px;
     box-shadow: 0 1rem 3rem rgba(0,0,0,0.15);
-    width: 500px;
+    // width: 500px;
     margin-top: 7rem;
     position: relative;
 
     @media only screen and (max-width: 56.25em) {
         height: auto;
-        width: 300px;
+        // width: 300px;
     }
 }
 
@@ -105,4 +105,8 @@
     }
 
     
+}
+
+.tag-container {
+    margin-top: 1.4rem;
 }
