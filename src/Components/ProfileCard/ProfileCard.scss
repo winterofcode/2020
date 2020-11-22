@@ -1,13 +1,17 @@
 .profile {
-    height: 250px;
+    height: 270px;
     box-shadow: 0 1rem 3rem rgba(0,0,0,0.15);
-    // width: 500px;
-    margin-top: 7rem;
+    width: 500px;
+    margin-top: 4rem;
     position: relative;
 
-    @media only screen and (max-width: 56.25em) {
+    @media only screen and (max-width: 1200px) {
         height: auto;
-        // width: 300px;
+        width: 500px;
+    }
+    @media only screen and (max-width: 700px) {
+        height: auto;
+        width: auto;
     }
 }
 
@@ -37,7 +41,7 @@
     // background-color: crimson;
     // position: relative;
 
-    @media only screen and (max-width: 56.25em) {
+    @media only screen and (max-width:1200px) {
         margin-left: 0;
         width: 80%;
         margin: 0 10%;
@@ -62,9 +66,14 @@
 
 .pos {
     position: absolute;
+    // top: 0rem;
+    // left: 0rem;
+    // padding: 2rem;
     top: -3rem;
     left: 3rem;
-    @media only screen and (max-width: 56.25em) {
+    // top: 3.3rem;
+    // left: 2.4rem;
+    @media only screen and (max-width: 1200px) {
         left:0;
         position: relative;
     }
@@ -109,4 +118,11 @@
 
 .tag-container {
     margin-top: 1.4rem;
+}
+
+.profile-social-links {
+    margin-top: 1.4rem;
+    & > * {
+        margin-right: 1rem;
+    }
 }

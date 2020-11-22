@@ -8,6 +8,7 @@ import Organisations from "../Components/Organisations/Organisations";
 import Apply from "../Components/Apply/Apply";
 import HowProgramWorksAppend from "../Components/HowProgramWorksAppend/HowProgramWorksAppend";
 import AccordionSection from "../Components/AccordionSection/AccordionSection"
+import Schwags from "../Components/Schwags/Schwags";
 const LandingPageHeight = styled.div`
   height: 90vh;
   background-color: #204987;
@@ -24,6 +25,7 @@ export default () => {
       <HowProgramWorksAppend />
       <Organisations />
       <Timeline />
+      <Schwags />
       <Apply />
       <AccordionSection />
     </>

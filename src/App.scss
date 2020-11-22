@@ -123,9 +123,12 @@ ul {
 .mentors-grid {
   display: grid;
   grid-gap: 4rem;
-  grid-template-columns: repeat(auto-fit, minmax(40rem, 1fr));
-  @media only screen and (max-width: 1200px) {
+  padding: 4rem;
+  grid-template-columns: repeat(auto-fit, minmax(50rem, 1fr));
+  @media only screen and (max-width: 56.25em) {
   grid-template-columns: 1fr;
+  // grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+  padding: 1rem;
     }
   // @media only screen and (max-width: 500px) {
   // grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
