@@ -135,6 +135,22 @@ const Organisations = [
     title: "FireShort",
     url: "https://github.com/xprilion/fireshort"
   },
+  {
+    title: "Dynopii",
+    url: "https://github.com/dynopii"
+  },
+  {
+    title: "DSC-X",
+    url: "https://github.com/dsc-x"
+  },
+  {
+    title: "Tesseract Coding",
+    url: "https://github.com/TesseractCoding"
+  },
+  {
+    title: "DSC NSEC",
+    url: "https://dscnsec.com/"
+  },
 ]
 
 const DSC_NSEC_Links = [
