@@ -3,7 +3,7 @@ import { Github, LinkedIn, Twitter } from "../Icons"
 import Tag from "../Tag"
 import "./ProfileCard.scss"
 
-export default ({src, username, userphoto, title, description, organisationLogo, organisationName, tags }) => {
+export default ({src, username, userphoto, title, description, organisationLogo, organisationName, LinkedInLink, TwitterLink, GithubLink, tags }) => {
     return (
         <div className="profile">
         <div className="pos">
@@ -20,9 +20,9 @@ export default ({src, username, userphoto, title, description, organisationLogo,
             <Tag key={index} text={tag} />
         ))}</div>
         <div className="profile-social-links">
-        <a href="www.linkedin.in"><LinkedIn fill={"#0E76A8"} /></a>
-        <a href="www.github.in"><Github fill={"#211F1F"} /></a>
-        <a href="www.twitter.in"><Twitter fill={"#1DA1F2"} /></a>
+        {LinkedInLink ? <a href={`${LinkedInLink}`}><LinkedIn fill={"#0E76A8"} /></a> : null}
+        {GithubLink ? <a href={`${GithubLink}`}><Github fill={"#211F1F"} /></a> : null}
+        {TwitterLink ? <a href={`${TwitterLink}`}><Twitter fill={"#1DA1F2"} /></a> : null}
         </div>
         <div className="profile-organisation">
         <div className="profile-organisation-img-container">

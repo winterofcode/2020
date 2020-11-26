@@ -67,16 +67,16 @@ export default withRouter((props) => {
             <label className="checkbox-label" htmlFor="hamburger"></label>
           </div>
 
-          <NavLink
+          {/* <a
             style={{
               display: `${mobile ? (IsChecked ? "block" : "none") : "block"}`,
             }}
-            to="/"
+            href="/mentors"
             onClick={handleClick}
             className="linkFix nav-link-text animated-link"
           >
-            <li>Home</li>
-          </NavLink>
+            <li>Mentors</li>
+          </a> */}
 
           <ExternalLink
             style={{
@@ -92,20 +92,14 @@ export default withRouter((props) => {
           {pathName === "/"
             ? ScrollLinks.map((scrollLink, index) => (
                 <a
-                  // isDynamic={true}
-                  href={`#${scrollLink.to}`}
+                  href={`${scrollLink.to}`}
                   key={index}
-                  // offset={0}
                   style={{
                     display: `${
                       mobile ? (IsChecked ? "block" : "none") : "block"
                     }`,
                   }}
-                  // to={scrollLink.to}
                   onClick={handleClick}
-                  // spy={true}
-                  // smooth={true}
-                  // duration={500}
                   className={`linkFix nav-link-text animated-link ${
                     scrollLink.lastChild ? "last-child" : null
                   }`}
@@ -120,7 +114,6 @@ export default withRouter((props) => {
                     display: `${
                       mobile ? (IsChecked ? "block" : "none") : "block"
                     }`,
-                    color: "#fff",
                   }}
                   to={link.to}
                   onClick={handleClick}
@@ -136,12 +129,7 @@ export default withRouter((props) => {
             }}
             href={"#js-footer"}
             onClick={handleClick}
-            // spy={true}
-            // smooth={true}
-            // duration={500}
             className="linkFix nav-link-text last-child animated-link"
-            // activeClass="nav-link-text"
-            // isDynamic={true}
           >
             Contact Us
           </a>
@@ -153,21 +141,30 @@ export default withRouter((props) => {
 
 const ScrollLinks = [
   {
-    to: "js-about-program",
+    to: "/mentors",
+    text: "Mentors",
+  },
+  {
+    to: "#js-about-program",
     text: "About",
   },
   {
-    to: "js-section-program-works",
+    to: "#js-section-program-works",
     text: "How it Works",
   },
   {
-    to: "js-organisations",
+    to: "#js-organisations",
     text: "Organisations",
   },
   {
-    to: "js-apply",
+    to: "#js-apply",
     text: "Apply",
   },
 ];
 
-const Links = [];
+const Links = [
+  {
+    to: "/",
+    text: "Home",
+  },
+];
