@@ -76,7 +76,7 @@ const Mentor = [
       username: "Debjeet Banerjee",
       userphoto: require("../Assets/Debjeet-Banerjee.jpeg"),
       tags: ['DSC IEM'],
-      description: "THM Hacker, Researcher at IEM-IEDC",
+      description: "THM Hacker, Researcher at IEM-IEDC and Security Dev",
       organisationLogo: require("../Assets/org-logo.png"),
       organisationName: "Winter of Code",
       LinkedInLink: "https://www.linkedin.com/in/debjeet-banerjee-93a137198",
