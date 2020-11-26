@@ -86,8 +86,8 @@ const Mentor = [
     {
       username: "Rishiraj Acharya",
       userphoto: require("../Assets/Rishiraj-Acharya.jpg"),
-      tags: ['DSC NSEC'],
-      description: "ML Engineer, Microsoft Student Partner, deeplearning.ai Ambassador and former Facilitator at Stanford University.",
+      tags: ['Deep Fusion AI', 'DSC NSEC'],
+      description: "ML Engineer, Microsoft Student Partner, deeplearning.ai Ambassador, former Facilitator at Stanford University.",
       organisationLogo: require("../Assets/org-logo.png"),
       organisationName: "Winter of Code",
       LinkedInLink: "https://www.linkedin.com/in/rishirajacharya/",
