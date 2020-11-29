@@ -17,8 +17,7 @@ const MentorsPage = () => {
 export default MentorsPage;
 
 const Mentor = [
-
-    // Canvasbird -- Mentors
+  // Canvasbird -- Mentors
   {
     username: "Kajol Kumari",
     userphoto: require("../Assets/Kajol-Kumari.jpg"),
@@ -31,7 +30,7 @@ const Mentor = [
     TwitterLink: "https://twitter.com/_Kajol_singh_",
     GithubLink: "https://github.com/Kajol-Kumari",
   },
-    // eduAlgo -- Mentors
+  // eduAlgo -- Mentors
   {
     username: "Abhijit Tripathy",
     userphoto: require("../Assets/Abhijit-Tripathy.jpeg"),
@@ -45,7 +44,20 @@ const Mentor = [
     GithubLink: "https://github.com/Abhijit2505",
   },
 
-    // DSC IEM -- Mentors
+  // DSC IEM -- Mentors
+  
+{
+  username: "Mahak Makhria",
+  userphoto: require("../Assets/Mahak-Makharia.jpeg"),
+  tags: ['DSC IEM'],
+  description: "Software Developer and Designer. Leading DSC IEM. Building thedesignerdev @instagram",
+  organisationLogo: require("../Assets/org-logo.png"),
+  organisationName: "Winter of Code",
+  LinkedInLink: "https://www.linkedin.com/in/mahakmakharia/",
+  TwitterLink: "https://twitter.com/mahakmakharia",
+  GithubLink: "https://github.com/mahakmakharia",
+},
+
   {
     username: "Soham Biswas",
     userphoto: require("../Assets/soham-biswas.jpeg"),
@@ -103,7 +115,7 @@ const Mentor = [
   //   GithubLink: "https://github.com/divyake",
   // },
 
-  // DSC NSEC -- Mentors
+  // DSC NIT Rourkela -- Mentors
   {
     username: "Abel Mathew",
     userphoto: require("../Assets/Abel-Mathew.jpg"),
@@ -185,6 +197,18 @@ const Mentor = [
   },
   // DSC NSEC -- Mentors
   {
+    username: "Ayush Singh",
+    userphoto: require("../Assets/Ayush-Singh.jpg"),
+    tags: ["DSC NSEC"],
+    description:
+      "Flutter Dev, Technical Content Moderator at Manning Publications.",
+    organisationLogo: require("../Assets/org-logo.png"),
+    organisationName: "Winter of Code",
+    LinkedInLink: "https://www.linkedin.com/in/ayush-singh-5823a5180/",
+    TwitterLink: "https://twitter.com/ahyush_670",
+    GithubLink: "https://github.com/ayush-670",
+  },
+  {
     username: "Anjali Jha",
     userphoto: require("../Assets/Anjali-Jha.jpeg"),
     tags: ["DSC NSEC"],
@@ -234,39 +258,53 @@ const Mentor = [
   },
   // Absurd Nerd -- Mentors
   {
-  username: "Dheeraj Kotwani",
-  userphoto: require("../Assets/Dheeraj-Kotwani.jpeg"),
-  tags: ['AbsurdNerd'],
-  description: "Android Developer | Open Source Contributor | Competitive Programmer.",
-  organisationLogo: require("../Assets/org-logo.png"),
-  organisationName: "Winter of Code",
-  LinkedInLink: "https://www.linkedin.com/in/dheerajkotwani/",
-  TwitterLink: "https://twitter.com/kotwani_dheeraj",
-  GithubLink: "https://github.com/dheerajkotwani",
-},
+    username: "Dheeraj Kotwani",
+    userphoto: require("../Assets/Dheeraj-Kotwani.jpeg"),
+    tags: ["AbsurdNerd"],
+    description:
+      "Android Developer | Open Source Contributor | Competitive Programmer.",
+    organisationLogo: require("../Assets/org-logo.png"),
+    organisationName: "Winter of Code",
+    LinkedInLink: "https://www.linkedin.com/in/dheerajkotwani/",
+    TwitterLink: "https://twitter.com/kotwani_dheeraj",
+    GithubLink: "https://github.com/dheerajkotwani",
+  },
   {
-  username: "Manshi Todi",
-  userphoto: require("../Assets/Manshi-Todi.jpeg"),
-  tags: ['AbsurdNerd'],
-  description: "I am Django developer, Competitive Programmer and an open source enthusiast.",
-  organisationLogo: require("../Assets/org-logo.png"),
-  organisationName: "Winter of Code",
-  LinkedInLink: "https://www.linkedin.com/in/manshi-todi-a017a2178/",
-  TwitterLink: "https://twitter.com/manshitodi",
-  GithubLink: "https://github.com/todi-2000",
-},
+    username: "Manshi Todi",
+    userphoto: require("../Assets/Manshi-Todi.jpeg"),
+    tags: ["AbsurdNerd"],
+    description:
+      "I am Django developer, Competitive Programmer and an open source enthusiast.",
+    organisationLogo: require("../Assets/org-logo.png"),
+    organisationName: "Winter of Code",
+    LinkedInLink: "https://www.linkedin.com/in/manshi-todi-a017a2178/",
+    TwitterLink: "https://twitter.com/manshitodi",
+    GithubLink: "https://github.com/todi-2000",
+  },
   {
-  username: "Vatsal Kesarwani",
-  userphoto: require("../Assets/vatsal-kesarwani.jpg"),
-  tags: ['AbsurdNerd'],
-  description: "I am an android developer and an open source enthusiast. I am also a passionate UI designer and I love to androidify Ideas.",
-  organisationLogo: require("../Assets/org-logo.png"),
-  organisationName: "Winter of Code",
-  LinkedInLink: "https://www.linkedin.com/in/vatsal-kesarwani/",
-  TwitterLink: "https://twitter.com/KesarwaniVatsal",
-  GithubLink: "https://github.com/plazzy99",
-},
-
+    username: "Vatsal Kesarwani",
+    userphoto: require("../Assets/vatsal-kesarwani.jpg"),
+    tags: ["AbsurdNerd"],
+    description:
+      "I am an android developer and an open source enthusiast. I am also a passionate UI designer and I love to androidify Ideas.",
+    organisationLogo: require("../Assets/org-logo.png"),
+    organisationName: "Winter of Code",
+    LinkedInLink: "https://www.linkedin.com/in/vatsal-kesarwani/",
+    TwitterLink: "https://twitter.com/KesarwaniVatsal",
+    GithubLink: "https://github.com/plazzy99",
+  },
+  {
+    username: "Diya Jaiswal",
+    userphoto: require("../Assets/Diya-Jaiswal.jpeg"),
+    tags: ["AbsurdNerd"],
+    description:
+      "Backend Developer | Competitive Programmer | Open Source Enthusiast | NWoC'20 Mentor | Codechef Chapter Lead",
+    organisationLogo: require("../Assets/org-logo.png"),
+    organisationName: "Winter of Code",
+    LinkedInLink: "https://www.linkedin.com/in/diyajaiswal11/",
+    TwitterLink: "https://twitter.com/diyajaiswal_11",
+    GithubLink: "https://github.com/diyajaiswal11",
+  },
 ];
 
 // {
