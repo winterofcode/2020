@@ -19,7 +19,7 @@ const Schwags = () => {
   return (
     <section className="schwags" id="schwags-section">
       <div className="row">
-        <h1 className="section-title">Winter of Code Exclusives</h1>
+        <h1 className="section-title">Rewards for Top Contributors</h1>
         <div className="schwags-grid">
          
   {SchwagsData.map((schwag, index) => <Template key={index} {...schwag} /> ) }
