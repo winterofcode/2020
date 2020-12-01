@@ -26,6 +26,10 @@ const AccordionsData = [
     answer: "The programming language you need to know depends on which organization you are interested in working with. You should be familiar with the programming language(s) used by that organization."
   },
   {
+    title: "Will everyone who participates as a student in Winter of Code get WoC schwags?",
+    answer: "  Winter of Code schwags, access to Manning e-books, schwags from Google Developers, and Qwiklabs credits are only for top contributors of Winter of Code, not for everyone. However, we do promise to have a small token of appreciation in the form of schwags and certificates for everyone who participates in Winter of Code."
+  },
+  {
     title: "Can I submit more than one proposal?",
     answer: "Yes, each student may submit up to three proposals. However, only one per student may be accepted. No more than one proposal per student will be accepted, no matter how many proposals you submit."
   },

@@ -73,7 +73,7 @@ const Timeline = () => {
     },
     {
       title: "16th January",
-      contentTitle: "All Schwags sent to Successful Students",
+      contentTitle: "Schwags sent to Top contributors",
       active: undefined,
       contentText: "Celebrate your contributions to Winter of Code with some schwags! ",
     },
