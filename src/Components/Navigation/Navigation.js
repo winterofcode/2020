@@ -134,6 +134,7 @@ export default withRouter((props) => {
             Contact Us
           </a>
         </ul>
+        <div className="notbygoogle">This program is not by Google.</div>
       </nav>
     </>
   );

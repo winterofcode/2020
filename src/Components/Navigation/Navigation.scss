@@ -147,3 +147,12 @@ nav {
     align-items: center;
     justify-content: space-between;
 }
+
+.notbygoogle {
+    font-size: 1.5rem;
+    color: #204987;
+    text-align: center;
+    @media only screen and (max-width: 56.25em) {
+        display: block;
+        }
+}
