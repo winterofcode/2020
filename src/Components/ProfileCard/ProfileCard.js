@@ -20,9 +20,9 @@ export default ({src, username, userphoto, title, description, organisationLogo,
             <Tag key={index} text={tag} />
         ))}</div>
         <div className="profile-social-links">
-        {LinkedInLink ? <a href={`${LinkedInLink}`}><LinkedIn fill={"#0E76A8"} /></a> : null}
-        {GithubLink ? <a href={`${GithubLink}`}><Github fill={"#211F1F"} /></a> : null}
-        {TwitterLink ? <a href={`${TwitterLink}`}><Twitter fill={"#1DA1F2"} /></a> : null}
+        {LinkedInLink ? <a target="_blank" rel="noopener noreferrer" href={`${LinkedInLink}`}><LinkedIn fill={"#0E76A8"} /></a> : null}
+        {GithubLink ? <a target="_blank" rel="noopener noreferrer" href={`${GithubLink}`}><Github fill={"#211F1F"} /></a> : null}
+        {TwitterLink ? <a target="_blank" rel="noopener noreferrer" href={`${TwitterLink}`}><Twitter fill={"#1DA1F2"} /></a> : null}
         </div>
         <div className="profile-organisation">
         <div className="profile-organisation-img-container">
