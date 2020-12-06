@@ -1,4 +1,5 @@
 import React from "react"
+// import ImageLoader from 'react-load-image';
 import { Github, LinkedIn, Twitter } from "../Icons"
 import Tag from "../Tag"
 import "./ProfileCard.scss"

@@ -54,18 +54,30 @@ const Mentor = [
     TwitterLink: undefined,
     GithubLink: "https://github.com/kazi92",
   },
-  // FireShort and DSC-X
+    // FireShort and DSC-X
+    {
+      username: "Anubhav Singh",
+      userphoto: require("../Assets//Anubhav-Singh.jpeg"),
+      tags: ["FireShort", "DSC-X"],
+      description:
+        'GSoC 2019 @ Submitty | Author of "Hands on Python Deep Learning for Web" and "Mobile Deep Learning with TensorFlow Lite, ML Kit and Flutter',
+      organisationLogo: require("../Assets/org-logo.png"),
+      organisationName: "Winter of Code",
+      LinkedInLink: "https://linkedin.com/in/xprilion",
+      TwitterLink: "https://twitter.com/xprilion",
+      GithubLink: "http://github.com/xprilion",
+    },
   {
-    username: "Anubhav Singh",
-    userphoto: require("../Assets//Anubhav-Singh.jpeg"),
-    tags: ["FireShort", "DSC-X"],
+    username: "Aniket Kumar",
+    userphoto: require("../Assets/Aniket-Kumar.jpg"),
+    tags: ["Dynopii", "DSC NSEC"],
     description:
-      'GSoC 2019 @ Submitty | Author of "Hands on Python Deep Learning for Web" and "Mobile Deep Learning with TensorFlow Lite, ML Kit and Flutter',
+      "MLH Fellow Season-0 | Software Developer at StockEdge | Contributor at React Native",
     organisationLogo: require("../Assets/org-logo.png"),
     organisationName: "Winter of Code",
-    LinkedInLink: "https://linkedin.com/in/xprilion",
-    TwitterLink: "https://twitter.com/xprilion",
-    GithubLink: "http://github.com/xprilion",
+    LinkedInLink: undefined,
+    TwitterLink: "https://twitter.com/ani4aniket",
+    GithubLink: "https://github.com/ani4aniket",
   },
   // Canvasbird -- Mentors
   {
@@ -81,6 +93,19 @@ const Mentor = [
     GithubLink: "https://github.com/Kajol-Kumari",
   },
   {
+    username: "Saikiran Reddy",
+    userphoto: require("../Assets/Saikiran-Reddy.png"),
+    tags: ["Canvasbird"],
+    description:
+      "Active Maintainer of CanvasBoard | SIH 2020 Finalist | Flipkart GRiD 2.0 - Software Development Challenge Finalist | Full stack developer",
+    organisationLogo: require("../Assets/org-logo.png"),
+    organisationName: "Winter of Code",
+    LinkedInLink: "https://www.linkedin.com/in/saikiran-reddy/",
+    TwitterLink: "https://twitter.com/Warriorsaikiran",
+    GithubLink: "https://github.com/kingavatar",
+  },
+    // DSC IEM -- Mentors
+  {
     username: "Soham Biswas",
     userphoto: require("../Assets/soham-biswas.jpeg"),
     tags: ["DSC IEM"],
@@ -92,7 +117,7 @@ const Mentor = [
     TwitterLink: "https://twitter.com/Soham_Biswas1",
     GithubLink: "https://github.com/Nibba2018",
   },
-  // DSC IEM -- Mentors
+
   {
     username: "Mahak Makhria",
     userphoto: require("../Assets/Mahak-Makharia.jpeg"),
@@ -162,17 +187,17 @@ const Mentor = [
     TwitterLink: "https://twitter.com/ooritroo",
     GithubLink: "https://github.com/asrient",
   },
-   {
-     username: "Divya Prakash",
-     userphoto: require("../Assets"),
-     tags: ['DSC IEM'],
-     description: "CyberSecurity and DevOps Team Lead @DSC-IEM, SDE intern at GoPerceptive Technologies.",
-     organisationLogo: require("../Assets/org-logo.png"),
-     organisationName: "Winter of Code",
-     LinkedInLink: "https://www.linkedin.com/in/divyake/",
-     TwitterLink: "https://twitter.com/DivyaPr75156601",
-     GithubLink: "https://github.com/divyake",
-   },
+  //  {
+  //    username: "Divya Prakash",
+  //    userphoto: require("../Assets"),
+  //    tags: ['DSC IEM'],
+  //    description: "CyberSecurity and DevOps Team Lead @DSC-IEM, SDE intern at GoPerceptive Technologies.",
+  //    organisationLogo: require("../Assets/org-logo.png"),
+  //    organisationName: "Winter of Code",
+  //    LinkedInLink: "https://www.linkedin.com/in/divyake/",
+  //    TwitterLink: "https://twitter.com/DivyaPr75156601",
+  //    GithubLink: "https://github.com/divyake",
+  //  },
   // eduAlgo -- Mentors
   {
     username: "Abhijit Tripathy",
@@ -280,6 +305,18 @@ const Mentor = [
     GithubLink: "https://github.com/ayush-670",
   },
   {
+    username: "Shailly Keshari",
+    userphoto: require("../Assets/Shailly-Keshari.jpg"),
+    tags: ["DSC NSEC"],
+    description:
+      "CS Undergraduate, Machine Learning enthusiast",
+    organisationLogo: require("../Assets/org-logo.png"),
+    organisationName: "Winter of Code",
+    LinkedInLink: "https://www.linkedin.com/in/shaillykeshari/",
+    TwitterLink: undefined,
+    GithubLink: "https://github.com/shaillykeshari",
+  },
+  {
     username: "Rajwrita Nath",
     userphoto: require("../Assets/Rajwrita-Nath.jpg"),
     tags: ["DSC NSEC"],
@@ -290,6 +327,18 @@ const Mentor = [
     LinkedInLink: "https://www.linkedin.com/in/rajwrita-nath/",
     TwitterLink: "https://twitter.com/rajwrita",
     GithubLink: "https://github.com/rajwrita",
+  },
+  {
+    username: "Sucheta Nandy",
+    userphoto: require("../Assets/Sucheta-Nandy.jpg"),
+    tags: ["DSC NSEC"],
+    description:
+      "ML and Data Science Enthusiast, JBNSTS BKMB Scholar 2018, keen & fast learner",
+    organisationLogo: require("../Assets/org-logo.png"),
+    organisationName: "Winter of Code",
+    LinkedInLink: "https://www.linkedin.com/in/sucheta-nandy-a79605180/",
+    TwitterLink: "https://twitter.com/NandySucheta",
+    GithubLink: "https://github.com/sucheta-nandy",
   },
   {
     username: "Anjali Jha",
