@@ -32,13 +32,13 @@ const Timeline = () => {
     {
       title: "6th December",
       contentTitle: "Students announced, projects matched by organizations",
-      active: true,
+      active: false,
       contentText: "Students receive an email regarding their selection and are assigned projects by their respective organisation.",
     },
     {
       title: "7th December - 10th December",
       contentTitle: "Community Bonding period",
-      active: undefined,
+      active: true,
       contentText: "Students come to know of their respective Organisations. Mentors are assigned. Strategies and approaches towards their project are discussed over platforms like slack.",
     },
     {
