@@ -329,6 +329,18 @@ const Mentor = [
     GithubLink: "https://github.com/rajwrita",
   },
   {
+    username: "Vishwajeet Raj",
+    userphoto: require("../Assets/vishwajeet.png"),
+    tags: ["DSC NSEC"],
+    description:
+      "Web Team Lead at DSC NSEC, Designer and Developer. Building vishwajeet.js. JavaScript 💛",
+    organisationLogo: require("../Assets/org-logo.png"),
+    organisationName: "Winter of Code",
+    LinkedInLink: "https://www.linkedin.com/in/vishwajeetraj11/",
+    TwitterLink: "https://twitter.com/Vishwajeet323",
+    GithubLink: "https://github.com/vishwajeetraj11",
+  },
+  {
     username: "Sucheta Nandy",
     userphoto: require("../Assets/Sucheta-Nandy.jpg"),
     tags: ["DSC NSEC"],
