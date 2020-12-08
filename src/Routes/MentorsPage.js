@@ -187,17 +187,17 @@ const Mentor = [
     TwitterLink: "https://twitter.com/ooritroo",
     GithubLink: "https://github.com/asrient",
   },
-  //  {
-  //    username: "Divya Prakash",
-  //    userphoto: require("../Assets"),
-  //    tags: ['DSC IEM'],
-  //    description: "CyberSecurity and DevOps Team Lead @DSC-IEM, SDE intern at GoPerceptive Technologies.",
-  //    organisationLogo: require("../Assets/org-logo.png"),
-  //    organisationName: "Winter of Code",
-  //    LinkedInLink: "https://www.linkedin.com/in/divyake/",
-  //    TwitterLink: "https://twitter.com/DivyaPr75156601",
-  //    GithubLink: "https://github.com/divyake",
-  //  },
+   {
+     username: "Divya Prakash",
+     userphoto: require("../Assets/Divya-Prakash.jpeg"),
+     tags: ['DSC IEM'],
+     description: "CyberSecurity and DevOps Team Lead @DSC-IEM, SDE intern at GoPerceptive Technologies.",
+     organisationLogo: require("../Assets/org-logo.png"),
+     organisationName: "Winter of Code",
+     LinkedInLink: "https://www.linkedin.com/in/divyake/",
+     TwitterLink: "https://twitter.com/DivyaPr75156601",
+     GithubLink: "https://github.com/divyake",
+   },
   // eduAlgo -- Mentors
   {
     username: "Abhijit Tripathy",

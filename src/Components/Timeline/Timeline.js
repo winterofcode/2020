@@ -26,13 +26,13 @@ const Timeline = () => {
     {
       title: "20th November - 5th December",
       contentTitle: "Student Application Starts",
-      active: true,
+      active: false,
       contentText: "Students select their organizations and apply to them during this period.",
     },
     {
       title: "6th December",
       contentTitle: "Students announced, projects matched by organizations",
-      active: undefined,
+      active: true,
       contentText: "Students receive an email regarding their selection and are assigned projects by their respective organisation.",
     },
     {
