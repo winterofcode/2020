@@ -34,7 +34,7 @@ const Mentor = [
   {
     username: "Sayak Paul",
     userphoto: require("../Assets/Sayak-Paul.jpg"),
-    tags: ["DSC NSEC", "Deep Fusion AI"],
+    tags: ["Deep Fusion AI"],
     description:
       "I call `model.fit()` at PyImageSearch. I like to binge-watch serials and movies on Netflix sometimes.",
     organisationLogo: require("../Assets/org-logo.png"),
