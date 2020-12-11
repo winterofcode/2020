@@ -38,13 +38,13 @@ const Timeline = () => {
     {
       title: "7th December - 10th December",
       contentTitle: "Community Bonding period",
-      active: true,
+      active: false,
       contentText: "Students come to know of their respective Organisations. Mentors are assigned. Strategies and approaches towards their project are discussed over platforms like slack.",
     },
     {
       title: "10th December - 20th December",
       contentTitle: "Phase 1",
-      active: undefined,
+      active: true,
       contentText: "The First round of tasks are handed out regarding the projects ",
     },
     {
