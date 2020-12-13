@@ -198,6 +198,17 @@ const Mentor = [
      TwitterLink: "https://twitter.com/DivyaPr75156601",
      GithubLink: "https://github.com/divyake",
    },
+   {
+     username: "Deeptendu Santra",
+     userphoto: require("../Assets/Deeptendu-Santra.jpeg"),
+     tags: ['DSC IEM'],
+     description: "Diving deep into bayesian ML and scientific computing.",
+     organisationLogo: require("../Assets/org-logo.png"),
+     organisationName: "Winter of Code",
+     LinkedInLink: "https://www.linkedin.com/in/deeptendu-santra-4580b01aa/",
+     TwitterLink: "https://twitter.com/DSantra92",
+     GithubLink: "https://github.com/Dsantra92",
+   },
   // eduAlgo -- Mentors
   {
     username: "Abhijit Tripathy",
@@ -388,6 +399,18 @@ const Mentor = [
     TwitterLink: undefined,
     GithubLink: "https://github.com/ashutoshkrris/",
   },
+  {
+    username: "Joydeep Das",
+    userphoto: require("../Assets/Joydeep-Das.jpg"),
+    tags: ["DSC NSEC"],
+    description:
+      "Android developer at OLX and algorithm lover!",
+    organisationLogo: require("../Assets/org-logo.png"),
+    organisationName: "Winter of Code",
+    LinkedInLink: "https://www.linkedin.com/in/joydeepdas22/",
+    TwitterLink: undefined,
+    GithubLink: "https://github.com/OverLordAct",
+  },
   // Deep Fusion AI -- Mentors
   {
     username: "Ritesh Prasad Singh",
@@ -475,6 +498,43 @@ const Mentor = [
     LinkedInLink: "https://www.linkedin.com/in/diyajaiswal11/",
     TwitterLink: "https://twitter.com/diyajaiswal_11",
     GithubLink: "https://github.com/diyajaiswal11",
+  },
+  // Tesseract Coding
+  {
+    username: "Abhinav Anand",
+    userphoto: require("../Assets/abhinav-anand.jpg"),
+    tags: ["Tesseract Coding"],
+    description:
+      "Project Maintainer @NeoAlgo | Pythonist | Backend (Django)",
+    organisationLogo: require("../Assets/org-logo.png"),
+    organisationName: "Winter of Code",
+    LinkedInLink: "https://www.linkedin.com/in/atarax/",
+    TwitterLink: undefined,
+    GithubLink: "https://github.com/atarax665",
+  },
+  {
+    username: "Bala Priya C",
+    userphoto: require("../Assets/Bala-Priya-C.png"),
+    tags: ["Tesseract Coding"],
+    description:
+      "Math, Computing & ML Enthusiast | Machine Learning at Omdena",
+    organisationLogo: require("../Assets/org-logo.png"),
+    organisationName: "Winter of Code",
+    LinkedInLink: "https://www.linkedin.com/in/balapriya/",
+    TwitterLink: undefined,
+    GithubLink: "https://github.com/balapriyac",
+  },
+  {
+    username: "Shubhank Saxena",
+    userphoto: require("../Assets/Shubhank-Saxena.jpeg"),
+    tags: ["Tesseract Coding"],
+    description:
+      "Founder and Ex DSC TIET Lead | Open Source Fellow @ Major League Hacking, Fall 20 Cohort",
+    organisationLogo: require("../Assets/org-logo.png"),
+    organisationName: "Winter of Code",
+    LinkedInLink: "https://linkedin.com/in/shubhank-saxena",
+    TwitterLink: "https://twitter.com/19_saxena",
+    GithubLink: "http://github.com/shubhank-saxena",
   },
 ];
 
