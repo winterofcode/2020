@@ -1,7 +1,7 @@
 import React from "react";
 import "./Schwags.scss";
 
-const Template = ({name, image, classes}) => (
+const Template = ({name, image, classes, linkName}) => (
   <div className={`${classes} schwagbox`}>
             {" "}
             <div className={`schwag-image-container`}>
@@ -10,7 +10,7 @@ const Template = ({name, image, classes}) => (
                 alt={name}
                 className="image"
               />
-              <p className="Schwag-heading">{name}</p>
+              <p className="Schwag-heading">{name} {linkName && <a className="footer-link" href="https://isb.alienbrains.in/2021">{linkName}</a>}</p>
             </div>
           </div>
 )
@@ -52,5 +52,16 @@ const SchwagsData = [
     name: "Qwiklabs Credits",
     image: require("../../Assets/Qwiklabs.png"),
     classes: "", 
+  },
+  {
+    name: "1 Year KiwisMedia Premium Subscriptions",
+    image: require("../../Assets/kiwismedia.png"),
+    classes: "", 
+  },
+  {
+    name: " T-shirts and 75% off coupon for",
+    image: require("../../Assets/Alienbrains.png"),
+    classes: "", 
+    linkName: 'ISB 2.0'
   },
 ]

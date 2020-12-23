@@ -104,7 +104,6 @@ const Timeline = () => {
                   </VerticalTimelineElement>
                  )
              } else if(item.active === false) {
-                 console.log("3e42112")
                 return (
                     <VerticalTimelineElement
                 contentStyle={{
