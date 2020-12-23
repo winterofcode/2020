@@ -34,11 +34,6 @@ export default Schwags;
 
 const SchwagsData = [
   {
-    name: "Winter of Code Schwags",
-    image: require("../../Assets/swags.png"),
-    classes: "first-child", 
-  },
-  {
     name: "Books",
     image: require("../../Assets/Manning.svg"),
     classes: "", 
@@ -54,9 +49,14 @@ const SchwagsData = [
     classes: "", 
   },
   {
-    name: "1 Year KiwisMedia Premium Subscriptions",
+    name: "1 Year KiwisMedia Premium Subscription",
     image: require("../../Assets/kiwismedia.png"),
     classes: "", 
+  },
+  {
+    name: "Winter of Code Schwags",
+    image: require("../../Assets/swags.png"),
+    classes: "first-child", 
   },
   {
     name: " T-shirts and 75% off coupon for",
