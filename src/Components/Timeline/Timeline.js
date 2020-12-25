@@ -50,13 +50,13 @@ const Timeline = () => {
     {
       title: "21st December & 22nd December",
       contentTitle: "First Evaluation",
-      active: true,
+      active: false,
       contentText: "The process of students is assessed.",
     },
     {
       title: "23rd December - 5th January",
       contentTitle: "Phase 2",
-      active: undefined,
+      active: true,
       contentText: "Second round of tasks is assigned.",
     },
     {
