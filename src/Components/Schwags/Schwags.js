@@ -50,7 +50,7 @@ const SchwagsData = [
   },
   {
     name: "1 Year KiwisMedia Premium Subscription and swags",
-    image: require("../../Assets/kiwismedia.jpeg"),
+    image: require("../../Assets/kiwismedia.png"),
     classes: "", 
   },
   {

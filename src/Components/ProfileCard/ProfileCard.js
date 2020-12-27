@@ -13,7 +13,6 @@ export default ({src, username, userphoto, title, description, organisationLogo,
         </div>
         {/* <h3 className="username">{username}</h3> */}
         </div>
-
         <div className="profile-content">
         <h2 className="profile-title">{username}</h2>
         <p className="profile-text">{description}</p>
