@@ -4,7 +4,7 @@ import ProfileCard from "../Components/ProfileCard/ProfileCard"
 const OrganizersPage = () => {
   return (
     <div className='row'>
-      <h1 className='section-title'>Our Organizers</h1>
+      <h1 className='section-title'>Our Organisers</h1>
       <div className='mentors-grid'>
         {OrganizersData.map((mentor, index) => (
           <ProfileCard key={index} {...mentor} />
@@ -135,5 +135,17 @@ const OrganizersData = [
     LinkedInLink: "https://www.linkedin.com/in/rishirajacharya/",
     TwitterLink: "https://twitter.com/RishirajAcharya",
     GithubLink: "https://github.com/rishiraj",
+  },
+  {
+    username: "Saurav Kumar",
+    userphoto: require("../Assets/Saurav-Kumar.jpg"),
+    tags: ["DSC NSEC"],
+    description:
+      "WOC 2020 Mentor for DSC NSEC, App Developer",
+    organisationLogo: require("../Assets/org-logo.png"),
+    organisationName: "Winter of Code",
+    LinkedInLink: "https://www.linkedin.com/in/saurav0001kumar/",
+    TwitterLink: undefined,
+    GithubLink: "https://github.com/saurav0001kumar/",
   },
 ]

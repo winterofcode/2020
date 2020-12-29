@@ -147,8 +147,8 @@ const ScrollLinks = [
     text: "Mentors",
   },
   {
-    to: "/organizers",
-    text: "Organizers",
+    to: "/organisers",
+    text: "Organisers",
   },
   {
     to: "#js-section-program-works",
