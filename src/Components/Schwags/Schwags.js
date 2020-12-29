@@ -59,10 +59,15 @@ const SchwagsData = [
     image: require("../../Assets/swags.png"),
     classes: "first-child", 
   },
-  {
-    name: " T-shirts and 75% off coupon for",
-    image: require("../../Assets/Alienbrains.png"),
-    classes: "", 
-    linkName: 'ISB 2.0'
-  },
 ]
+
+
+
+/*
+   {
+     name: " T-shirts and 75% off coupon for",
+     image: require("../../Assets/Alienbrains.png"),
+     classes: "", 
+     linkName: 'ISB 2.0'
+   },
+ */

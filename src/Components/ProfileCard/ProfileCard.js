@@ -9,7 +9,7 @@ export default ({src, username, userphoto, title, description, organisationLogo,
         <div className="profile">
         <div className="pos">
         <div className="image-container">
-        <img src={userphoto} alt={username} className="image" />
+        <img src={userphoto} draggable='false' alt={username} className="image" />
         </div>
         {/* <h3 className="username">{username}</h3> */}
         </div>
@@ -26,7 +26,7 @@ export default ({src, username, userphoto, title, description, organisationLogo,
         </div>
         <div className="profile-organisation">
         <div className="profile-organisation-img-container">
-        <img src={organisationLogo} className="image" alt="organisation-name" />
+        <img src={organisationLogo} draggable='false' className="image" alt="organisation-name" />
         </div>
         <p className="profile-organisation-name">{organisationName}</p>
         </div>
