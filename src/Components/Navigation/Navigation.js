@@ -50,6 +50,7 @@ export default withRouter((props) => {
                     <img
                       src={require("../../Assets/org-logo.png")}
                       className="image"
+                      draggable='false'
                       alt="winter of code logo"
                     />
                   </div>
@@ -146,8 +147,8 @@ const ScrollLinks = [
     text: "Mentors",
   },
   {
-    to: "#js-about-program",
-    text: "About",
+    to: "/organizers",
+    text: "Organizers",
   },
   {
     to: "#js-section-program-works",

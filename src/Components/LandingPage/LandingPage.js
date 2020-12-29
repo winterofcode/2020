@@ -40,7 +40,7 @@ export default () => {
           <div>
           <div ref={e => IllustrationContainer = e} className="header-left">
           <div className="illustration-container">
-          <img ref={e => Illustration = e} src={require("../../Assets/latter.png")} className="image img" alt="illustration" />
+          <img ref={e => Illustration = e} draggable='false' src={require("../../Assets/latter.png")} className="image img" alt="illustration" />
           </div>
           </div>
           </div>

@@ -19,6 +19,7 @@ import MentorsPage from "../Routes/MentorsPage";
 import TesseractCoding from "../Routes/TesseractCoding";
 import DscX from "../Routes/DscX";
 import Dynopii from "../Routes/Dynopii";
+import Organizers from "../Routes/Organizers";
 
 const NavigationColor = styled.div`
   background-color: #204987;
@@ -41,6 +42,7 @@ const AppRouter = () => (
     <Switch>
       <Route exact={true} path="/" component={HomePage} />
        <Route path="/mentors" component={MentorsPage} /> 
+       <Route path="/organizers" component={Organizers} /> 
       <Route path="/organisation/deep-fusion-ai" component={DeepFusionAI} />
       <Route path="/organisation/absurd-nerd" component={AbsurdNerd} />
       <Route path="/organisation/edualgo" component={EduAlgo} />

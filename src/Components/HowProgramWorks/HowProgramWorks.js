@@ -2,7 +2,6 @@ import React, {useRef, useEffect} from "react";
 import "./HowProgramWorks.scss";
 import {useIntersection} from "react-use"
 import {SinglefadeIn,SinglefadeOut} from "../animation"
-// import DisplacementImage from "../DisplacementImage";
 
 
 export default () =>  {
@@ -40,9 +39,8 @@ export default () =>  {
       </p>
         </div>
         <div className="right">
-       {/* <DisplacementImage /> */}
        <div ref={imgref} className="illustration-container--1">
-       <img className="image" alt="How does the program works illustrations" src={require("../../Assets/how.png")}></img>
+       <img className="image" draggable='false' alt="How does the program works illustrations" src={require("../../Assets/how.png")}></img>
        </div>
         </div>
       </div>

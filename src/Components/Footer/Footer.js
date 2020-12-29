@@ -17,6 +17,7 @@ export default () => (
                 <div className="main-nav-logo-container">
                   <img
                     src={require("../../Assets/org-logo.png")}
+                    draggable='false'
                     className="image"
                     alt="winter of code logo"
                   />

@@ -7,6 +7,7 @@ const Template = ({name, image, classes, linkName}) => (
             <div className={`schwag-image-container`}>
               <img
                 src={image}
+                draggable='false'
                 alt={name}
                 className="image"
               />
