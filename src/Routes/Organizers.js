@@ -124,4 +124,16 @@ const OrganizersData = [
     TwitterLink: "https://twitter.com/Ritesh_chafer",
     GithubLink: "https://github.com/ritesh-chafer",
   },
+  {
+    username: "Rishiraj Acharya",
+    userphoto: require("../Assets/Rishiraj-Acharya.jpg"),
+    tags: ["DSC NSEC", "Deep Fusion AI"],
+    description:
+      "ML Engineer, Microsoft Student Partner, deeplearning.ai Ambassador, former Facilitator at Stanford University.",
+    organisationLogo: require("../Assets/org-logo.png"),
+    organisationName: "Winter of Code",
+    LinkedInLink: "https://www.linkedin.com/in/rishirajacharya/",
+    TwitterLink: "https://twitter.com/RishirajAcharya",
+    GithubLink: "https://github.com/rishiraj",
+  },
 ]
