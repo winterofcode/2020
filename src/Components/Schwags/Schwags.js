@@ -56,7 +56,7 @@ const SchwagsData = [
   },
   
    {
-     name: " T-shirts and 75% off coupon for",
+     name: " T-shirts and 50% off coupon for",
      image: require("../../Assets/Alienbrains.png"),
      classes: "", 
      linkName: 'ISB 2.0'
