@@ -411,6 +411,18 @@ const Mentor = [
     TwitterLink: undefined,
     GithubLink: "https://github.com/OverLordAct",
   },
+  {
+    username: "Vanshika Garg",
+    userphoto: require("../Assets/Vanshika-Garg.jpg"),
+    tags: ["DSC NSEC"],
+    description:
+      "GHCI Scholar | Founder and DSC Lead at Banasthali Vidyapith | SDE Intern @CRIS",
+    organisationLogo: require("../Assets/org-logo.png"),
+    organisationName: "Winter of Code",
+    LinkedInLink: "https://www.linkedin.com/in/vanshikagarg17/",
+    TwitterLink: "https://twitter.com/vanshika_garg17",
+    GithubLink: "https://github.com/Vanshikagarg17",
+  },
   // Deep Fusion AI -- Mentors
   {
     username: "Ritesh Prasad Singh",
@@ -535,6 +547,42 @@ const Mentor = [
     LinkedInLink: "https://linkedin.com/in/shubhank-saxena",
     TwitterLink: "https://twitter.com/19_saxena",
     GithubLink: "http://github.com/shubhank-saxena",
+  },
+  {
+    username: "Ankit Aggarwal",
+    userphoto: require("../Assets/Ankit-Aggarwal.jpg"),
+    tags: ["Tesseract Coding"],
+    description:
+      "Open Source and ML Enthusiast | GS CUP Winner @Girlscript | Contributor @Hackincodes, @Facebook Open Source Immersion Program",
+    organisationLogo: require("../Assets/org-logo.png"),
+    organisationName: "Winter of Code",
+    LinkedInLink: "https://www.linkedin.com/in/aggarwalankit23/",
+    TwitterLink: "https://twitter.com/aggarwalankit23",
+    GithubLink: "https://github.com/ankitaggarwal23",
+  },
+  {
+    username: "Pratyay Banerjee",
+    userphoto: require("../Assets/Pratyay-Banerjee.jpg"),
+    tags: ["Tesseract Coding"],
+    description:
+      "MERN & JAM Stack Web Dev, Adores Tensorflow & CP. Besides, a FOSS enthusiast.",
+    organisationLogo: require("../Assets/org-logo.png"),
+    organisationName: "Winter of Code",
+    LinkedInLink: "https://www.linkedin.com/in/x3nosiz",
+    TwitterLink: "https://twitter.com/neilzblaze007",
+    GithubLink: "https://github.com/Neilblaze",
+  },
+  {
+    username: "Yashaswi Biyahut",
+    userphoto: require("../Assets/Yashaswi-Biyahut.jpeg"),
+    tags: ["Tesseract Coding"],
+    description:
+      "Contributor at HakinCodes | Mentor at Sanscript | Project Engineer at Wipro",
+    organisationLogo: require("../Assets/org-logo.png"),
+    organisationName: "Winter of Code",
+    LinkedInLink: "https://www.linkedin.com/in/yashaswi-biyahut-bbab0b159/",
+    TwitterLink: "https://twitter.com/YashaswiBiyahut",
+    GithubLink: "https://github.com/yashaswibiyahut",
   },
 ];
 

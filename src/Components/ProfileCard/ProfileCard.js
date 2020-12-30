@@ -11,7 +11,6 @@ export default ({src, username, userphoto, title, description, organisationLogo,
         <div className="image-container">
         <img src={userphoto} draggable='false' alt={username} className="image" />
         </div>
-        {/* <h3 className="username">{username}</h3> */}
         </div>
         <div className="profile-content">
         <h2 className="profile-title">{username}</h2>
