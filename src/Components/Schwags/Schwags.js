@@ -54,6 +54,13 @@ const SchwagsData = [
     image: require("../../Assets/kiwismedia.png"),
     classes: "", 
   },
+  
+   {
+     name: " T-shirts and 75% off coupon for",
+     image: require("../../Assets/Alienbrains.png"),
+     classes: "", 
+     linkName: 'ISB 2.0'
+   },
   {
     name: "Winter of Code Schwags",
     image: require("../../Assets/swags.png"),
@@ -63,11 +70,3 @@ const SchwagsData = [
 
 
 
-/*
-   {
-     name: " T-shirts and 75% off coupon for",
-     image: require("../../Assets/Alienbrains.png"),
-     classes: "", 
-     linkName: 'ISB 2.0'
-   },
- */
