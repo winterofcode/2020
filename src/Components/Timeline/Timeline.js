@@ -62,13 +62,13 @@ const Timeline = () => {
     {
       title: "5th January - 6th January",
       contentTitle: "Second Evaluation",
-      active: true,
+      active: false,
       contentText: "Final evaluation is done based on the outcome of the assigned tasks.",
     },
     {
       title: "12th January",
       contentTitle: "Successful Students Announced",
-      active: undefined,
+      active: false,
       contentText: "Name of students who have successfully completed the event will be announced.",
     },
     {
