@@ -4,7 +4,7 @@ import "./Organisations.scss";
 export const Box = ({ org }) => (
   <div className="org">
     <div className={!org.class ? "org__image" : org.class}>
-      <img src={org.logo} alt={org.name} className="image" />
+      <img src={org.logo} draggable={false} alt={org.name} className="image" />
     </div>
     <h3 className="org__title">{org.name}</h3>
 

@@ -55,7 +55,7 @@ const AppRouter = () => (
       <Route path="/organisation/dsc-x" component={DscX} />
       <Route path="/organisation/dsc-nsec" component={DSCNSEC} />
       <Route path="/organisation/tesseract-coding" component={TesseractCoding} />
-      <Route path="/studentReports" component={StudentReportsPage} />
+      {/* <Route path="/studentReports" component={StudentReportsPage} /> */}
       <Redirect from="*" to="/" />
     </Switch>
     <Footer />
