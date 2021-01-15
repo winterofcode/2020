@@ -109,10 +109,10 @@ nav {
     }
 
     &::before {
-        top: -1.5rem;
+        top: -2.1rem;
     }
     &::after {
-        top: -1.2rem;
+        top: -2.2rem;
     }
 
     @media only screen and (max-width: 56.25em) {
@@ -124,13 +124,13 @@ nav {
     display: none;
 
     &:checked + .checkbox-label::before {
-        top: 0rem;
+        top: -1rem;
         // transform-origin: center;
         transform: rotate(135deg);
     }
 
     &:checked + .checkbox-label::after {
-        top:-1.4rem;
+        top:-2.9rem;
         // transform-origin: center;
         transform: rotate(-135deg);
     }

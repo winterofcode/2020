@@ -1,0 +1,2422 @@
+
+{
+    "version": "1.0",
+    "encoding": "UTF-8",
+    "feed": {
+        "xmlns": "http://www.w3.org/2005/Atom",
+        "xmlns$openSearch": "http://a9.com/-/spec/opensearchrss/1.0/",
+        "xmlns$gsx": "http://schemas.google.com/spreadsheets/2006/extended",
+        "id": {
+            "$t": "https://spreadsheets.google.com/feeds/list/182-gpnNVokJjqSOaQPQlOwQFoX9P1plztQThG3a4D5o/od6/public/values"
+        },
+        "updated": {
+            "$t": "2021-01-12T09:08:06.458Z"
+        },
+        "category": [
+            {
+                "scheme": "http://schemas.google.com/spreadsheets/2006",
+                "term": "http://schemas.google.com/spreadsheets/2006#list"
+            }
+        ],
+        "title": {
+            "type": "text",
+            "$t": "Sheet1"
+        },
+        "link": [
+            {
+                "rel": "alternate",
+                "type": "application/atom+xml",
+                "href": "https://docs.google.com/spreadsheets/u/0/d/182-gpnNVokJjqSOaQPQlOwQFoX9P1plztQThG3a4D5o/pubhtml"
+            },
+            {
+                "rel": "http://schemas.google.com/g/2005#feed",
+                "type": "application/atom+xml",
+                "href": "https://spreadsheets.google.com/feeds/list/182-gpnNVokJjqSOaQPQlOwQFoX9P1plztQThG3a4D5o/od6/public/values"
+            },
+            {
+                "rel": "http://schemas.google.com/g/2005#post",
+                "type": "application/atom+xml",
+                "href": "https://spreadsheets.google.com/feeds/list/182-gpnNVokJjqSOaQPQlOwQFoX9P1plztQThG3a4D5o/od6/public/values"
+            },
+            {
+                "rel": "self",
+                "type": "application/atom+xml",
+                "href": "https://spreadsheets.google.com/feeds/list/182-gpnNVokJjqSOaQPQlOwQFoX9P1plztQThG3a4D5o/od6/public/values?alt=json"
+            }
+        ],
+        "author": [
+            {
+                "name": {
+                    "$t": "vishwajeetraj11"
+                },
+                "email": {
+                    "$t": "vishwajeetraj11@gmail.com"
+                }
+            }
+        ],
+        "openSearch$totalResults": {
+            "$t": "62"
+        },
+        "openSearch$startIndex": {
+            "$t": "1"
+        },
+        "entry": [
+            {
+                "id": {
+                    "$t": "https://spreadsheets.google.com/feeds/list/182-gpnNVokJjqSOaQPQlOwQFoX9P1plztQThG3a4D5o/od6/public/values/cokwr"
+                },
+                "updated": {
+                    "$t": "2021-01-12T09:08:06.458Z"
+                },
+                "category": [
+                    {
+                        "scheme": "http://schemas.google.com/spreadsheets/2006",
+                        "term": "http://schemas.google.com/spreadsheets/2006#list"
+                    }
+                ],
+                "title": {
+                    "type": "text",
+                    "$t": "Piyush Thakur"
+                },
+                "content": {
+                    "type": "text",
+                    "$t": "org: Deep Fusion AI, email: piyushthakur3769@gmail.com"
+                },
+                "link": [
+                    {
+                        "rel": "self",
+                        "type": "application/atom+xml",
+                        "href": "https://spreadsheets.google.com/feeds/list/182-gpnNVokJjqSOaQPQlOwQFoX9P1plztQThG3a4D5o/od6/public/values/cokwr"
+                    }
+                ],
+                "gsx$name": {
+                    "$t": "Piyush Thakur"
+                },
+                "gsx$org": {
+                    "$t": "Deep Fusion AI"
+                },
+                "gsx$email": {
+                    "$t": "piyushthakur3769@gmail.com"
+                }
+            },
+            {
+                "id": {
+                    "$t": "https://spreadsheets.google.com/feeds/list/182-gpnNVokJjqSOaQPQlOwQFoX9P1plztQThG3a4D5o/od6/public/values/cpzh4"
+                },
+                "updated": {
+                    "$t": "2021-01-12T09:08:06.458Z"
+                },
+                "category": [
+                    {
+                        "scheme": "http://schemas.google.com/spreadsheets/2006",
+                        "term": "http://schemas.google.com/spreadsheets/2006#list"
+                    }
+                ],
+                "title": {
+                    "type": "text",
+                    "$t": "Sudarshana Dutta"
+                },
+                "content": {
+                    "type": "text",
+                    "$t": "org: Deep Fusion AI, email: sudarshana28dutta@gmail.com"
+                },
+                "link": [
+                    {
+                        "rel": "self",
+                        "type": "application/atom+xml",
+                        "href": "https://spreadsheets.google.com/feeds/list/182-gpnNVokJjqSOaQPQlOwQFoX9P1plztQThG3a4D5o/od6/public/values/cpzh4"
+                    }
+                ],
+                "gsx$name": {
+                    "$t": "Sudarshana Dutta"
+                },
+                "gsx$org": {
+                    "$t": "Deep Fusion AI"
+                },
+                "gsx$email": {
+                    "$t": "sudarshana28dutta@gmail.com"
+                }
+            },
+            {
+                "id": {
+                    "$t": "https://spreadsheets.google.com/feeds/list/182-gpnNVokJjqSOaQPQlOwQFoX9P1plztQThG3a4D5o/od6/public/values/cre1l"
+                },
+                "updated": {
+                    "$t": "2021-01-12T09:08:06.458Z"
+                },
+                "category": [
+                    {
+                        "scheme": "http://schemas.google.com/spreadsheets/2006",
+                        "term": "http://schemas.google.com/spreadsheets/2006#list"
+                    }
+                ],
+                "title": {
+                    "type": "text",
+                    "$t": "Abhinab Roy"
+                },
+                "content": {
+                    "type": "text",
+                    "$t": "org: Canvasbird, email: abhinabroy2001@gmail.com"
+                },
+                "link": [
+                    {
+                        "rel": "self",
+                        "type": "application/atom+xml",
+                        "href": "https://spreadsheets.google.com/feeds/list/182-gpnNVokJjqSOaQPQlOwQFoX9P1plztQThG3a4D5o/od6/public/values/cre1l"
+                    }
+                ],
+                "gsx$name": {
+                    "$t": "Abhinab Roy"
+                },
+                "gsx$org": {
+                    "$t": "Canvasbird"
+                },
+                "gsx$email": {
+                    "$t": "abhinabroy2001@gmail.com"
+                }
+            },
+            {
+                "id": {
+                    "$t": "https://spreadsheets.google.com/feeds/list/182-gpnNVokJjqSOaQPQlOwQFoX9P1plztQThG3a4D5o/od6/public/values/chk2m"
+                },
+                "updated": {
+                    "$t": "2021-01-12T09:08:06.458Z"
+                },
+                "category": [
+                    {
+                        "scheme": "http://schemas.google.com/spreadsheets/2006",
+                        "term": "http://schemas.google.com/spreadsheets/2006#list"
+                    }
+                ],
+                "title": {
+                    "type": "text",
+                    "$t": "Kartikeya Sharma"
+                },
+                "content": {
+                    "type": "text",
+                    "$t": "org: DSC NSEC, email: karthiksharma1411@gmail.com"
+                },
+                "link": [
+                    {
+                        "rel": "self",
+                        "type": "application/atom+xml",
+                        "href": "https://spreadsheets.google.com/feeds/list/182-gpnNVokJjqSOaQPQlOwQFoX9P1plztQThG3a4D5o/od6/public/values/chk2m"
+                    }
+                ],
+                "gsx$name": {
+                    "$t": "Kartikeya Sharma"
+                },
+                "gsx$org": {
+                    "$t": "DSC NSEC"
+                },
+                "gsx$email": {
+                    "$t": "karthiksharma1411@gmail.com"
+                }
+            },
+            {
+                "id": {
+                    "$t": "https://spreadsheets.google.com/feeds/list/182-gpnNVokJjqSOaQPQlOwQFoX9P1plztQThG3a4D5o/od6/public/values/ciyn3"
+                },
+                "updated": {
+                    "$t": "2021-01-12T09:08:06.458Z"
+                },
+                "category": [
+                    {
+                        "scheme": "http://schemas.google.com/spreadsheets/2006",
+                        "term": "http://schemas.google.com/spreadsheets/2006#list"
+                    }
+                ],
+                "title": {
+                    "type": "text",
+                    "$t": "Hritik Dinesh Jaiswal"
+                },
+                "content": {
+                    "type": "text",
+                    "$t": "org: DSC NSEC, email: hritik.jaiswal@somaiya.edu"
+                },
+                "link": [
+                    {
+                        "rel": "self",
+                        "type": "application/atom+xml",
+                        "href": "https://spreadsheets.google.com/feeds/list/182-gpnNVokJjqSOaQPQlOwQFoX9P1plztQThG3a4D5o/od6/public/values/ciyn3"
+                    }
+                ],
+                "gsx$name": {
+                    "$t": "Hritik Dinesh Jaiswal"
+                },
+                "gsx$org": {
+                    "$t": "DSC NSEC"
+                },
+                "gsx$email": {
+                    "$t": "hritik.jaiswal@somaiya.edu"
+                }
+            },
+            {
+                "id": {
+                    "$t": "https://spreadsheets.google.com/feeds/list/182-gpnNVokJjqSOaQPQlOwQFoX9P1plztQThG3a4D5o/od6/public/values/ckd7g"
+                },
+                "updated": {
+                    "$t": "2021-01-12T09:08:06.458Z"
+                },
+                "category": [
+                    {
+                        "scheme": "http://schemas.google.com/spreadsheets/2006",
+                        "term": "http://schemas.google.com/spreadsheets/2006#list"
+                    }
+                ],
+                "title": {
+                    "type": "text",
+                    "$t": "Sourav Sharma"
+                },
+                "content": {
+                    "type": "text",
+                    "$t": "org: DSC NSEC, email: souravsharma227@gmail.com"
+                },
+                "link": [
+                    {
+                        "rel": "self",
+                        "type": "application/atom+xml",
+                        "href": "https://spreadsheets.google.com/feeds/list/182-gpnNVokJjqSOaQPQlOwQFoX9P1plztQThG3a4D5o/od6/public/values/ckd7g"
+                    }
+                ],
+                "gsx$name": {
+                    "$t": "Sourav Sharma"
+                },
+                "gsx$org": {
+                    "$t": "DSC NSEC"
+                },
+                "gsx$email": {
+                    "$t": "souravsharma227@gmail.com"
+                }
+            },
+            {
+                "id": {
+                    "$t": "https://spreadsheets.google.com/feeds/list/182-gpnNVokJjqSOaQPQlOwQFoX9P1plztQThG3a4D5o/od6/public/values/clrrx"
+                },
+                "updated": {
+                    "$t": "2021-01-12T09:08:06.458Z"
+                },
+                "category": [
+                    {
+                        "scheme": "http://schemas.google.com/spreadsheets/2006",
+                        "term": "http://schemas.google.com/spreadsheets/2006#list"
+                    }
+                ],
+                "title": {
+                    "type": "text",
+                    "$t": "Abhinav Chauhan"
+                },
+                "content": {
+                    "type": "text",
+                    "$t": "org: DSC NSEC, email: abhinavcj29@gmail.com"
+                },
+                "link": [
+                    {
+                        "rel": "self",
+                        "type": "application/atom+xml",
+                        "href": "https://spreadsheets.google.com/feeds/list/182-gpnNVokJjqSOaQPQlOwQFoX9P1plztQThG3a4D5o/od6/public/values/clrrx"
+                    }
+                ],
+                "gsx$name": {
+                    "$t": "Abhinav Chauhan"
+                },
+                "gsx$org": {
+                    "$t": "DSC NSEC"
+                },
+                "gsx$email": {
+                    "$t": "abhinavcj29@gmail.com"
+                }
+            },
+            {
+                "id": {
+                    "$t": "https://spreadsheets.google.com/feeds/list/182-gpnNVokJjqSOaQPQlOwQFoX9P1plztQThG3a4D5o/od6/public/values/cyevm"
+                },
+                "updated": {
+                    "$t": "2021-01-12T09:08:06.458Z"
+                },
+                "category": [
+                    {
+                        "scheme": "http://schemas.google.com/spreadsheets/2006",
+                        "term": "http://schemas.google.com/spreadsheets/2006#list"
+                    }
+                ],
+                "title": {
+                    "type": "text",
+                    "$t": "Radhika Patwari"
+                },
+                "content": {
+                    "type": "text",
+                    "$t": "org: DSC NSEC, email: rsrkpatwari1234@gmail.com"
+                },
+                "link": [
+                    {
+                        "rel": "self",
+                        "type": "application/atom+xml",
+                        "href": "https://spreadsheets.google.com/feeds/list/182-gpnNVokJjqSOaQPQlOwQFoX9P1plztQThG3a4D5o/od6/public/values/cyevm"
+                    }
+                ],
+                "gsx$name": {
+                    "$t": "Radhika Patwari"
+                },
+                "gsx$org": {
+                    "$t": "DSC NSEC"
+                },
+                "gsx$email": {
+                    "$t": "rsrkpatwari1234@gmail.com"
+                }
+            },
+            {
+                "id": {
+                    "$t": "https://spreadsheets.google.com/feeds/list/182-gpnNVokJjqSOaQPQlOwQFoX9P1plztQThG3a4D5o/od6/public/values/cztg3"
+                },
+                "updated": {
+                    "$t": "2021-01-12T09:08:06.458Z"
+                },
+                "category": [
+                    {
+                        "scheme": "http://schemas.google.com/spreadsheets/2006",
+                        "term": "http://schemas.google.com/spreadsheets/2006#list"
+                    }
+                ],
+                "title": {
+                    "type": "text",
+                    "$t": "Rahul Kumar"
+                },
+                "content": {
+                    "type": "text",
+                    "$t": "org: DSC NSEC, email: rahul13199kumar@gmail.com"
+                },
+                "link": [
+                    {
+                        "rel": "self",
+                        "type": "application/atom+xml",
+                        "href": "https://spreadsheets.google.com/feeds/list/182-gpnNVokJjqSOaQPQlOwQFoX9P1plztQThG3a4D5o/od6/public/values/cztg3"
+                    }
+                ],
+                "gsx$name": {
+                    "$t": "Rahul Kumar"
+                },
+                "gsx$org": {
+                    "$t": "DSC NSEC"
+                },
+                "gsx$email": {
+                    "$t": "rahul13199kumar@gmail.com"
+                }
+            },
+            {
+                "id": {
+                    "$t": "https://spreadsheets.google.com/feeds/list/182-gpnNVokJjqSOaQPQlOwQFoX9P1plztQThG3a4D5o/od6/public/values/d180g"
+                },
+                "updated": {
+                    "$t": "2021-01-12T09:08:06.458Z"
+                },
+                "category": [
+                    {
+                        "scheme": "http://schemas.google.com/spreadsheets/2006",
+                        "term": "http://schemas.google.com/spreadsheets/2006#list"
+                    }
+                ],
+                "title": {
+                    "type": "text",
+                    "$t": "Subhrakanti Dasgupta"
+                },
+                "content": {
+                    "type": "text",
+                    "$t": "org: DSC NSEC, email: subhrakanti.dasgupta@gmail.com"
+                },
+                "link": [
+                    {
+                        "rel": "self",
+                        "type": "application/atom+xml",
+                        "href": "https://spreadsheets.google.com/feeds/list/182-gpnNVokJjqSOaQPQlOwQFoX9P1plztQThG3a4D5o/od6/public/values/d180g"
+                    }
+                ],
+                "gsx$name": {
+                    "$t": "Subhrakanti Dasgupta"
+                },
+                "gsx$org": {
+                    "$t": "DSC NSEC"
+                },
+                "gsx$email": {
+                    "$t": "subhrakanti.dasgupta@gmail.com"
+                }
+            },
+            {
+                "id": {
+                    "$t": "https://spreadsheets.google.com/feeds/list/182-gpnNVokJjqSOaQPQlOwQFoX9P1plztQThG3a4D5o/od6/public/values/d2mkx"
+                },
+                "updated": {
+                    "$t": "2021-01-12T09:08:06.458Z"
+                },
+                "category": [
+                    {
+                        "scheme": "http://schemas.google.com/spreadsheets/2006",
+                        "term": "http://schemas.google.com/spreadsheets/2006#list"
+                    }
+                ],
+                "title": {
+                    "type": "text",
+                    "$t": "Sayan Ghosh"
+                },
+                "content": {
+                    "type": "text",
+                    "$t": "org: DSC NSEC, email: sayanghosh004@gmail.com"
+                },
+                "link": [
+                    {
+                        "rel": "self",
+                        "type": "application/atom+xml",
+                        "href": "https://spreadsheets.google.com/feeds/list/182-gpnNVokJjqSOaQPQlOwQFoX9P1plztQThG3a4D5o/od6/public/values/d2mkx"
+                    }
+                ],
+                "gsx$name": {
+                    "$t": "Sayan Ghosh"
+                },
+                "gsx$org": {
+                    "$t": "DSC NSEC"
+                },
+                "gsx$email": {
+                    "$t": "sayanghosh004@gmail.com"
+                }
+            },
+            {
+                "id": {
+                    "$t": "https://spreadsheets.google.com/feeds/list/182-gpnNVokJjqSOaQPQlOwQFoX9P1plztQThG3a4D5o/od6/public/values/cssly"
+                },
+                "updated": {
+                    "$t": "2021-01-12T09:08:06.458Z"
+                },
+                "category": [
+                    {
+                        "scheme": "http://schemas.google.com/spreadsheets/2006",
+                        "term": "http://schemas.google.com/spreadsheets/2006#list"
+                    }
+                ],
+                "title": {
+                    "type": "text",
+                    "$t": "Promugdha Bhattacharya"
+                },
+                "content": {
+                    "type": "text",
+                    "$t": "org: DSC NSEC, email: lecopro123@gmail.com"
+                },
+                "link": [
+                    {
+                        "rel": "self",
+                        "type": "application/atom+xml",
+                        "href": "https://spreadsheets.google.com/feeds/list/182-gpnNVokJjqSOaQPQlOwQFoX9P1plztQThG3a4D5o/od6/public/values/cssly"
+                    }
+                ],
+                "gsx$name": {
+                    "$t": "Promugdha Bhattacharya"
+                },
+                "gsx$org": {
+                    "$t": "DSC NSEC"
+                },
+                "gsx$email": {
+                    "$t": "lecopro123@gmail.com"
+                }
+            },
+            {
+                "id": {
+                    "$t": "https://spreadsheets.google.com/feeds/list/182-gpnNVokJjqSOaQPQlOwQFoX9P1plztQThG3a4D5o/od6/public/values/cu76f"
+                },
+                "updated": {
+                    "$t": "2021-01-12T09:08:06.458Z"
+                },
+                "category": [
+                    {
+                        "scheme": "http://schemas.google.com/spreadsheets/2006",
+                        "term": "http://schemas.google.com/spreadsheets/2006#list"
+                    }
+                ],
+                "title": {
+                    "type": "text",
+                    "$t": "Ayush"
+                },
+                "content": {
+                    "type": "text",
+                    "$t": "org: DSC NSEC, email: ayushmishra2854@gmail.com"
+                },
+                "link": [
+                    {
+                        "rel": "self",
+                        "type": "application/atom+xml",
+                        "href": "https://spreadsheets.google.com/feeds/list/182-gpnNVokJjqSOaQPQlOwQFoX9P1plztQThG3a4D5o/od6/public/values/cu76f"
+                    }
+                ],
+                "gsx$name": {
+                    "$t": "Ayush"
+                },
+                "gsx$org": {
+                    "$t": "DSC NSEC"
+                },
+                "gsx$email": {
+                    "$t": "ayushmishra2854@gmail.com"
+                }
+            },
+            {
+                "id": {
+                    "$t": "https://spreadsheets.google.com/feeds/list/182-gpnNVokJjqSOaQPQlOwQFoX9P1plztQThG3a4D5o/od6/public/values/cvlqs"
+                },
+                "updated": {
+                    "$t": "2021-01-12T09:08:06.458Z"
+                },
+                "category": [
+                    {
+                        "scheme": "http://schemas.google.com/spreadsheets/2006",
+                        "term": "http://schemas.google.com/spreadsheets/2006#list"
+                    }
+                ],
+                "title": {
+                    "type": "text",
+                    "$t": "Piyush Anand"
+                },
+                "content": {
+                    "type": "text",
+                    "$t": "org: DSC NSEC, email: piyushsat00@gmail.com"
+                },
+                "link": [
+                    {
+                        "rel": "self",
+                        "type": "application/atom+xml",
+                        "href": "https://spreadsheets.google.com/feeds/list/182-gpnNVokJjqSOaQPQlOwQFoX9P1plztQThG3a4D5o/od6/public/values/cvlqs"
+                    }
+                ],
+                "gsx$name": {
+                    "$t": "Piyush Anand"
+                },
+                "gsx$org": {
+                    "$t": "DSC NSEC"
+                },
+                "gsx$email": {
+                    "$t": "piyushsat00@gmail.com"
+                }
+            },
+            {
+                "id": {
+                    "$t": "https://spreadsheets.google.com/feeds/list/182-gpnNVokJjqSOaQPQlOwQFoX9P1plztQThG3a4D5o/od6/public/values/cx0b9"
+                },
+                "updated": {
+                    "$t": "2021-01-12T09:08:06.458Z"
+                },
+                "category": [
+                    {
+                        "scheme": "http://schemas.google.com/spreadsheets/2006",
+                        "term": "http://schemas.google.com/spreadsheets/2006#list"
+                    }
+                ],
+                "title": {
+                    "type": "text",
+                    "$t": "Ashutosh Khanduala"
+                },
+                "content": {
+                    "type": "text",
+                    "$t": "org: Fireshort, email: ashu.khanduala@gmail.com"
+                },
+                "link": [
+                    {
+                        "rel": "self",
+                        "type": "application/atom+xml",
+                        "href": "https://spreadsheets.google.com/feeds/list/182-gpnNVokJjqSOaQPQlOwQFoX9P1plztQThG3a4D5o/od6/public/values/cx0b9"
+                    }
+                ],
+                "gsx$name": {
+                    "$t": "Ashutosh Khanduala"
+                },
+                "gsx$org": {
+                    "$t": "Fireshort"
+                },
+                "gsx$email": {
+                    "$t": "ashu.khanduala@gmail.com"
+                }
+            },
+            {
+                "id": {
+                    "$t": "https://spreadsheets.google.com/feeds/list/182-gpnNVokJjqSOaQPQlOwQFoX9P1plztQThG3a4D5o/od6/public/values/d9ney"
+                },
+                "updated": {
+                    "$t": "2021-01-12T09:08:06.458Z"
+                },
+                "category": [
+                    {
+                        "scheme": "http://schemas.google.com/spreadsheets/2006",
+                        "term": "http://schemas.google.com/spreadsheets/2006#list"
+                    }
+                ],
+                "title": {
+                    "type": "text",
+                    "$t": "Lucky Kumari"
+                },
+                "content": {
+                    "type": "text",
+                    "$t": "org: Fireshort, email: luckykumari112000@gmail.com"
+                },
+                "link": [
+                    {
+                        "rel": "self",
+                        "type": "application/atom+xml",
+                        "href": "https://spreadsheets.google.com/feeds/list/182-gpnNVokJjqSOaQPQlOwQFoX9P1plztQThG3a4D5o/od6/public/values/d9ney"
+                    }
+                ],
+                "gsx$name": {
+                    "$t": "Lucky Kumari"
+                },
+                "gsx$org": {
+                    "$t": "Fireshort"
+                },
+                "gsx$email": {
+                    "$t": "luckykumari112000@gmail.com"
+                }
+            },
+            {
+                "id": {
+                    "$t": "https://spreadsheets.google.com/feeds/list/182-gpnNVokJjqSOaQPQlOwQFoX9P1plztQThG3a4D5o/od6/public/values/db1zf"
+                },
+                "updated": {
+                    "$t": "2021-01-12T09:08:06.458Z"
+                },
+                "category": [
+                    {
+                        "scheme": "http://schemas.google.com/spreadsheets/2006",
+                        "term": "http://schemas.google.com/spreadsheets/2006#list"
+                    }
+                ],
+                "title": {
+                    "type": "text",
+                    "$t": "Nitish Kumar"
+                },
+                "content": {
+                    "type": "text",
+                    "$t": "org: eduAlgo, email: nitishk9711@gmail.com"
+                },
+                "link": [
+                    {
+                        "rel": "self",
+                        "type": "application/atom+xml",
+                        "href": "https://spreadsheets.google.com/feeds/list/182-gpnNVokJjqSOaQPQlOwQFoX9P1plztQThG3a4D5o/od6/public/values/db1zf"
+                    }
+                ],
+                "gsx$name": {
+                    "$t": "Nitish Kumar"
+                },
+                "gsx$org": {
+                    "$t": "eduAlgo"
+                },
+                "gsx$email": {
+                    "$t": "nitishk9711@gmail.com"
+                }
+            },
+            {
+                "id": {
+                    "$t": "https://spreadsheets.google.com/feeds/list/182-gpnNVokJjqSOaQPQlOwQFoX9P1plztQThG3a4D5o/od6/public/values/dcgjs"
+                },
+                "updated": {
+                    "$t": "2021-01-12T09:08:06.458Z"
+                },
+                "category": [
+                    {
+                        "scheme": "http://schemas.google.com/spreadsheets/2006",
+                        "term": "http://schemas.google.com/spreadsheets/2006#list"
+                    }
+                ],
+                "title": {
+                    "type": "text",
+                    "$t": "Samyak Singh"
+                },
+                "content": {
+                    "type": "text",
+                    "$t": "org: eduAlgo, email: streamerx047@gmail.com"
+                },
+                "link": [
+                    {
+                        "rel": "self",
+                        "type": "application/atom+xml",
+                        "href": "https://spreadsheets.google.com/feeds/list/182-gpnNVokJjqSOaQPQlOwQFoX9P1plztQThG3a4D5o/od6/public/values/dcgjs"
+                    }
+                ],
+                "gsx$name": {
+                    "$t": "Samyak Singh"
+                },
+                "gsx$org": {
+                    "$t": "eduAlgo"
+                },
+                "gsx$email": {
+                    "$t": "streamerx047@gmail.com"
+                }
+            },
+            {
+                "id": {
+                    "$t": "https://spreadsheets.google.com/feeds/list/182-gpnNVokJjqSOaQPQlOwQFoX9P1plztQThG3a4D5o/od6/public/values/ddv49"
+                },
+                "updated": {
+                    "$t": "2021-01-12T09:08:06.458Z"
+                },
+                "category": [
+                    {
+                        "scheme": "http://schemas.google.com/spreadsheets/2006",
+                        "term": "http://schemas.google.com/spreadsheets/2006#list"
+                    }
+                ],
+                "title": {
+                    "type": "text",
+                    "$t": "Amit Manna"
+                },
+                "content": {
+                    "type": "text",
+                    "$t": "org: eduAlgo, email: manna.amit99@gmail.com"
+                },
+                "link": [
+                    {
+                        "rel": "self",
+                        "type": "application/atom+xml",
+                        "href": "https://spreadsheets.google.com/feeds/list/182-gpnNVokJjqSOaQPQlOwQFoX9P1plztQThG3a4D5o/od6/public/values/ddv49"
+                    }
+                ],
+                "gsx$name": {
+                    "$t": "Amit Manna"
+                },
+                "gsx$org": {
+                    "$t": "eduAlgo"
+                },
+                "gsx$email": {
+                    "$t": "manna.amit99@gmail.com"
+                }
+            },
+            {
+                "id": {
+                    "$t": "https://spreadsheets.google.com/feeds/list/182-gpnNVokJjqSOaQPQlOwQFoX9P1plztQThG3a4D5o/od6/public/values/d415a"
+                },
+                "updated": {
+                    "$t": "2021-01-12T09:08:06.458Z"
+                },
+                "category": [
+                    {
+                        "scheme": "http://schemas.google.com/spreadsheets/2006",
+                        "term": "http://schemas.google.com/spreadsheets/2006#list"
+                    }
+                ],
+                "title": {
+                    "type": "text",
+                    "$t": "Pritish Samal"
+                },
+                "content": {
+                    "type": "text",
+                    "$t": "org: eduAlgo, email: pritish.samal918@gmail.com"
+                },
+                "link": [
+                    {
+                        "rel": "self",
+                        "type": "application/atom+xml",
+                        "href": "https://spreadsheets.google.com/feeds/list/182-gpnNVokJjqSOaQPQlOwQFoX9P1plztQThG3a4D5o/od6/public/values/d415a"
+                    }
+                ],
+                "gsx$name": {
+                    "$t": "Pritish Samal"
+                },
+                "gsx$org": {
+                    "$t": "eduAlgo"
+                },
+                "gsx$email": {
+                    "$t": "pritish.samal918@gmail.com"
+                }
+            },
+            {
+                "id": {
+                    "$t": "https://spreadsheets.google.com/feeds/list/182-gpnNVokJjqSOaQPQlOwQFoX9P1plztQThG3a4D5o/od6/public/values/d5fpr"
+                },
+                "updated": {
+                    "$t": "2021-01-12T09:08:06.458Z"
+                },
+                "category": [
+                    {
+                        "scheme": "http://schemas.google.com/spreadsheets/2006",
+                        "term": "http://schemas.google.com/spreadsheets/2006#list"
+                    }
+                ],
+                "title": {
+                    "type": "text",
+                    "$t": "Prakhar Mangal"
+                },
+                "content": {
+                    "type": "text",
+                    "$t": "org: eduAlgo, email: mangalprakhar07@gmail.com"
+                },
+                "link": [
+                    {
+                        "rel": "self",
+                        "type": "application/atom+xml",
+                        "href": "https://spreadsheets.google.com/feeds/list/182-gpnNVokJjqSOaQPQlOwQFoX9P1plztQThG3a4D5o/od6/public/values/d5fpr"
+                    }
+                ],
+                "gsx$name": {
+                    "$t": "Prakhar Mangal"
+                },
+                "gsx$org": {
+                    "$t": "eduAlgo"
+                },
+                "gsx$email": {
+                    "$t": "mangalprakhar07@gmail.com"
+                }
+            },
+            {
+                "id": {
+                    "$t": "https://spreadsheets.google.com/feeds/list/182-gpnNVokJjqSOaQPQlOwQFoX9P1plztQThG3a4D5o/od6/public/values/d6ua4"
+                },
+                "updated": {
+                    "$t": "2021-01-12T09:08:06.458Z"
+                },
+                "category": [
+                    {
+                        "scheme": "http://schemas.google.com/spreadsheets/2006",
+                        "term": "http://schemas.google.com/spreadsheets/2006#list"
+                    }
+                ],
+                "title": {
+                    "type": "text",
+                    "$t": "Shekhar Srivastava"
+                },
+                "content": {
+                    "type": "text",
+                    "$t": "org: eduAlgo, email: skrstv123@gmail.com"
+                },
+                "link": [
+                    {
+                        "rel": "self",
+                        "type": "application/atom+xml",
+                        "href": "https://spreadsheets.google.com/feeds/list/182-gpnNVokJjqSOaQPQlOwQFoX9P1plztQThG3a4D5o/od6/public/values/d6ua4"
+                    }
+                ],
+                "gsx$name": {
+                    "$t": "Shekhar Srivastava"
+                },
+                "gsx$org": {
+                    "$t": "eduAlgo"
+                },
+                "gsx$email": {
+                    "$t": "skrstv123@gmail.com"
+                }
+            },
+            {
+                "id": {
+                    "$t": "https://spreadsheets.google.com/feeds/list/182-gpnNVokJjqSOaQPQlOwQFoX9P1plztQThG3a4D5o/od6/public/values/d88ul"
+                },
+                "updated": {
+                    "$t": "2021-01-12T09:08:06.458Z"
+                },
+                "category": [
+                    {
+                        "scheme": "http://schemas.google.com/spreadsheets/2006",
+                        "term": "http://schemas.google.com/spreadsheets/2006#list"
+                    }
+                ],
+                "title": {
+                    "type": "text",
+                    "$t": "Ansh Srivastava"
+                },
+                "content": {
+                    "type": "text",
+                    "$t": "org: Absurd Nerd, email: ansh_srtv@outlook.com"
+                },
+                "link": [
+                    {
+                        "rel": "self",
+                        "type": "application/atom+xml",
+                        "href": "https://spreadsheets.google.com/feeds/list/182-gpnNVokJjqSOaQPQlOwQFoX9P1plztQThG3a4D5o/od6/public/values/d88ul"
+                    }
+                ],
+                "gsx$name": {
+                    "$t": "Ansh Srivastava"
+                },
+                "gsx$org": {
+                    "$t": "Absurd Nerd"
+                },
+                "gsx$email": {
+                    "$t": "ansh_srtv@outlook.com"
+                }
+            },
+            {
+                "id": {
+                    "$t": "https://spreadsheets.google.com/feeds/list/182-gpnNVokJjqSOaQPQlOwQFoX9P1plztQThG3a4D5o/od6/public/values/dkvya"
+                },
+                "updated": {
+                    "$t": "2021-01-12T09:08:06.458Z"
+                },
+                "category": [
+                    {
+                        "scheme": "http://schemas.google.com/spreadsheets/2006",
+                        "term": "http://schemas.google.com/spreadsheets/2006#list"
+                    }
+                ],
+                "title": {
+                    "type": "text",
+                    "$t": "Arnab Sen"
+                },
+                "content": {
+                    "type": "text",
+                    "$t": "org: DSC-X, email: arnabsen1729@gmail.com"
+                },
+                "link": [
+                    {
+                        "rel": "self",
+                        "type": "application/atom+xml",
+                        "href": "https://spreadsheets.google.com/feeds/list/182-gpnNVokJjqSOaQPQlOwQFoX9P1plztQThG3a4D5o/od6/public/values/dkvya"
+                    }
+                ],
+                "gsx$name": {
+                    "$t": "Arnab Sen"
+                },
+                "gsx$org": {
+                    "$t": "DSC-X"
+                },
+                "gsx$email": {
+                    "$t": "arnabsen1729@gmail.com"
+                }
+            },
+            {
+                "id": {
+                    "$t": "https://spreadsheets.google.com/feeds/list/182-gpnNVokJjqSOaQPQlOwQFoX9P1plztQThG3a4D5o/od6/public/values/dmair"
+                },
+                "updated": {
+                    "$t": "2021-01-12T09:08:06.458Z"
+                },
+                "category": [
+                    {
+                        "scheme": "http://schemas.google.com/spreadsheets/2006",
+                        "term": "http://schemas.google.com/spreadsheets/2006#list"
+                    }
+                ],
+                "title": {
+                    "type": "text",
+                    "$t": "Awantika Nigam"
+                },
+                "content": {
+                    "type": "text",
+                    "$t": "org: DSC-X, email: awantikanigam101220@gmail.com"
+                },
+                "link": [
+                    {
+                        "rel": "self",
+                        "type": "application/atom+xml",
+                        "href": "https://spreadsheets.google.com/feeds/list/182-gpnNVokJjqSOaQPQlOwQFoX9P1plztQThG3a4D5o/od6/public/values/dmair"
+                    }
+                ],
+                "gsx$name": {
+                    "$t": "Awantika Nigam"
+                },
+                "gsx$org": {
+                    "$t": "DSC-X"
+                },
+                "gsx$email": {
+                    "$t": "awantikanigam101220@gmail.com"
+                }
+            },
+            {
+                "id": {
+                    "$t": "https://spreadsheets.google.com/feeds/list/182-gpnNVokJjqSOaQPQlOwQFoX9P1plztQThG3a4D5o/od6/public/values/dnp34"
+                },
+                "updated": {
+                    "$t": "2021-01-12T09:08:06.458Z"
+                },
+                "category": [
+                    {
+                        "scheme": "http://schemas.google.com/spreadsheets/2006",
+                        "term": "http://schemas.google.com/spreadsheets/2006#list"
+                    }
+                ],
+                "title": {
+                    "type": "text",
+                    "$t": "Rajinderpal Singh"
+                },
+                "content": {
+                    "type": "text",
+                    "$t": "org: DSC-X, email: sairish2001@gmail.com"
+                },
+                "link": [
+                    {
+                        "rel": "self",
+                        "type": "application/atom+xml",
+                        "href": "https://spreadsheets.google.com/feeds/list/182-gpnNVokJjqSOaQPQlOwQFoX9P1plztQThG3a4D5o/od6/public/values/dnp34"
+                    }
+                ],
+                "gsx$name": {
+                    "$t": "Rajinderpal Singh"
+                },
+                "gsx$org": {
+                    "$t": "DSC-X"
+                },
+                "gsx$email": {
+                    "$t": "sairish2001@gmail.com"
+                }
+            },
+            {
+                "id": {
+                    "$t": "https://spreadsheets.google.com/feeds/list/182-gpnNVokJjqSOaQPQlOwQFoX9P1plztQThG3a4D5o/od6/public/values/dp3nl"
+                },
+                "updated": {
+                    "$t": "2021-01-12T09:08:06.458Z"
+                },
+                "category": [
+                    {
+                        "scheme": "http://schemas.google.com/spreadsheets/2006",
+                        "term": "http://schemas.google.com/spreadsheets/2006#list"
+                    }
+                ],
+                "title": {
+                    "type": "text",
+                    "$t": "Rahul Balaji"
+                },
+                "content": {
+                    "type": "text",
+                    "$t": "org: DSC NIT Rourkela, email: rahulbalaji78@gmail.com"
+                },
+                "link": [
+                    {
+                        "rel": "self",
+                        "type": "application/atom+xml",
+                        "href": "https://spreadsheets.google.com/feeds/list/182-gpnNVokJjqSOaQPQlOwQFoX9P1plztQThG3a4D5o/od6/public/values/dp3nl"
+                    }
+                ],
+                "gsx$name": {
+                    "$t": "Rahul Balaji"
+                },
+                "gsx$org": {
+                    "$t": "DSC NIT Rourkela"
+                },
+                "gsx$email": {
+                    "$t": "rahulbalaji78@gmail.com"
+                }
+            },
+            {
+                "id": {
+                    "$t": "https://spreadsheets.google.com/feeds/list/182-gpnNVokJjqSOaQPQlOwQFoX9P1plztQThG3a4D5o/od6/public/values/df9om"
+                },
+                "updated": {
+                    "$t": "2021-01-12T09:08:06.458Z"
+                },
+                "category": [
+                    {
+                        "scheme": "http://schemas.google.com/spreadsheets/2006",
+                        "term": "http://schemas.google.com/spreadsheets/2006#list"
+                    }
+                ],
+                "title": {
+                    "type": "text",
+                    "$t": "Priya Mishra"
+                },
+                "content": {
+                    "type": "text",
+                    "$t": "org: DSC NIT Rourkela, email: priya81199@gmail.com"
+                },
+                "link": [
+                    {
+                        "rel": "self",
+                        "type": "application/atom+xml",
+                        "href": "https://spreadsheets.google.com/feeds/list/182-gpnNVokJjqSOaQPQlOwQFoX9P1plztQThG3a4D5o/od6/public/values/df9om"
+                    }
+                ],
+                "gsx$name": {
+                    "$t": "Priya Mishra"
+                },
+                "gsx$org": {
+                    "$t": "DSC NIT Rourkela"
+                },
+                "gsx$email": {
+                    "$t": "priya81199@gmail.com"
+                }
+            },
+            {
+                "id": {
+                    "$t": "https://spreadsheets.google.com/feeds/list/182-gpnNVokJjqSOaQPQlOwQFoX9P1plztQThG3a4D5o/od6/public/values/dgo93"
+                },
+                "updated": {
+                    "$t": "2021-01-12T09:08:06.458Z"
+                },
+                "category": [
+                    {
+                        "scheme": "http://schemas.google.com/spreadsheets/2006",
+                        "term": "http://schemas.google.com/spreadsheets/2006#list"
+                    }
+                ],
+                "title": {
+                    "type": "text",
+                    "$t": "Yukty Khandelia"
+                },
+                "content": {
+                    "type": "text",
+                    "$t": "org: Tesseract Coding, email: yukty2000@gmail.com"
+                },
+                "link": [
+                    {
+                        "rel": "self",
+                        "type": "application/atom+xml",
+                        "href": "https://spreadsheets.google.com/feeds/list/182-gpnNVokJjqSOaQPQlOwQFoX9P1plztQThG3a4D5o/od6/public/values/dgo93"
+                    }
+                ],
+                "gsx$name": {
+                    "$t": "Yukty Khandelia"
+                },
+                "gsx$org": {
+                    "$t": "Tesseract Coding"
+                },
+                "gsx$email": {
+                    "$t": "yukty2000@gmail.com"
+                }
+            },
+            {
+                "id": {
+                    "$t": "https://spreadsheets.google.com/feeds/list/182-gpnNVokJjqSOaQPQlOwQFoX9P1plztQThG3a4D5o/od6/public/values/di2tg"
+                },
+                "updated": {
+                    "$t": "2021-01-12T09:08:06.458Z"
+                },
+                "category": [
+                    {
+                        "scheme": "http://schemas.google.com/spreadsheets/2006",
+                        "term": "http://schemas.google.com/spreadsheets/2006#list"
+                    }
+                ],
+                "title": {
+                    "type": "text",
+                    "$t": "Barnadip Dey"
+                },
+                "content": {
+                    "type": "text",
+                    "$t": "org: Tesseract Coding, email: barnadipdey2510@gmail.com"
+                },
+                "link": [
+                    {
+                        "rel": "self",
+                        "type": "application/atom+xml",
+                        "href": "https://spreadsheets.google.com/feeds/list/182-gpnNVokJjqSOaQPQlOwQFoX9P1plztQThG3a4D5o/od6/public/values/di2tg"
+                    }
+                ],
+                "gsx$name": {
+                    "$t": "Barnadip Dey"
+                },
+                "gsx$org": {
+                    "$t": "Tesseract Coding"
+                },
+                "gsx$email": {
+                    "$t": "barnadipdey2510@gmail.com"
+                }
+            },
+            {
+                "id": {
+                    "$t": "https://spreadsheets.google.com/feeds/list/182-gpnNVokJjqSOaQPQlOwQFoX9P1plztQThG3a4D5o/od6/public/values/djhdx"
+                },
+                "updated": {
+                    "$t": "2021-01-12T09:08:06.458Z"
+                },
+                "category": [
+                    {
+                        "scheme": "http://schemas.google.com/spreadsheets/2006",
+                        "term": "http://schemas.google.com/spreadsheets/2006#list"
+                    }
+                ],
+                "title": {
+                    "type": "text",
+                    "$t": "Pranav Mendiratta"
+                },
+                "content": {
+                    "type": "text",
+                    "$t": "org: Tesseract Coding, email: pranavmendi@gmail.com"
+                },
+                "link": [
+                    {
+                        "rel": "self",
+                        "type": "application/atom+xml",
+                        "href": "https://spreadsheets.google.com/feeds/list/182-gpnNVokJjqSOaQPQlOwQFoX9P1plztQThG3a4D5o/od6/public/values/djhdx"
+                    }
+                ],
+                "gsx$name": {
+                    "$t": "Pranav Mendiratta"
+                },
+                "gsx$org": {
+                    "$t": "Tesseract Coding"
+                },
+                "gsx$email": {
+                    "$t": "pranavmendi@gmail.com"
+                }
+            },
+            {
+                "id": {
+                    "$t": "https://spreadsheets.google.com/feeds/list/182-gpnNVokJjqSOaQPQlOwQFoX9P1plztQThG3a4D5o/od6/public/values/dw4je"
+                },
+                "updated": {
+                    "$t": "2021-01-12T09:08:06.458Z"
+                },
+                "category": [
+                    {
+                        "scheme": "http://schemas.google.com/spreadsheets/2006",
+                        "term": "http://schemas.google.com/spreadsheets/2006#list"
+                    }
+                ],
+                "title": {
+                    "type": "text",
+                    "$t": "Enamadi Sanath Yashwin"
+                },
+                "content": {
+                    "type": "text",
+                    "$t": "org: Tesseract Coding, email: yashwinacad@gmail.com"
+                },
+                "link": [
+                    {
+                        "rel": "self",
+                        "type": "application/atom+xml",
+                        "href": "https://spreadsheets.google.com/feeds/list/182-gpnNVokJjqSOaQPQlOwQFoX9P1plztQThG3a4D5o/od6/public/values/dw4je"
+                    }
+                ],
+                "gsx$name": {
+                    "$t": "Enamadi Sanath Yashwin"
+                },
+                "gsx$org": {
+                    "$t": "Tesseract Coding"
+                },
+                "gsx$email": {
+                    "$t": "yashwinacad@gmail.com"
+                }
+            },
+            {
+                "id": {
+                    "$t": "https://spreadsheets.google.com/feeds/list/182-gpnNVokJjqSOaQPQlOwQFoX9P1plztQThG3a4D5o/od6/public/values/dxj3v"
+                },
+                "updated": {
+                    "$t": "2021-01-12T09:08:06.458Z"
+                },
+                "category": [
+                    {
+                        "scheme": "http://schemas.google.com/spreadsheets/2006",
+                        "term": "http://schemas.google.com/spreadsheets/2006#list"
+                    }
+                ],
+                "title": {
+                    "type": "text",
+                    "$t": "Shubham Patel"
+                },
+                "content": {
+                    "type": "text",
+                    "$t": "org: Tesseract Coding, email: shubhamashishpatel@gmail.com"
+                },
+                "link": [
+                    {
+                        "rel": "self",
+                        "type": "application/atom+xml",
+                        "href": "https://spreadsheets.google.com/feeds/list/182-gpnNVokJjqSOaQPQlOwQFoX9P1plztQThG3a4D5o/od6/public/values/dxj3v"
+                    }
+                ],
+                "gsx$name": {
+                    "$t": "Shubham Patel"
+                },
+                "gsx$org": {
+                    "$t": "Tesseract Coding"
+                },
+                "gsx$email": {
+                    "$t": "shubhamashishpatel@gmail.com"
+                }
+            },
+            {
+                "id": {
+                    "$t": "https://spreadsheets.google.com/feeds/list/182-gpnNVokJjqSOaQPQlOwQFoX9P1plztQThG3a4D5o/od6/public/values/dyxo8"
+                },
+                "updated": {
+                    "$t": "2021-01-12T09:08:06.458Z"
+                },
+                "category": [
+                    {
+                        "scheme": "http://schemas.google.com/spreadsheets/2006",
+                        "term": "http://schemas.google.com/spreadsheets/2006#list"
+                    }
+                ],
+                "title": {
+                    "type": "text",
+                    "$t": "Akash Kumar Bhagat"
+                },
+                "content": {
+                    "type": "text",
+                    "$t": "org: Tesseract Coding, email: akashkbhagat221199@gmail.com"
+                },
+                "link": [
+                    {
+                        "rel": "self",
+                        "type": "application/atom+xml",
+                        "href": "https://spreadsheets.google.com/feeds/list/182-gpnNVokJjqSOaQPQlOwQFoX9P1plztQThG3a4D5o/od6/public/values/dyxo8"
+                    }
+                ],
+                "gsx$name": {
+                    "$t": "Akash Kumar Bhagat"
+                },
+                "gsx$org": {
+                    "$t": "Tesseract Coding"
+                },
+                "gsx$email": {
+                    "$t": "akashkbhagat221199@gmail.com"
+                }
+            },
+            {
+                "id": {
+                    "$t": "https://spreadsheets.google.com/feeds/list/182-gpnNVokJjqSOaQPQlOwQFoX9P1plztQThG3a4D5o/od6/public/values/e0c8p"
+                },
+                "updated": {
+                    "$t": "2021-01-12T09:08:06.458Z"
+                },
+                "category": [
+                    {
+                        "scheme": "http://schemas.google.com/spreadsheets/2006",
+                        "term": "http://schemas.google.com/spreadsheets/2006#list"
+                    }
+                ],
+                "title": {
+                    "type": "text",
+                    "$t": "Md.Tausif Siddiqui"
+                },
+                "content": {
+                    "type": "text",
+                    "$t": "org: Tesseract Coding, email: siddiquitausif86@gmail.com"
+                },
+                "link": [
+                    {
+                        "rel": "self",
+                        "type": "application/atom+xml",
+                        "href": "https://spreadsheets.google.com/feeds/list/182-gpnNVokJjqSOaQPQlOwQFoX9P1plztQThG3a4D5o/od6/public/values/e0c8p"
+                    }
+                ],
+                "gsx$name": {
+                    "$t": "Md. Tausif Siddiqui"
+                },
+                "gsx$org": {
+                    "$t": "Tesseract Coding"
+                },
+                "gsx$email": {
+                    "$t": "siddiquitausif86@gmail.com"
+                }
+            },
+            {
+                "id": {
+                    "$t": "https://spreadsheets.google.com/feeds/list/182-gpnNVokJjqSOaQPQlOwQFoX9P1plztQThG3a4D5o/od6/public/values/dqi9q"
+                },
+                "updated": {
+                    "$t": "2021-01-12T09:08:06.458Z"
+                },
+                "category": [
+                    {
+                        "scheme": "http://schemas.google.com/spreadsheets/2006",
+                        "term": "http://schemas.google.com/spreadsheets/2006#list"
+                    }
+                ],
+                "title": {
+                    "type": "text",
+                    "$t": "Jyoti Bisht"
+                },
+                "content": {
+                    "type": "text",
+                    "$t": "org: Tesseract Coding, email: jyotibisht6114@gmail.com"
+                },
+                "link": [
+                    {
+                        "rel": "self",
+                        "type": "application/atom+xml",
+                        "href": "https://spreadsheets.google.com/feeds/list/182-gpnNVokJjqSOaQPQlOwQFoX9P1plztQThG3a4D5o/od6/public/values/dqi9q"
+                    }
+                ],
+                "gsx$name": {
+                    "$t": "Jyoti Bisht"
+                },
+                "gsx$org": {
+                    "$t": "Tesseract Coding"
+                },
+                "gsx$email": {
+                    "$t": "jyotibisht6114@gmail.com"
+                }
+            },
+            {
+                "id": {
+                    "$t": "https://spreadsheets.google.com/feeds/list/182-gpnNVokJjqSOaQPQlOwQFoX9P1plztQThG3a4D5o/od6/public/values/drwu7"
+                },
+                "updated": {
+                    "$t": "2021-01-12T09:08:06.458Z"
+                },
+                "category": [
+                    {
+                        "scheme": "http://schemas.google.com/spreadsheets/2006",
+                        "term": "http://schemas.google.com/spreadsheets/2006#list"
+                    }
+                ],
+                "title": {
+                    "type": "text",
+                    "$t": "Sejal Gupta"
+                },
+                "content": {
+                    "type": "text",
+                    "$t": "org: Tesseract Coding, email: sejalcjm@gmail.com"
+                },
+                "link": [
+                    {
+                        "rel": "self",
+                        "type": "application/atom+xml",
+                        "href": "https://spreadsheets.google.com/feeds/list/182-gpnNVokJjqSOaQPQlOwQFoX9P1plztQThG3a4D5o/od6/public/values/drwu7"
+                    }
+                ],
+                "gsx$name": {
+                    "$t": "Sejal Gupta"
+                },
+                "gsx$org": {
+                    "$t": "Tesseract Coding"
+                },
+                "gsx$email": {
+                    "$t": "sejalcjm@gmail.com"
+                }
+            },
+            {
+                "id": {
+                    "$t": "https://spreadsheets.google.com/feeds/list/182-gpnNVokJjqSOaQPQlOwQFoX9P1plztQThG3a4D5o/od6/public/values/dtbek"
+                },
+                "updated": {
+                    "$t": "2021-01-12T09:08:06.458Z"
+                },
+                "category": [
+                    {
+                        "scheme": "http://schemas.google.com/spreadsheets/2006",
+                        "term": "http://schemas.google.com/spreadsheets/2006#list"
+                    }
+                ],
+                "title": {
+                    "type": "text",
+                    "$t": "Sidhant Gupta"
+                },
+                "content": {
+                    "type": "text",
+                    "$t": "org: Tesseract Coding, email: guptasidhant04@gmail.com"
+                },
+                "link": [
+                    {
+                        "rel": "self",
+                        "type": "application/atom+xml",
+                        "href": "https://spreadsheets.google.com/feeds/list/182-gpnNVokJjqSOaQPQlOwQFoX9P1plztQThG3a4D5o/od6/public/values/dtbek"
+                    }
+                ],
+                "gsx$name": {
+                    "$t": "Sidhant Gupta"
+                },
+                "gsx$org": {
+                    "$t": "Tesseract Coding"
+                },
+                "gsx$email": {
+                    "$t": "guptasidhant04@gmail.com"
+                }
+            },
+            {
+                "id": {
+                    "$t": "https://spreadsheets.google.com/feeds/list/182-gpnNVokJjqSOaQPQlOwQFoX9P1plztQThG3a4D5o/od6/public/values/dupz1"
+                },
+                "updated": {
+                    "$t": "2021-01-12T09:08:06.458Z"
+                },
+                "category": [
+                    {
+                        "scheme": "http://schemas.google.com/spreadsheets/2006",
+                        "term": "http://schemas.google.com/spreadsheets/2006#list"
+                    }
+                ],
+                "title": {
+                    "type": "text",
+                    "$t": "Esha Goel"
+                },
+                "content": {
+                    "type": "text",
+                    "$t": "org: Tesseract Coding, email: goelesha2001@gmail.com"
+                },
+                "link": [
+                    {
+                        "rel": "self",
+                        "type": "application/atom+xml",
+                        "href": "https://spreadsheets.google.com/feeds/list/182-gpnNVokJjqSOaQPQlOwQFoX9P1plztQThG3a4D5o/od6/public/values/dupz1"
+                    }
+                ],
+                "gsx$name": {
+                    "$t": "Esha Goel"
+                },
+                "gsx$org": {
+                    "$t": "Tesseract Coding"
+                },
+                "gsx$email": {
+                    "$t": "goelesha2001@gmail.com"
+                }
+            },
+            {
+                "id": {
+                    "$t": "https://spreadsheets.google.com/feeds/list/182-gpnNVokJjqSOaQPQlOwQFoX9P1plztQThG3a4D5o/od6/public/values/e7d2q"
+                },
+                "updated": {
+                    "$t": "2021-01-12T09:08:06.458Z"
+                },
+                "category": [
+                    {
+                        "scheme": "http://schemas.google.com/spreadsheets/2006",
+                        "term": "http://schemas.google.com/spreadsheets/2006#list"
+                    }
+                ],
+                "title": {
+                    "type": "text",
+                    "$t": "Atri Adhikari"
+                },
+                "content": {
+                    "type": "text",
+                    "$t": "org: Tesseract Coding, email: atriadhikarinsec@gmail.com"
+                },
+                "link": [
+                    {
+                        "rel": "self",
+                        "type": "application/atom+xml",
+                        "href": "https://spreadsheets.google.com/feeds/list/182-gpnNVokJjqSOaQPQlOwQFoX9P1plztQThG3a4D5o/od6/public/values/e7d2q"
+                    }
+                ],
+                "gsx$name": {
+                    "$t": "Atri Adhikari"
+                },
+                "gsx$org": {
+                    "$t": "Tesseract Coding"
+                },
+                "gsx$email": {
+                    "$t": "atriadhikarinsec@gmail.com"
+                }
+            },
+            {
+                "id": {
+                    "$t": "https://spreadsheets.google.com/feeds/list/182-gpnNVokJjqSOaQPQlOwQFoX9P1plztQThG3a4D5o/od6/public/values/e8rn7"
+                },
+                "updated": {
+                    "$t": "2021-01-12T09:08:06.458Z"
+                },
+                "category": [
+                    {
+                        "scheme": "http://schemas.google.com/spreadsheets/2006",
+                        "term": "http://schemas.google.com/spreadsheets/2006#list"
+                    }
+                ],
+                "title": {
+                    "type": "text",
+                    "$t": "Kartik Pinakin Patel"
+                },
+                "content": {
+                    "type": "text",
+                    "$t": "org: Tesseract Coding, email: kartikp2002@gmail.com"
+                },
+                "link": [
+                    {
+                        "rel": "self",
+                        "type": "application/atom+xml",
+                        "href": "https://spreadsheets.google.com/feeds/list/182-gpnNVokJjqSOaQPQlOwQFoX9P1plztQThG3a4D5o/od6/public/values/e8rn7"
+                    }
+                ],
+                "gsx$name": {
+                    "$t": "Kartik Pinakin Patel"
+                },
+                "gsx$org": {
+                    "$t": "Tesseract Coding"
+                },
+                "gsx$email": {
+                    "$t": "kartikp2002@gmail.com"
+                }
+            },
+            {
+                "id": {
+                    "$t": "https://spreadsheets.google.com/feeds/list/182-gpnNVokJjqSOaQPQlOwQFoX9P1plztQThG3a4D5o/od6/public/values/ea67k"
+                },
+                "updated": {
+                    "$t": "2021-01-12T09:08:06.458Z"
+                },
+                "category": [
+                    {
+                        "scheme": "http://schemas.google.com/spreadsheets/2006",
+                        "term": "http://schemas.google.com/spreadsheets/2006#list"
+                    }
+                ],
+                "title": {
+                    "type": "text",
+                    "$t": "Purav Uday Desai"
+                },
+                "content": {
+                    "type": "text",
+                    "$t": "org: Tesseract Coding, email: purav7838@gmail.com"
+                },
+                "link": [
+                    {
+                        "rel": "self",
+                        "type": "application/atom+xml",
+                        "href": "https://spreadsheets.google.com/feeds/list/182-gpnNVokJjqSOaQPQlOwQFoX9P1plztQThG3a4D5o/od6/public/values/ea67k"
+                    }
+                ],
+                "gsx$name": {
+                    "$t": "Purav Uday Desai"
+                },
+                "gsx$org": {
+                    "$t": "Tesseract Coding"
+                },
+                "gsx$email": {
+                    "$t": "purav7838@gmail.com"
+                }
+            },
+            {
+                "id": {
+                    "$t": "https://spreadsheets.google.com/feeds/list/182-gpnNVokJjqSOaQPQlOwQFoX9P1plztQThG3a4D5o/od6/public/values/ebks1"
+                },
+                "updated": {
+                    "$t": "2021-01-12T09:08:06.458Z"
+                },
+                "category": [
+                    {
+                        "scheme": "http://schemas.google.com/spreadsheets/2006",
+                        "term": "http://schemas.google.com/spreadsheets/2006#list"
+                    }
+                ],
+                "title": {
+                    "type": "text",
+                    "$t": "Kumar Shashank"
+                },
+                "content": {
+                    "type": "text",
+                    "$t": "org: Tesseract Coding, email: kumarshashank.it2019@nsec.ac.in"
+                },
+                "link": [
+                    {
+                        "rel": "self",
+                        "type": "application/atom+xml",
+                        "href": "https://spreadsheets.google.com/feeds/list/182-gpnNVokJjqSOaQPQlOwQFoX9P1plztQThG3a4D5o/od6/public/values/ebks1"
+                    }
+                ],
+                "gsx$name": {
+                    "$t": "Kumar Shashank"
+                },
+                "gsx$org": {
+                    "$t": "Tesseract Coding"
+                },
+                "gsx$email": {
+                    "$t": "kumarshashank.it2019@nsec.ac.in"
+                }
+            },
+            {
+                "id": {
+                    "$t": "https://spreadsheets.google.com/feeds/list/182-gpnNVokJjqSOaQPQlOwQFoX9P1plztQThG3a4D5o/od6/public/values/e1qt2"
+                },
+                "updated": {
+                    "$t": "2021-01-12T09:08:06.458Z"
+                },
+                "category": [
+                    {
+                        "scheme": "http://schemas.google.com/spreadsheets/2006",
+                        "term": "http://schemas.google.com/spreadsheets/2006#list"
+                    }
+                ],
+                "title": {
+                    "type": "text",
+                    "$t": "Girish Garg"
+                },
+                "content": {
+                    "type": "text",
+                    "$t": "org: Tesseract Coding, email: girishgargcool@gmail.com"
+                },
+                "link": [
+                    {
+                        "rel": "self",
+                        "type": "application/atom+xml",
+                        "href": "https://spreadsheets.google.com/feeds/list/182-gpnNVokJjqSOaQPQlOwQFoX9P1plztQThG3a4D5o/od6/public/values/e1qt2"
+                    }
+                ],
+                "gsx$name": {
+                    "$t": "Girish Garg"
+                },
+                "gsx$org": {
+                    "$t": "Tesseract Coding"
+                },
+                "gsx$email": {
+                    "$t": "girishgargcool@gmail.com"
+                }
+            },
+            {
+                "id": {
+                    "$t": "https://spreadsheets.google.com/feeds/list/182-gpnNVokJjqSOaQPQlOwQFoX9P1plztQThG3a4D5o/od6/public/values/e35dj"
+                },
+                "updated": {
+                    "$t": "2021-01-12T09:08:06.458Z"
+                },
+                "category": [
+                    {
+                        "scheme": "http://schemas.google.com/spreadsheets/2006",
+                        "term": "http://schemas.google.com/spreadsheets/2006#list"
+                    }
+                ],
+                "title": {
+                    "type": "text",
+                    "$t": "Ahana Pal"
+                },
+                "content": {
+                    "type": "text",
+                    "$t": "org: Tesseract Coding, email: lohoripal2001@gmail.com"
+                },
+                "link": [
+                    {
+                        "rel": "self",
+                        "type": "application/atom+xml",
+                        "href": "https://spreadsheets.google.com/feeds/list/182-gpnNVokJjqSOaQPQlOwQFoX9P1plztQThG3a4D5o/od6/public/values/e35dj"
+                    }
+                ],
+                "gsx$name": {
+                    "$t": "Ahana Pal"
+                },
+                "gsx$org": {
+                    "$t": "Tesseract Coding"
+                },
+                "gsx$email": {
+                    "$t": "lohoripal2001@gmail.com"
+                }
+            },
+            {
+                "id": {
+                    "$t": "https://spreadsheets.google.com/feeds/list/182-gpnNVokJjqSOaQPQlOwQFoX9P1plztQThG3a4D5o/od6/public/values/e4jxw"
+                },
+                "updated": {
+                    "$t": "2021-01-12T09:08:06.458Z"
+                },
+                "category": [
+                    {
+                        "scheme": "http://schemas.google.com/spreadsheets/2006",
+                        "term": "http://schemas.google.com/spreadsheets/2006#list"
+                    }
+                ],
+                "title": {
+                    "type": "text",
+                    "$t": "Vranda Chag"
+                },
+                "content": {
+                    "type": "text",
+                    "$t": "org: Tesseract Coding, email: chagvranda@gmail.com"
+                },
+                "link": [
+                    {
+                        "rel": "self",
+                        "type": "application/atom+xml",
+                        "href": "https://spreadsheets.google.com/feeds/list/182-gpnNVokJjqSOaQPQlOwQFoX9P1plztQThG3a4D5o/od6/public/values/e4jxw"
+                    }
+                ],
+                "gsx$name": {
+                    "$t": "Vranda Chag"
+                },
+                "gsx$org": {
+                    "$t": "Tesseract Coding"
+                },
+                "gsx$email": {
+                    "$t": "chagvranda@gmail.com"
+                }
+            },
+            {
+                "id": {
+                    "$t": "https://spreadsheets.google.com/feeds/list/182-gpnNVokJjqSOaQPQlOwQFoX9P1plztQThG3a4D5o/od6/public/values/e5yid"
+                },
+                "updated": {
+                    "$t": "2021-01-12T09:08:06.458Z"
+                },
+                "category": [
+                    {
+                        "scheme": "http://schemas.google.com/spreadsheets/2006",
+                        "term": "http://schemas.google.com/spreadsheets/2006#list"
+                    }
+                ],
+                "title": {
+                    "type": "text",
+                    "$t": "Satyam Dengre"
+                },
+                "content": {
+                    "type": "text",
+                    "$t": "org: Tesseract Coding, email: satyamgpt44@gmail.com"
+                },
+                "link": [
+                    {
+                        "rel": "self",
+                        "type": "application/atom+xml",
+                        "href": "https://spreadsheets.google.com/feeds/list/182-gpnNVokJjqSOaQPQlOwQFoX9P1plztQThG3a4D5o/od6/public/values/e5yid"
+                    }
+                ],
+                "gsx$name": {
+                    "$t": "Satyam Dengre"
+                },
+                "gsx$org": {
+                    "$t": "Tesseract Coding"
+                },
+                "gsx$email": {
+                    "$t": "satyamgpt44@gmail.com"
+                }
+            },
+            {
+                "id": {
+                    "$t": "https://spreadsheets.google.com/feeds/list/182-gpnNVokJjqSOaQPQlOwQFoX9P1plztQThG3a4D5o/od6/public/values/eilm2"
+                },
+                "updated": {
+                    "$t": "2021-01-12T09:08:06.458Z"
+                },
+                "category": [
+                    {
+                        "scheme": "http://schemas.google.com/spreadsheets/2006",
+                        "term": "http://schemas.google.com/spreadsheets/2006#list"
+                    }
+                ],
+                "title": {
+                    "type": "text",
+                    "$t": "Rutuja Dhanawade"
+                },
+                "content": {
+                    "type": "text",
+                    "$t": "org: Tesseract Coding, email: dhanawaderutuja1002@gmail.com"
+                },
+                "link": [
+                    {
+                        "rel": "self",
+                        "type": "application/atom+xml",
+                        "href": "https://spreadsheets.google.com/feeds/list/182-gpnNVokJjqSOaQPQlOwQFoX9P1plztQThG3a4D5o/od6/public/values/eilm2"
+                    }
+                ],
+                "gsx$name": {
+                    "$t": "Rutuja Dhanawade"
+                },
+                "gsx$org": {
+                    "$t": "Tesseract Coding"
+                },
+                "gsx$email": {
+                    "$t": "dhanawaderutuja1002@gmail.com"
+                }
+            },
+            {
+                "id": {
+                    "$t": "https://spreadsheets.google.com/feeds/list/182-gpnNVokJjqSOaQPQlOwQFoX9P1plztQThG3a4D5o/od6/public/values/ek06j"
+                },
+                "updated": {
+                    "$t": "2021-01-12T09:08:06.458Z"
+                },
+                "category": [
+                    {
+                        "scheme": "http://schemas.google.com/spreadsheets/2006",
+                        "term": "http://schemas.google.com/spreadsheets/2006#list"
+                    }
+                ],
+                "title": {
+                    "type": "text",
+                    "$t": "Supratik Chakraborty"
+                },
+                "content": {
+                    "type": "text",
+                    "$t": "org: Tesseract Coding, email: supratikchakraborty1@gmail.com"
+                },
+                "link": [
+                    {
+                        "rel": "self",
+                        "type": "application/atom+xml",
+                        "href": "https://spreadsheets.google.com/feeds/list/182-gpnNVokJjqSOaQPQlOwQFoX9P1plztQThG3a4D5o/od6/public/values/ek06j"
+                    }
+                ],
+                "gsx$name": {
+                    "$t": "Supratik Chakraborty"
+                },
+                "gsx$org": {
+                    "$t": "Tesseract Coding"
+                },
+                "gsx$email": {
+                    "$t": "supratikchakraborty1@gmail.com"
+                }
+            },
+            {
+                "id": {
+                    "$t": "https://spreadsheets.google.com/feeds/list/182-gpnNVokJjqSOaQPQlOwQFoX9P1plztQThG3a4D5o/od6/public/values/eleqw"
+                },
+                "updated": {
+                    "$t": "2021-01-12T09:08:06.458Z"
+                },
+                "category": [
+                    {
+                        "scheme": "http://schemas.google.com/spreadsheets/2006",
+                        "term": "http://schemas.google.com/spreadsheets/2006#list"
+                    }
+                ],
+                "title": {
+                    "type": "text",
+                    "$t": "Riken Shah"
+                },
+                "content": {
+                    "type": "text",
+                    "$t": "org: DSC IEM, email: rikenshah.02@gmail.com"
+                },
+                "link": [
+                    {
+                        "rel": "self",
+                        "type": "application/atom+xml",
+                        "href": "https://spreadsheets.google.com/feeds/list/182-gpnNVokJjqSOaQPQlOwQFoX9P1plztQThG3a4D5o/od6/public/values/eleqw"
+                    }
+                ],
+                "gsx$name": {
+                    "$t": "Riken Shah"
+                },
+                "gsx$org": {
+                    "$t": "DSC IEM"
+                },
+                "gsx$email": {
+                    "$t": "rikenshah.02@gmail.com"
+                }
+            },
+            {
+                "id": {
+                    "$t": "https://spreadsheets.google.com/feeds/list/182-gpnNVokJjqSOaQPQlOwQFoX9P1plztQThG3a4D5o/od6/public/values/emtbd"
+                },
+                "updated": {
+                    "$t": "2021-01-12T09:08:06.458Z"
+                },
+                "category": [
+                    {
+                        "scheme": "http://schemas.google.com/spreadsheets/2006",
+                        "term": "http://schemas.google.com/spreadsheets/2006#list"
+                    }
+                ],
+                "title": {
+                    "type": "text",
+                    "$t": "Pritindra Das"
+                },
+                "content": {
+                    "type": "text",
+                    "$t": "org: DSC IEM, email: pritindra.d@gmail.com"
+                },
+                "link": [
+                    {
+                        "rel": "self",
+                        "type": "application/atom+xml",
+                        "href": "https://spreadsheets.google.com/feeds/list/182-gpnNVokJjqSOaQPQlOwQFoX9P1plztQThG3a4D5o/od6/public/values/emtbd"
+                    }
+                ],
+                "gsx$name": {
+                    "$t": "Pritindra Das"
+                },
+                "gsx$org": {
+                    "$t": "DSC IEM"
+                },
+                "gsx$email": {
+                    "$t": "pritindra.d@gmail.com"
+                }
+            },
+            {
+                "id": {
+                    "$t": "https://spreadsheets.google.com/feeds/list/182-gpnNVokJjqSOaQPQlOwQFoX9P1plztQThG3a4D5o/od6/public/values/eczce"
+                },
+                "updated": {
+                    "$t": "2021-01-12T09:08:06.458Z"
+                },
+                "category": [
+                    {
+                        "scheme": "http://schemas.google.com/spreadsheets/2006",
+                        "term": "http://schemas.google.com/spreadsheets/2006#list"
+                    }
+                ],
+                "title": {
+                    "type": "text",
+                    "$t": "Sayantan Dasgupta"
+                },
+                "content": {
+                    "type": "text",
+                    "$t": "org: DSC IEM, email: absarka2001@gmail.com"
+                },
+                "link": [
+                    {
+                        "rel": "self",
+                        "type": "application/atom+xml",
+                        "href": "https://spreadsheets.google.com/feeds/list/182-gpnNVokJjqSOaQPQlOwQFoX9P1plztQThG3a4D5o/od6/public/values/eczce"
+                    }
+                ],
+                "gsx$name": {
+                    "$t": "Sayantan Dasgupta"
+                },
+                "gsx$org": {
+                    "$t": "DSC IEM"
+                },
+                "gsx$email": {
+                    "$t": "absarka2001@gmail.com"
+                }
+            },
+            {
+                "id": {
+                    "$t": "https://spreadsheets.google.com/feeds/list/182-gpnNVokJjqSOaQPQlOwQFoX9P1plztQThG3a4D5o/od6/public/values/eedwv"
+                },
+                "updated": {
+                    "$t": "2021-01-12T09:08:06.458Z"
+                },
+                "category": [
+                    {
+                        "scheme": "http://schemas.google.com/spreadsheets/2006",
+                        "term": "http://schemas.google.com/spreadsheets/2006#list"
+                    }
+                ],
+                "title": {
+                    "type": "text",
+                    "$t": "Malayaj Rath"
+                },
+                "content": {
+                    "type": "text",
+                    "$t": "org: DSC IEM, email: malayajrath@gmail.com"
+                },
+                "link": [
+                    {
+                        "rel": "self",
+                        "type": "application/atom+xml",
+                        "href": "https://spreadsheets.google.com/feeds/list/182-gpnNVokJjqSOaQPQlOwQFoX9P1plztQThG3a4D5o/od6/public/values/eedwv"
+                    }
+                ],
+                "gsx$name": {
+                    "$t": "Malayaj Rath"
+                },
+                "gsx$org": {
+                    "$t": "DSC IEM"
+                },
+                "gsx$email": {
+                    "$t": "malayajrath@gmail.com"
+                }
+            },
+            {
+                "id": {
+                    "$t": "https://spreadsheets.google.com/feeds/list/182-gpnNVokJjqSOaQPQlOwQFoX9P1plztQThG3a4D5o/od6/public/values/efsh8"
+                },
+                "updated": {
+                    "$t": "2021-01-12T09:08:06.458Z"
+                },
+                "category": [
+                    {
+                        "scheme": "http://schemas.google.com/spreadsheets/2006",
+                        "term": "http://schemas.google.com/spreadsheets/2006#list"
+                    }
+                ],
+                "title": {
+                    "type": "text",
+                    "$t": "Ankita Sareen"
+                },
+                "content": {
+                    "type": "text",
+                    "$t": "org: DSC IEM, email: ankitaankit1311@gmail.com"
+                },
+                "link": [
+                    {
+                        "rel": "self",
+                        "type": "application/atom+xml",
+                        "href": "https://spreadsheets.google.com/feeds/list/182-gpnNVokJjqSOaQPQlOwQFoX9P1plztQThG3a4D5o/od6/public/values/efsh8"
+                    }
+                ],
+                "gsx$name": {
+                    "$t": "Ankita Sareen"
+                },
+                "gsx$org": {
+                    "$t": "DSC IEM"
+                },
+                "gsx$email": {
+                    "$t": "ankitaankit1311@gmail.com"
+                }
+            },
+            {
+                "id": {
+                    "$t": "https://spreadsheets.google.com/feeds/list/182-gpnNVokJjqSOaQPQlOwQFoX9P1plztQThG3a4D5o/od6/public/values/eh71p"
+                },
+                "updated": {
+                    "$t": "2021-01-12T09:08:06.458Z"
+                },
+                "category": [
+                    {
+                        "scheme": "http://schemas.google.com/spreadsheets/2006",
+                        "term": "http://schemas.google.com/spreadsheets/2006#list"
+                    }
+                ],
+                "title": {
+                    "type": "text",
+                    "$t": "Dinesh Kumar"
+                },
+                "content": {
+                    "type": "text",
+                    "$t": "org: DSC IEM, email: dineshrajput828282@gmail.com"
+                },
+                "link": [
+                    {
+                        "rel": "self",
+                        "type": "application/atom+xml",
+                        "href": "https://spreadsheets.google.com/feeds/list/182-gpnNVokJjqSOaQPQlOwQFoX9P1plztQThG3a4D5o/od6/public/values/eh71p"
+                    }
+                ],
+                "gsx$name": {
+                    "$t": "Dinesh Kumar"
+                },
+                "gsx$org": {
+                    "$t": "DSC IEM"
+                },
+                "gsx$email": {
+                    "$t": "dineshrajput828282@gmail.com"
+                }
+            },
+            {
+                "id": {
+                    "$t": "https://spreadsheets.google.com/feeds/list/182-gpnNVokJjqSOaQPQlOwQFoX9P1plztQThG3a4D5o/od6/public/values/etu5e"
+                },
+                "updated": {
+                    "$t": "2021-01-12T09:08:06.458Z"
+                },
+                "category": [
+                    {
+                        "scheme": "http://schemas.google.com/spreadsheets/2006",
+                        "term": "http://schemas.google.com/spreadsheets/2006#list"
+                    }
+                ],
+                "title": {
+                    "type": "text",
+                    "$t": "Alisetti Sai Vamsi"
+                },
+                "content": {
+                    "type": "text",
+                    "$t": "org: DSC IEM, email: saivamsi.ds123@gmail.com"
+                },
+                "link": [
+                    {
+                        "rel": "self",
+                        "type": "application/atom+xml",
+                        "href": "https://spreadsheets.google.com/feeds/list/182-gpnNVokJjqSOaQPQlOwQFoX9P1plztQThG3a4D5o/od6/public/values/etu5e"
+                    }
+                ],
+                "gsx$name": {
+                    "$t": "Alisetti Sai Vamsi"
+                },
+                "gsx$org": {
+                    "$t": "DSC IEM"
+                },
+                "gsx$email": {
+                    "$t": "saivamsi.ds123@gmail.com"
+                }
+            },
+            {
+                "id": {
+                    "$t": "https://spreadsheets.google.com/feeds/list/182-gpnNVokJjqSOaQPQlOwQFoX9P1plztQThG3a4D5o/od6/public/values/ev8pv"
+                },
+                "updated": {
+                    "$t": "2021-01-12T09:08:06.458Z"
+                },
+                "category": [
+                    {
+                        "scheme": "http://schemas.google.com/spreadsheets/2006",
+                        "term": "http://schemas.google.com/spreadsheets/2006#list"
+                    }
+                ],
+                "title": {
+                    "type": "text",
+                    "$t": "Arush Sharma"
+                },
+                "content": {
+                    "type": "text",
+                    "$t": "org: Dynopii, email: arush24astar@gmail.com"
+                },
+                "link": [
+                    {
+                        "rel": "self",
+                        "type": "application/atom+xml",
+                        "href": "https://spreadsheets.google.com/feeds/list/182-gpnNVokJjqSOaQPQlOwQFoX9P1plztQThG3a4D5o/od6/public/values/ev8pv"
+                    }
+                ],
+                "gsx$name": {
+                    "$t": "Arush Sharma"
+                },
+                "gsx$org": {
+                    "$t": "Dynopii"
+                },
+                "gsx$email": {
+                    "$t": "arush24astar@gmail.com"
+                }
+            },
+            {
+                "id": {
+                    "$t": "https://spreadsheets.google.com/feeds/list/182-gpnNVokJjqSOaQPQlOwQFoX9P1plztQThG3a4D5o/od6/public/values/ewna8"
+                },
+                "updated": {
+                    "$t": "2021-01-12T09:08:06.458Z"
+                },
+                "category": [
+                    {
+                        "scheme": "http://schemas.google.com/spreadsheets/2006",
+                        "term": "http://schemas.google.com/spreadsheets/2006#list"
+                    }
+                ],
+                "title": {
+                    "type": "text",
+                    "$t": "Tamonash Chakraborty"
+                },
+                "content": {
+                    "type": "text",
+                    "$t": "org: DSC NSEC, email: tamonashchakraborty11@gmail.com"
+                },
+                "link": [
+                    {
+                        "rel": "self",
+                        "type": "application/atom+xml",
+                        "href": "https://spreadsheets.google.com/feeds/list/182-gpnNVokJjqSOaQPQlOwQFoX9P1plztQThG3a4D5o/od6/public/values/ewna8"
+                    }
+                ],
+                "gsx$name": {
+                    "$t": "Tamonash Chakraborty"
+                },
+                "gsx$org": {
+                    "$t": "DSC NSEC"
+                },
+                "gsx$email": {
+                    "$t": "tamonashchakraborty11@gmail.com"
+                }
+            },
+            {
+                "id": {
+                    "$t": "https://spreadsheets.google.com/feeds/list/182-gpnNVokJjqSOaQPQlOwQFoX9P1plztQThG3a4D5o/od6/public/values/ey1up"
+                },
+                "updated": {
+                    "$t": "2021-01-12T09:08:06.458Z"
+                },
+                "category": [
+                    {
+                        "scheme": "http://schemas.google.com/spreadsheets/2006",
+                        "term": "http://schemas.google.com/spreadsheets/2006#list"
+                    }
+                ],
+                "title": {
+                    "type": "text",
+                    "$t": "Subhradipta Choudhury"
+                },
+                "content": {
+                    "type": "text",
+                    "$t": "org: DSC NSEC, email: csubhradipta@gmail.com"
+                },
+                "link": [
+                    {
+                        "rel": "self",
+                        "type": "application/atom+xml",
+                        "href": "https://spreadsheets.google.com/feeds/list/182-gpnNVokJjqSOaQPQlOwQFoX9P1plztQThG3a4D5o/od6/public/values/ey1up"
+                    }
+                ],
+                "gsx$name": {
+                    "$t": "Subhradipta Choudhury"
+                },
+                "gsx$org": {
+                    "$t": "DSC NSEC"
+                },
+                "gsx$email": {
+                    "$t": "csubhradipta@gmail.com"
+                }
+            },
+            {
+                "id": {
+                    "$t": "https://spreadsheets.google.com/feeds/list/182-gpnNVokJjqSOaQPQlOwQFoX9P1plztQThG3a4D5o/od6/public/values/eo7vq"
+                },
+                "updated": {
+                    "$t": "2021-01-12T09:08:06.458Z"
+                },
+                "category": [
+                    {
+                        "scheme": "http://schemas.google.com/spreadsheets/2006",
+                        "term": "http://schemas.google.com/spreadsheets/2006#list"
+                    }
+                ],
+                "title": {
+                    "type": "text",
+                    "$t": "Sayantan Bose"
+                },
+                "content": {
+                    "type": "text",
+                    "$t": "org: DSC NSEC, email: sayantanbose2001@gmail.com"
+                },
+                "link": [
+                    {
+                        "rel": "self",
+                        "type": "application/atom+xml",
+                        "href": "https://spreadsheets.google.com/feeds/list/182-gpnNVokJjqSOaQPQlOwQFoX9P1plztQThG3a4D5o/od6/public/values/eo7vq"
+                    }
+                ],
+                "gsx$name": {
+                    "$t": "Sayantan Bose"
+                },
+                "gsx$org": {
+                    "$t": "DSC NSEC"
+                },
+                "gsx$email": {
+                    "$t": "sayantanbose2001@gmail.com"
+                }
+            },
+            {
+                "id": {
+                    "$t": "https://spreadsheets.google.com/feeds/list/182-gpnNVokJjqSOaQPQlOwQFoX9P1plztQThG3a4D5o/od6/public/values/epmg7"
+                },
+                "updated": {
+                    "$t": "2021-01-12T09:08:06.458Z"
+                },
+                "category": [
+                    {
+                        "scheme": "http://schemas.google.com/spreadsheets/2006",
+                        "term": "http://schemas.google.com/spreadsheets/2006#list"
+                    }
+                ],
+                "title": {
+                    "type": "text",
+                    "$t": "Arnab Chakraborty"
+                },
+                "content": {
+                    "type": "text",
+                    "$t": "org: DSC NSEC, email: arnabchakraborty1912@gmail.com"
+                },
+                "link": [
+                    {
+                        "rel": "self",
+                        "type": "application/atom+xml",
+                        "href": "https://spreadsheets.google.com/feeds/list/182-gpnNVokJjqSOaQPQlOwQFoX9P1plztQThG3a4D5o/od6/public/values/epmg7"
+                    }
+                ],
+                "gsx$name": {
+                    "$t": "Arnab Chakraborty"
+                },
+                "gsx$org": {
+                    "$t": "DSC NSEC"
+                },
+                "gsx$email": {
+                    "$t": "arnabchakraborty1912@gmail.com"
+                }
+            },
+            {
+                "id": {
+                    "$t": "https://spreadsheets.google.com/feeds/list/182-gpnNVokJjqSOaQPQlOwQFoX9P1plztQThG3a4D5o/od6/public/values/er10k"
+                },
+                "updated": {
+                    "$t": "2021-01-12T09:08:06.458Z"
+                },
+                "category": [
+                    {
+                        "scheme": "http://schemas.google.com/spreadsheets/2006",
+                        "term": "http://schemas.google.com/spreadsheets/2006#list"
+                    }
+                ],
+                "title": {
+                    "type": "text",
+                    "$t": "Hari Krishnan U"
+                },
+                "content": {
+                    "type": "text",
+                    "$t": "org: DSC NSEC, email: harikrishnan6336@gmail.com"
+                },
+                "link": [
+                    {
+                        "rel": "self",
+                        "type": "application/atom+xml",
+                        "href": "https://spreadsheets.google.com/feeds/list/182-gpnNVokJjqSOaQPQlOwQFoX9P1plztQThG3a4D5o/od6/public/values/er10k"
+                    }
+                ],
+                "gsx$name": {
+                    "$t": "Hari Krishnan U"
+                },
+                "gsx$org": {
+                    "$t": "DSC NSEC"
+                },
+                "gsx$email": {
+                    "$t": "harikrishnan6336@gmail.com"
+                }
+            }
+        ]
+    }
+}

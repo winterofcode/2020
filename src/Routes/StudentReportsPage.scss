@@ -1,0 +1,47 @@
+.report {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: 0 1rem 3rem rgba(0,0,0,0.07);
+    margin: 4rem 0;
+
+    
+    &-entity {
+        width: 40%;
+        padding: 1rem 1.4rem;
+        font-size: 1.4rem;
+        @media only screen and (max-width: 56.25em) {
+            font-size: 1.2rem;
+        }
+    }
+}
+
+.student {
+    &-name {
+        text-decoration: none;
+    }
+
+    &-org {
+        text-decoration: none;
+    }
+}
+
+.title {
+    background-color: #204987;
+    box-shadow: 0 1rem 3rem #20498756;
+    color: #fff;
+    font-weight: 400;
+    font-size: 1.4rem;
+    :first-child {
+        font-size: inherit;
+    }
+    :last-child {
+        font-size: inherit;
+    }
+}
+
+.link-student-record{
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+}

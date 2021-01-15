@@ -1,0 +1,100 @@
+.links-markdown {
+  & > a:link,
+  & > a:visited {
+    color: #fff;
+    text-decoration: none;
+    background-color: #204987;
+    padding: 0.8rem 1.8rem;
+    display: inline-block;
+    margin: 1rem 0.7rem;
+  }
+  & > a:active,
+  & > a:hover {
+    color: #fff;
+    text-decoration: none;
+  }
+}
+
+.markdown-container {
+    
+  * {
+    @extend .links-markdown;
+  }
+
+  margin: 4rem 0;
+  margin-bottom: 8rem;
+
+  & > * {
+    @extend .links-markdown;
+  }
+
+  & > p {
+    font-size: 1.5rem;
+    margin: 1rem 0;
+  }
+
+  & > h1 {
+    margin: 2rem 0;
+    font-size: 3.2rem;
+  }
+  & > h2 {
+    margin: 1.8rem 0;
+    font-size: 3rem;
+  }
+  & > h3 {
+    margin: 1.6rem 0;
+    font-size: 2.6rem;
+  }
+  & > h4 {
+    margin: 1.4rem 0;
+    font-size: 2.2rem;
+  }
+  & > h5 {
+    margin: 1.2rem 0;
+    font-size: 2rem;
+  }
+  & > h6 {
+    margin: 1rem 0;
+    font-size: 1.6rem;
+  }
+  & > a:link,
+  & > a:visited {
+    color: #222222;
+    text-decoration: none;
+  }
+  & > a:active,
+  & > a:hover {
+    color: #222222;
+    text-decoration: none;
+  }
+}
+
+ul {
+  font-size: 1.4rem;
+  :not(:last-child) {
+    margin-bottom: 1rem;
+  }
+}
+
+table {
+  margin: 2rem 0;
+
+  border: 2px solid #204987;
+
+  font-size: 1.4rem;
+
+  td,
+  th {
+    padding: 1rem;
+  }
+}
+
+.error-report {
+  min-height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  h1 {
+    font-size: 1.6rem;
+  }
+}

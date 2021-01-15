@@ -21,6 +21,7 @@ import DscX from "../Routes/DscX";
 import Dynopii from "../Routes/Dynopii";
 import Organisers from "../Routes/Organisers";
 import StudentReportsPage from "../Routes/StudentReportsPage";
+import StudentReport from "../Routes/StudentReport/StudentReport";
 
 const NavigationColor = styled.div`
   background-color: #204987;
@@ -55,7 +56,8 @@ const AppRouter = () => (
       <Route path="/organisation/dsc-x" component={DscX} />
       <Route path="/organisation/dsc-nsec" component={DSCNSEC} />
       <Route path="/organisation/tesseract-coding" component={TesseractCoding} />
-      {/* <Route path="/studentReports" component={StudentReportsPage} /> */}
+      <Route path="/2020-student-reports/:name" component={StudentReport} />
+      <Route path="/2020-student-reports" component={StudentReportsPage} />
       <Redirect from="*" to="/" />
     </Switch>
     <Footer />

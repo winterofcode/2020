@@ -14,11 +14,13 @@
     "react-dom": "^16.14.0",
     "react-external-link": "^1.1.1",
     "react-load-image": "^0.1.7",
+    "react-markdown": "^5.0.3",
     "react-router-dom": "^5.2.0",
     "react-scripts": "3.4.3",
     "react-scroll": "^1.8.1",
     "react-use": "^15.3.4",
     "react-vertical-timeline-component": "^3.3.0",
+    "remark-gfm": "^1.0.0",
     "styled-components": "^5.2.0",
     "styled-loaders-react": "^1.1.0"
   },

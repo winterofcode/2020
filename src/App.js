@@ -2,6 +2,8 @@ import React, { useState, useEffect } from "react";
 import "./App.scss";
 import AppRouter from "./Components/Router";
 import { CubeGrid } from "styled-loaders-react";
+
+
 function App() {
   const [loading, setLoading] = useState(true);
   useEffect(() => {
