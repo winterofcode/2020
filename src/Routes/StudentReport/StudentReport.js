@@ -22,7 +22,7 @@ const StudentReport = ({ match }) => {
     (async function () {
       try {
         const url = `https://raw.githubusercontent.com/winterofcode/Reports-2020/master/${filename}`
-        console.log(url);
+        // console.log(url);
         let { data } = await axios({
           method: "get",
           url,
@@ -31,7 +31,7 @@ const StudentReport = ({ match }) => {
         setMarkDown(data)
         setLoading(false)
       } catch (error) {
-        console.log(error)
+
         setError("Can't load report, please try again later.")
         setLoading(false)
       }

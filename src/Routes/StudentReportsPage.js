@@ -16,7 +16,7 @@ const StudentReportsPage = () => {
         {
             successfulStudents.feed.entry.map((student) => {
                 let studentUrl=student.gsx$name.$t.split(" ").map((e) => e.replace(e[0], e[0].toLowerCase())).join("-")
-                console.log(studentUrl);
+
                 return (
                     <Link to={`/2020-student-reports/${studentUrl}`} className="link-student-record" key={student.id.$t.split('/')[9]}>
                     <div className="report">
