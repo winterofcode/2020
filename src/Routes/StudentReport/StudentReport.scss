@@ -16,9 +16,37 @@
 }
 
 .markdown-container {
+    table {
+        margin: 2rem 0;
+      
+      //   border: 2px solid #204987;
+      
+        font-size: 1.3rem;
+      
+        td,
+        th {
+            border: 1px solid #204987;
+            padding: 0.3rem;
+        }
+      
+        @media only screen and (max-width: 500px) {
+          font-size: 1rem;
+          td,
+          th {
+              padding: 0rem;
+          }
+      }
+      }
     
   * {
     @extend .links-markdown;
+  }
+
+  ul {
+    font-size: 1.4rem;
+    :not(:last-child) {
+      margin-bottom: 1rem;
+    }
   }
 
   margin: 4rem 0;
@@ -69,25 +97,8 @@
   }
 }
 
-ul {
-  font-size: 1.4rem;
-  :not(:last-child) {
-    margin-bottom: 1rem;
-  }
-}
 
-table {
-  margin: 2rem 0;
 
-  border: 2px solid #204987;
-
-  font-size: 1.4rem;
-
-  td,
-  th {
-    padding: 1rem;
-  }
-}
 
 .error-report {
   min-height: 60vh;
