@@ -31,7 +31,6 @@ const StudentReport = ({ match }) => {
         setMarkDown(data)
         setLoading(false)
       } catch (error) {
-
         setError("Can't load report, please try again later.")
         setLoading(false)
       }

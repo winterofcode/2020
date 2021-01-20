@@ -34,11 +34,11 @@ const Schwags = () => {
 export default Schwags;
 
 const SchwagsData = [
-  // {
-  //   name: "Books",
-  //   image: require("../../Assets/Manning.svg"),
-  //   classes: "", 
-  // },
+  {
+    name: "Books",
+    image: require("../../Assets/Manning.svg"),
+    classes: "", 
+  },
   {
     name: "Exclusive Schwags",
     image: require("../../Assets/Google Developers.svg"),

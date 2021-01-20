@@ -39,10 +39,11 @@
       }
     
   * {
+    word-break: break-word;
     @extend .links-markdown;
   }
 
-  ul {
+  ul, ol {
     font-size: 1.4rem;
     :not(:last-child) {
       margin-bottom: 1rem;
@@ -56,7 +57,7 @@
     @extend .links-markdown;
   }
 
-  & > p {
+  & > p, strong {
     font-size: 1.5rem;
     margin: 1rem 0;
   }
@@ -95,6 +96,38 @@
     color: #222222;
     text-decoration: none;
   }
+
+  pre {
+    code {
+      font-size: 1rem;
+    }
+  }
+  @media only screen and (max-width: 500px) {
+    & > h1 {
+      margin: 2rem 0;
+      font-size: 2.2rem;
+    }
+    & > h2 {
+      margin: 1.8rem 0;
+      font-size: 2.0rem;
+    }
+    & > h3 {
+      margin: 1.6rem 0;
+      font-size: 1.8rem;
+    }
+    & > h4 {
+      margin: 1.4rem 0;
+      font-size: 1.6rem;
+    }
+    & > h5 {
+      margin: 1.2rem 0;
+      font-size: 1.4rem;
+    }
+    & > h6 {
+      margin: 1rem 0;
+      font-size: 1.2rem;
+    }
+}
 }
 
 
