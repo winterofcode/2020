@@ -43,6 +43,10 @@
     @extend .links-markdown;
   }
 
+  p > img {
+    width: 100%;
+  }
+
   ul, ol {
     font-size: 1.4rem;
     :not(:last-child) {
@@ -129,9 +133,6 @@
     }
 }
 }
-
-
-
 
 .error-report {
   min-height: 60vh;
