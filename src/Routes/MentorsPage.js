@@ -104,6 +104,18 @@ const Mentor = [
     TwitterLink: "https://twitter.com/Warriorsaikiran",
     GithubLink: "https://github.com/kingavatar",
   },
+  {
+    username: "Goli Akshay Sujith",
+    userphoto: require("../Assets/goli-akshay.jpg"),
+    tags: ["Canvasbird"],
+    description:
+      "Creator and Maintainer, Canvasbird | Data Science Intern, @MagnusMonitors | ECE Undergrad, @IIITB | Open Source Contributor.",
+    organisationLogo: require("../Assets/org-logo.png"),
+    organisationName: "Winter of Code",
+    LinkedInLink: "https://www.linkedin.com/in/goliakshay",
+    TwitterLink: "https://twitter.com/GoliSujith",
+    GithubLink: "https://github.com/goliakshay357",
+  },
     // DSC IEM -- Mentors
   {
     username: "Soham Biswas",
@@ -583,6 +595,17 @@ const Mentor = [
     LinkedInLink: "https://www.linkedin.com/in/yashaswi-biyahut-bbab0b159/",
     TwitterLink: "https://twitter.com/YashaswiBiyahut",
     GithubLink: "https://github.com/yashaswibiyahut",
+  },
+  {
+    username: "Shraddha Vasant Prasad",
+    userphoto: require("../Assets/Shraddha-Prasad.jpg"),
+    tags: ["Tesseract Coding"],
+    description:
+      "Software Engineer at American Express | Ex IISC Reasearch Intern | GSSoc'2020 participant | Girlscript Jamshedpur Mentor",
+    organisationLogo: require("../Assets/org-logo.png"),
+    organisationName: "Winter of Code",
+    LinkedInLink: "https://www.linkedin.com/in/shraddha-v-prasad-6a60b0188/",
+    GithubLink: "https://github.com/shraddhavp/",
   },
 ];
 

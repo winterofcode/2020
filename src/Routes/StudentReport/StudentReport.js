@@ -22,7 +22,6 @@ const StudentReport = ({ match }) => {
     (async function () {
       try {
         const url = `https://raw.githubusercontent.com/winterofcode/Reports-2020/master/${filename}`
-        // console.log(url);
         let { data } = await axios({
           method: "get",
           url,
