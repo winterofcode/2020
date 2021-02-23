@@ -151,16 +151,12 @@ const ScrollLinks = [
     text: "Organisers",
   },
   {
-    to: "#js-section-program-works",
-    text: "How it Works",
-  },
-  {
     to: "#js-organisations",
     text: "Organisations",
   },
   {
-    to: "#js-apply",
-    text: "Apply",
+    to: "/2020-student-reports",
+    text: "Student Reports",
   },
 ];
 
@@ -168,5 +164,9 @@ const Links = [
   {
     to: "/",
     text: "Home",
+  },
+  {
+    to: "/2020-student-reports",
+    text: "Student Reports",
   },
 ];
