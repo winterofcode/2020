@@ -11,6 +11,12 @@ import AccordionSection from "../Components/AccordionSection/AccordionSection"
 import Schwags from "../Components/Schwags/Schwags";
 const LandingPageHeight = styled.div`
   height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  @media screen and (max-width: 600px) {
+    align-items: stretch;
+}
   background-color: #204987;
 `;
 

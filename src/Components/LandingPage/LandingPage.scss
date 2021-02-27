@@ -2,7 +2,6 @@ $text-color: #fff;
 // $illustration_color: #fff;
 $illustration_color: #204987;
 .header {
-  height: 80vh;
   margin: 0rem 0 8rem 0;
   padding-top: 8rem;
   background-color:$illustration_color;
@@ -15,7 +14,9 @@ $illustration_color: #204987;
   &-left {
       visibility: hidden;
       min-height: 46vh;
-      @media only screen and (max-width: 37em) {
+      display: flex;
+      align-items: flex-start;
+      @media only screen and (max-width: 56.25em) {
         min-height: 30vh;
       }
   }
