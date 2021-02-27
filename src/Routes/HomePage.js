@@ -10,7 +10,7 @@ import HowProgramWorksAppend from "../Components/HowProgramWorksAppend/HowProgra
 import AccordionSection from "../Components/AccordionSection/AccordionSection"
 import Schwags from "../Components/Schwags/Schwags";
 const LandingPageHeight = styled.div`
-  height: 90vh;
+  height: 80vh;
   display: flex;
   align-items: center;
   justify-content: center;
