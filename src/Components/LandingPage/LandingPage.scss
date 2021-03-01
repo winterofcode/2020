@@ -2,18 +2,13 @@ $text-color: #fff;
 // $illustration_color: #fff;
 $illustration_color: #204987;
 .header {
-  margin: 0rem 0 8rem 0;
-  padding-top: 8rem;
   background-color:$illustration_color;
   @media only screen and (max-width: 56.25em) {
-    margin-top: 0rem;
-    padding: 0;
     margin-bottom: 0.4rem;
   }
 
   &-left {
       visibility: hidden;
-      min-height: 46vh;
       display: flex;
       align-items: flex-start;
       @media only screen and (max-width: 56.25em) {

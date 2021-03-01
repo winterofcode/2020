@@ -11,11 +11,6 @@
 .row {
   max-width: 114rem;
   margin: 0 auto; }
-  // .row:not(:last-child) {
-  //   margin-bottom: 8rem; }
-  //   @media only screen and (max-width: 56.25em) {
-  //     .row:not(:last-child) {
-  //       margin-bottom: 6rem; } }
   @media only screen and (max-width: 56.25em) {
     .row {
       max-width: 50rem;
@@ -67,9 +62,6 @@ body {
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
   backface-visibility: hidden;
-  // background-color: #204987;
-  // color: #fff;
-  // white-space: pre-wrap;
 }
 
 
@@ -132,12 +124,8 @@ ul {
   grid-template-columns: repeat(auto-fit, minmax(50rem, 1fr));
   @media only screen and (max-width: 56.25em) {
   grid-template-columns: 1fr;
-  // grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
   padding: 1rem;
     }
-  // @media only screen and (max-width: 500px) {
-  // grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
-  //   }
   margin-bottom: 5rem;
   justify-items: center;
 }
