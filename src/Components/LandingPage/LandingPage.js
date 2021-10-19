@@ -57,7 +57,8 @@ export default () => {
             <span className="title-text-span">Winter Of Code</span>
             </h1>
           <p className="title-text-description">An initiative of DSC NSEC</p>
-          <a href="#js-section-program-works" className="btn" id="btn-white">Get Started</a>
+          {/* <a href="#js-section-program-works" className="btn" id="btn-white">Get Started</a> */}
+          <a className="btn" id="btn-white">Winter of Code 2021 Coming Soon</a>
         </div>
 
           </div>
