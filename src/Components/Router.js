@@ -58,6 +58,7 @@ const AppRouter = () => (
       <Route path="/organisation/tesseract-coding" component={TesseractCoding} />
       <Route path="/2020-student-reports/:name" component={StudentReport} />
       <Route path="/2020-student-reports" component={StudentReportsPage} />
+      <Redirect from="*" to="/" />
     </Switch>
     <Footer />
   </Router>
