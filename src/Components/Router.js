@@ -43,21 +43,21 @@ const AppRouter = () => (
     <ScrollToTop />
     <Switch>
       <Route exact={true} path="/" component={HomePage} />
-       <Route path="/mentors" component={MentorsPage} /> 
-       <Route path="/organisers" component={Organisers} /> 
-      <Route path="/organisation/deep-fusion-ai" component={DeepFusionAI} />
-      <Route path="/organisation/absurd-nerd" component={AbsurdNerd} />
-      <Route path="/organisation/edualgo" component={EduAlgo} />
-      <Route path="/organisation/canvasbird" component={CanvasBird} />
-      <Route path="/organisation/dsc-nit-rourkela" component={DSCNITRourkela} />
-      <Route path="/organisation/dsc-iem" component={DSCIEM} />
-      <Route path="/organisation/fireshort" component={FireShort} />
-      <Route path="/organisation/dynopii" component={Dynopii} />
-      <Route path="/organisation/dsc-x" component={DscX} />
-      <Route path="/organisation/dsc-nsec" component={DSCNSEC} />
-      <Route path="/organisation/tesseract-coding" component={TesseractCoding} />
-      <Route path="/2020-student-reports/:name" component={StudentReport} />
-      <Route path="/2020-student-reports" component={StudentReportsPage} />
+       <Route path="/2020/mentors" component={MentorsPage} /> 
+       <Route path="/2020/organisers" component={Organisers} /> 
+      <Route path="/2020/organisation/deep-fusion-ai" component={DeepFusionAI} />
+      <Route path="/2020/organisation/absurd-nerd" component={AbsurdNerd} />
+      <Route path="/2020/organisation/edualgo" component={EduAlgo} />
+      <Route path="/2020/organisation/canvasbird" component={CanvasBird} />
+      <Route path="/2020/organisation/dsc-nit-rourkela" component={DSCNITRourkela} />
+      <Route path="/2020/organisation/dsc-iem" component={DSCIEM} />
+      <Route path="/2020/organisation/fireshort" component={FireShort} />
+      <Route path="/2020/organisation/dynopii" component={Dynopii} />
+      <Route path="/2020/organisation/dsc-x" component={DscX} />
+      <Route path="/2020/organisation/dsc-nsec" component={DSCNSEC} />
+      <Route path="/2020/organisation/tesseract-coding" component={TesseractCoding} />
+      <Route path="/2020/student-reports/:name" component={StudentReport} />
+      <Route path="/2020/student-reports" component={StudentReportsPage} />
       <Redirect from="*" to="/" />
     </Switch>
     <Footer />
