@@ -18,7 +18,7 @@ const StudentReportsPage = () => {
                 let studentUrl=student.gsx$name.$t.split(" ").map((e) => e.replace(e[0], e[0].toLowerCase())).join("-")
 
                 return (
-                    <Link to={`/2020/student-reports/${studentUrl}`} className="link-student-record" key={student.id.$t.split('/')[9]}>
+                    <Link to={`/2020-student-reports/${studentUrl}`} className="link-student-record" key={student.id.$t.split('/')[9]}>
                     <div className="report">
                     <p className="report-entity student-name">{student.gsx$name.$t}</p>
                     <p className="report-entity student-org">{student.gsx$org.$t}</p>

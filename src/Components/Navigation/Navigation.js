@@ -143,11 +143,11 @@ export default withRouter((props) => {
 
 const ScrollLinks = [
   {
-    to: "/2020/mentors",
+    to: "/mentors",
     text: "Mentors",
   },
   {
-    to: "/2020/organisers",
+    to: "/organisers",
     text: "Organisers",
   },
   {
@@ -155,18 +155,18 @@ const ScrollLinks = [
     text: "Organisations",
   },
   {
-    to: "/2020/student-reports",
+    to: "/2020-student-reports",
     text: "Student Reports",
   },
 ];
 
 const Links = [
   {
-    to: "/2020",
+    to: "/",
     text: "Home",
   },
   {
-    to: "/2020/student-reports",
+    to: "/2020-student-reports",
     text: "Student Reports",
   },
 ];
